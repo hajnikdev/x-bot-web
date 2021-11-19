@@ -1,17 +1,11 @@
 var webpack = require('webpack'),
 	path = require('path'),
-	CopyWebpackPlugin = require('copy-webpack-plugin'),
 	HtmlWebpackPlugin = require('html-webpack-plugin'),
 	MiniCSSExtractPlugin = require('mini-css-extract-plugin'),
-	ReloadPlugin = require('reload-html-webpack-plugin'),
-	UglifyJsPlugin  = require('uglifyjs-webpack-plugin'),
-	OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 var devMode = process.env.NODE_ENV !== 'production';
 
-var languages = ['SK', 'CS', 'EN'];
-
-function clientConfig(clientCode, lang, navigation, isDefault) { 
+function clientConfig(clientCode, lang, navigation, isDefault) {
 	return new HtmlWebpackPlugin({
 		inject: false,
 		template: './src/views/portfolio.pug',
@@ -29,7 +23,6 @@ function clientConfig(clientCode, lang, navigation, isDefault) {
 }
 
 var config = {
-	// context: path.resolve(__dirname, './'),
 	entry: [
 		'./src/index.js',
 		'./src/styles/chatbots.scss'
@@ -78,12 +71,6 @@ var config = {
 		clientConfig('comap', 'CS', ['prbot', 'viessmann'], true),
 		clientConfig('viessmann', 'CS', ['comap', 'prbot'], false),
 		clientConfig('prbot', 'CS', ['viessmann', 'comap'], false),
-		
-		/*new CopyWebpackPlugin([
-			{
-				from: 'src/assets'
-			}
-		])*/
 	]
 };
 

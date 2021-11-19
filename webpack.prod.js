@@ -33,7 +33,7 @@ function htmlConfig(local, localCode, isDefault) {
 	};
 }
 
-function clientConfig(clientCode, localCode, navigation, isDefault) { 
+function clientConfig(clientCode, localCode, navigation, isDefault) {
 	var sortedLangs = Object.keys(languages).sort((a, b) => a === localCode ? -1 : 1);
 	console.log(localCode + ' - ' + sortedLangs.join(';'));
 	return new HtmlWebpackPlugin({
@@ -102,7 +102,7 @@ var config = [{
 			}
 		]),
 		new webpack.optimize.ModuleConcatenationPlugin(),
-		
+
 		new HtmlWebpackPlugin(htmlConfig(languages['CS'], 'CS', true)),
 		clientConfig('comap', 'CS', ['prbot', 'viessmann'], true),
 		clientConfig('viessmann', 'CS', ['comap', 'prbot'], true),
@@ -127,62 +127,5 @@ var config = [{
 		]
 	};
 }));
-
-
-/*var config = {
-	// context: path.resolve(__dirname, './'),
-	entry: [
-		'./src/index.js',
-		'./src/styles/chatbots.scss'
-	],
-	optimization: {
-		minimizer: [
-			new UglifyJsPlugin({
-				cache: true,
-				parallel: true,
-				sourceMap: false // set to true if you want JS source maps
-			}),
-			new OptimizeCSSAssetsPlugin({})
-		]
-	},
-	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'chatbots.js'
-	},
-	module: {
-		rules: [
-			{
-				test: /\.scss$/,
-				use: [MiniCSSExtractPlugin.loader, 'css-loader', 'sass-loader']
-			},
-			{
-				test: /\.pug$/,
-				include: path.join(__dirname, 'src/views'),
-				use: {
-					loader: 'pug-loader',
-					options: {}
-				}
-			}
-		]
-	},
-	plugins: [
-		new MiniCSSExtractPlugin({
-			filename: devMode ? '[name].css' : '[name].[hash].css',
-			chunkFilename: devMode ? '[id].css' : '[id].[hash].css'
-		}),
-		new HtmlWebpackPlugin({
-			inject: true,
-			template: './src/views/index.pug',
-			minify: false
-		}),
-		new CopyWebpackPlugin([
-			{
-				from: 'src/assets',
-				to: 'assets'
-			}
-		]),
-		new webpack.optimize.ModuleConcatenationPlugin(),
-	]
-};*/
 
 exports.default = config;
