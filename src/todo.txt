@@ -1,0 +1,38 @@
+carousel
+responsive
+footer linky
+nove logo
+oblasti implementacie
+	podstranka po kliknuti na bublinu
+co x-bot dokaze
+	canvas + div
+pozadia
+	animovane
+animacie grafov, tlacidiel, atd.
+blog
+
+mobil responsive
+farby
+carousel
+kompromis na bublinky
+
+menu na telefone
+fazy - tym ze uz nie je na row -15px napravo a vlavo, tak nesedia pozicie v spodnej legende
+fazy - legenda - podpora - vyska nie je rovnaka
+responsive doladovacky
+fazy responsive
+fazy - multi line rozhodnuti klienta
+
+powered by xolution
+telefon?
+
+video na mobile nefunguje
+
+meta tagy
+
+responsive zastavi animacie
+animacie na scroll
+don't calculate width all the time
+lepsie vyriesit objavovanie vyhod bota pre zakaznika a firmu
+
+hodiny

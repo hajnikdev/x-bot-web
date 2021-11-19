@@ -1,0 +1,53 @@
+{
+	"header": {
+		"background": "header-panel.jpg",
+		"title": "Viessmann\nV-Bot",
+		"boxes": [
+			"Qualified acquisition\nof new customers",
+			"V-Bot was custom-developed for the Viessmann Group, a leading international manufacturer of heating, industrial, and cooling systems."
+		]
+	},
+	"client": {
+		"requirementsHeader": "V-Bot's task",
+		"requirements": "The task of V-Bot (aka Viliam Bot) was to select input data from the company's customers so that the company could send customers personalized offers. Its goal was to save the time of company employees who collect customer data by phone, and thus related costs.",
+		"solutionHeader": "What is V-Bot capable of",
+		"solution": [
+			"Communicates in Slovak.",
+			"Collects information on customers and gains new ones.",
+			"Provides analytical overviews and evaluates its success rate.",
+			"Multichannel - can be launched from various pages and channels and remembers customer’s communication history with a particular customer.",
+			"Is connected to the company's IS.",
+			"Communicates with the company‘s web page"
+		]
+	},
+	"process": {
+		"header": "Project results",
+		"background": "none.png",
+		"text": "V-Bot proved that it can cut costs related to customer service and acquisition. In addition, through V-Bot Viessmann increased the visibility of its brand and took its company to the leading edge of technology and innovation, because it was one of the first companies to implement artificial intelligence in the form of a bot."
+	},
+	"project_info": {
+		"length": "2 months",
+		"channels": "Web chat accessible from the web and mobile devices",
+		"language": "Slovak"
+	},
+	"results": {
+		"header": "Outcomes",
+		"text": "for first 2 months",
+		"items":[
+			{"title": "1223", "text":"instances of V-Bot being displayed"},
+			{"title": "709", "text":"conversations with potential customers"},
+			{"title": "74", "text":"requests for quote"}
+		]
+	},
+	"outcomes": [
+		{"title": "Data collection\nand analysis", "text":""},
+		{"title": "Increased\nconversion rate", "text":""},
+		{"title": "Building a comparative advantage\nin the digital age", "text":""},
+		{"title": "Customer\nself-service", "text":""}
+	],
+	"fact":{
+		"image": "Willam.svg",
+		"header": "Did you know that...",
+		"text": "V-Bot has an animated appearance, which makes it more \"human\" and customer-friendly."
+	}
+}

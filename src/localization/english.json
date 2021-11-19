@@ -1,0 +1,394 @@
+{
+	"meta": {
+		"code": "en",
+		"tags": "chatbot, umela inteligence, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Vysoce personalizovaný chatbot na bázi umělé inteligence. Zautomatizuje vaše procesy, poskytne zákaznickou podporu vašim zákazníkům, vyřeší dotazy vašich zaměstnanců na helpdesku nebo v HR. Přirozeně rozpoznává řeč."
+	},
+	"contactButton": {
+		"label": "CONTACT US",
+		"link": "#contact"
+	},
+	"navigation": [
+		{
+			"label": "Xolution",
+			"link": "http://www.xolution.sk/"
+		},
+		{
+			"label": "Blog",
+			"link": "http://www.xolution.sk/knowledge-sharing/knowledge-base"
+		},
+		{
+			"label": "Contact",
+			"link": "http://www.xolution.sk/contact-us"
+		}
+	],
+	"header": {
+		"tagline": "Process automation. Creativity for people.",
+		"intro": "A highly personalized AI-based chat bot.",
+		"subintro": "It’s the ideal employee – communicates and performs tasks. Return on investment is on average less than 1.5 years.",
+		"knowmore": "CHCI VĚDĚT VÍC",
+		"calc_roi": "I want to calculate ROI",
+		"try_xbot": "I want to try out X-Bot"
+	},
+	"claims": {
+		"left": {
+			"title": "What will X-BOT bring to your company?",
+			"points": [
+				"Your customers will be served immediately",
+				"Your employees will not be stressed out",
+				"Your costs will go down",
+				"You will prepare your company for the digital era"
+			]
+		},
+		"right": [
+			{
+				"text": "We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.",
+				"author": "František Poupě, Technical support & Sales support manager - ComAp a.s"
+			},
+			{
+				"text": "My cooperation with Xolution began with a chance meeting, and I have to say that I really didn’t expect that it would lead to such a pleasant relationship between our companies. Over a relatively short time-span we succeeded in accomplishing quite a bit, and I have to say that not only is the entire Xolution team innovative and professional, but they also have a very good attitude to the customer and are very willing to address their requirements. I am looking forward to our future collaboration.",
+				"author": "Tomáš Matušovič, Product manager and support for digital products, Viessmann s.r.o"
+			}
+		],
+		"in_numbers": [
+			{
+				"value": "3.5x",
+				"text": "increase in repeat sales"
+			},
+			{
+				"value": "< 1",
+				"text": "on average, investing into a chatbot pays off in less than a year"
+			},
+			{
+				"value": "> 65%",
+				"text": "automated tasks and answers"
+			},
+			{
+				"value": "8 / 10",
+				"text": "employees increase their performance"
+			}
+		]
+	},
+	"portfolio": {
+		"title": "Our portfolio",
+		"items": [
+			{
+				"link": "comap",
+				"image": "portfolio-3.jpg",
+				"title": "Customer Care Bot",
+				"client": "ComAp"
+			},
+			{
+				"link": "viessmann",
+				"image": "portfolio-2.jpg",
+				"title": "Sales Bot",
+				"client": "Viessmann"
+			},
+			{
+				"link": "prbot",
+				"image": "portfolio-4.jpg",
+				"title": "PR Bot",
+				"client": "E-shop summit"
+			},
+			{
+				"link": "#",
+				"image": "portfolio-1.jpg",
+				"title": "FAQ Bot"
+			}
+		]
+	},
+	"xbot": {
+		"title": "Meet <strong>X-BOT – the first Czecho-Slovak chatbot with artificial intelligence</strong>. This smart and very quick to learn virtual assistant offers huge potential for managing your company and communicating with your customers.",
+		"customer": {
+			"title": "What specific benefits does X-BOT offer your customers?",
+			"description": "Využite skutočne revolučný spôsob starostlivosti o vašich zákazníkov vrátane transformácie zákazníckej skúsenosti a konverzačného marketingu.",
+			"sections": [
+				{
+					"icon": "nonstop-starostlivost",
+					"title": "24/7 customer care",
+					"description": "X-BOT is the ideal employee – <strong>it never sleeps and is always in a good mood</strong>. Customers can contact it whenever they want."
+				},
+				{
+					"icon": "uspora-casu",
+					"title": "Customized offers",
+					"description": "X-BOT remembers a customer’s every activity, and perceives their mood and preferences. During communication, it <strong>collects</strong> extremely valuable <strong>marketing data</strong> on customers, which can then be used to <strong>personalize offers</strong>."
+				},
+				{
+					"icon": "uzivatelsky-komfort",
+					"title": "Multi-channel communication and intelligent search",
+					"description": "X-BOT lets customers communicate when and how they want. Customers can thus arbitrarily <strong>switch between</strong> their favourite communication channels: <strong>Facebook, Skype, SMS</strong>, or <strong>Web Chat</strong>. X-BOT will immediately give them a <strong>precise answer</strong> to their question <strong>directly in the chat window</strong>."
+				},
+				{
+					"icon": "ludsky-pristup",
+					"title": "A human touch",
+					"description": "X-BOT can <strong>speak</strong> with your customers in a <strong>quite natural way</strong>, and can thus get closer to them."
+				}
+			]
+		},
+		"company": {
+			"title": "What specific benefits does X-BOT offer your company?",
+			"description": "Vyberte si pre vašu spoločnosť pohotové automatické riešenia vďaka spoľahlivému a plne digitalizovanému riadeniu firemných procesov.",
+			"sections": [
+				{
+					"icon": "plnoautomatizovane",
+					"title": "Fully automated processes",
+					"description": "X-BOT simply <strong>answers thousands of queries</strong> instead of you, and <strong>performs thousands of tasks in real time</strong>."
+				},
+				{
+					"icon": "vyhodna-investicia",
+					"title": "Cost savings",
+					"description": "X-BOT <strong>is capable of taking over 65 % of repeat activities</strong>, thus taking a significant load off your employees, who can do more complicated work."
+				},
+				{
+					"icon": "neobmedzeny-vykon",
+					"title": "Unlimited performance",
+					"description": "X-BOT will take care of thousands of clients in <strong>a fraction of a second</strong>, and processes thousands of transactions with incredible speed."
+				},
+				{
+					"icon": "ucenlivy-system",
+					"title": "Automatic learning",
+					"description": "X-BOT is constantly learning – it <strong>uses neural networks</strong>, automatically increasing its knowledge base."
+				}
+			]
+		}
+	},
+	"abilities": {
+		"title": "What is X-BOT capable of?",
+		"list": [
+			"Answers any repeated questions",
+			"Issues orders and invoices",
+			"Inspires customers to buy goods",
+			"Creates a customer profile based on their preferences",
+			"Offers the customer services available in their vicinity",
+			"Searches for and reserves a free date/time",
+			"Recognizes photos and provides assistance",
+			"Connects customers with a live operator",
+			"Launches an intelligent search",
+			"Handles returns"
+		]
+	},
+	"implementation": {
+		"title": "X-Bot gives you 2 in 1!<br>The latest developments in artificial intelligence,<br>together will full automation of enterprise processes.",
+		"subtitle": "Nejnovější vychytávky umělé inteligence spojené s plnou automatizací firemních procesů",
+		"list": [
+			{
+				"title": "Conversational artificial intelligence",
+				"x": 0.69865,
+				"y": 0,
+				"points": [
+					"Dialog tree",
+					"Natural language understanding",
+					"Contextual understanding",
+					"Personalized communication"
+				]
+			},
+			{
+				"title": "Natural language understanding",
+				"x": 0.25,
+				"y": 0.1130604,
+				"points": [
+					"English",
+					"Slovak",
+					"Czech",
+					"Majority of EU languages"
+				]
+			},
+			{
+				"title": "Intelligent automation",
+				"x": 0,
+				"y": 0.35,
+				"points": [
+					"Conversation automation",
+					"Intelligent search (documents and pictures)",
+					"Machine learning"
+				]
+			},
+			{
+				"title": "Asynchronous personal communication",
+				"x": 0.4347826,
+				"y": 0.37037037,
+				"points": [
+					"Skype",
+					"Facebook messenger",
+					"Web",
+					"We Chat",
+					"Email",
+					"SMS"
+				]
+			},
+			{
+				"title": "Multi-channel communication",
+				"x": 0.8245877,
+				"y": 0.331384015,
+				"points": [
+					"User authentication",
+					"Integration with company web chat",
+					"Automatic handoff to live support chat"
+				]
+			},
+			{
+				"title": "Sophisticated data processing",
+				"x": 0.20989505,
+				"y": 0.740740740,
+				"points": [
+					"Picture recognition and interpretation",
+					"Receiving and processing images",
+					"Tools for customer's data analysis",
+					"Statistical reports"
+				]
+			},
+			{
+				"title": "Robotic process automation",
+				"x": 0.65967016,
+				"y": 0.73099415204,
+				"points": [
+					"Task automation",
+					"Integration with company's inner processes",
+					"Single sign-on"
+				]
+			}
+		]
+	},
+	"implementation_progress": {
+		"title": "What will X-Bot’s road to your company be like?",
+		"stage": "Stage",
+		"planning": "Planning",
+		"decision": "Client's decision",
+		"implementation": "Implementation",
+		"support": "Support",
+		"no_charge": "Bez poplatků",
+		"xbot_future": "X-Bot is the future",
+		"phases": [
+			{
+				"progress": 0.08,
+				"description": "Setting a strategy for deploying artificial intelligence"
+			},
+			{
+				"progress": 0.2,
+				"description": "Setting project goals and creating dialogue trees"
+			},
+			{
+				"progress": 0.36,
+				"special": "X-bot demo",
+				"description": "Identification of the Bot’s personality, UX design"
+			},
+			{
+				"progress": 0.77,
+				"description": "X-Bot is supplied in sprints. The client affects the project process"
+			},
+			{
+				"progress": 1,
+				"description": "Full deployment of X-Bot in real-life operation."
+			},
+			{
+				"progress": 1.35,
+				"description": "Support and modifications according to user feedback and achieved KPI."
+			}
+		]
+	},
+	"carousel": {
+		"title": "How are chatbots succeeding around the world?",
+		"items": [
+			{
+				"description": "The largest Canadian wireless operator<br><strong>60% </strong>better call centre performance",
+				"brand": "ROGERS WIRELESS"
+			},
+			{
+				"description": "hotel reservations worth<br><strong>$ 1 Million</strong><br>via Messengera",
+				"brand": "SNAP TRAVEL"
+			},
+			{
+				"description": "<strong>&gt;11%</strong><br>orders via a chatbot<br>than through other channels",
+				"brand": "SEPHORA"
+			},
+			{
+				"description": "Telco services<br><strong>3.5 x</strong><br>employee productivity increase",
+				"brand": "GLOBE"
+			},
+			{
+				"description": "Styling chatbot<br><strong>100 000</strong><br>daily active users",
+				"brand": "EPYTOM"
+			},
+			{
+				"description": "flower delivery<br><strong>&gt;70%</strong><br>orders via a chatbot came from new customers, revenue growth of<br><strong>6.8 %</strong>",
+				"brand": "1-800-FLOWERS"
+			},
+			{
+				"description": "passenger railroad service<br>25% growth in orders<br><strong>$ 1 Million</strong> savings in customer centres<br><strong>50 %</strong> year-over-year increase in active users<br><strong>30%</strong> per-order revenue increase",
+				"brand": "AMTRAK"
+			},
+			{
+				"description": "HR agency<br><strong>75%</strong> automation of new candidate screening<br><strong>38%</strong> efficiency increase<br><strong>150%</strong> increase in applicant participation",
+				"brand": "FIRST JOB"
+			},
+			{
+				"description": "financial services<br><strong>70%</strong><br>automation of conversations arriving at the call centre",
+				"brand": "LV BROKER"
+			}
+		]
+	},
+	"cta": {
+		"title": "Are you interested in X-BOT?",
+		"subtitle": "Drop us a line. We’ll answer your questions, and during a brief workshop will assess the potential for artificial intelligence in your company."
+	},
+	"contact_form": {
+		"header": "Contact us",
+		"info": "Please leave a message and we will get in touch.",
+		"phone": "Your message",
+		"submit": "Send",
+		"submit_progress": "Sending",
+		"thanks": "Thank you!",
+		"subthanks": "We will contact you shortly!"
+	},
+	"subpages": {
+		"portfolio": {
+			"client": {
+				"requirements": "What was needed",
+				"solution": "What InteliBot can do"
+			},
+			"process": {
+				"header": "How the entire project proceeded"
+			},
+			"project_info": {
+				"categories": {
+					"length": {
+						"image": "clients/calendar.svg",
+						"title": "Project length"
+					},
+					"channels": {
+						"image": "clients/people.svg",
+						"title": "Communication platforms"
+					},
+					"language": {
+						"image": "clients/chatbubbles.svg",
+						"title": "Language"
+					}
+				}
+			},
+			"results": {
+				"header": "Results"
+			},
+			"outcomes": {
+				"header": "Results"
+			},
+			"fact": {
+				"header": "Interesting fact"
+			},
+			"client_opinion": {
+				"header": "What the client said"
+			},
+			"whats_next": {
+				"header": "What's next"
+			},
+			"cta": {
+				"title": "Are you interested?",
+				"write": "Write",
+				"call": "Call"
+			},
+			"navigation_article": {
+				"prev": "&lt; Previous reference",
+				"next": "Next reference &gt;"
+			}
+		}
+	}
+}

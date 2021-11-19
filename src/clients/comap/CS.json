@@ -1,0 +1,56 @@
+{
+	"header": {
+		"background": "header-panel.jpg",
+		"title": "InteliBot\npro ComAp",
+		"boxes": [
+			"Společnost ComAp působí v 8 zemích po celém světě a je jedničkou na světovém trhu s řídicími systémy.\nŠlo jí o to lépe využít čas svých zaměstnanců a my jsme jí s tím pomohli.",
+			"Dodali jsme InteliBota, který pomáhá a radí zákazníkům. Zaměstnanci ComApu se tak můžou soustředit na jinou práci, u níž je jejich hodnota nenahraditelná."
+		]
+	},
+	"client": {
+		"requirements": "Pomocí konverzační umělé inteligence měl InteliBot za úkol zautomatizovat nejčastěji se opakující úkony ve firmě, aby zaměstnancům technické podpory společnosti co nejvíce uvolnil ruce na kreativní práci.",
+		"solution": [
+			"Obnovuje uživatelská přístupová hesla do systému.",
+			"Vyhledává technické specifikace i přesný manuál k určitému zařízení a radí uživateli s jeho používáním.",
+			"Zvládá vyhledat parametry zařízení na webové stránce společnosti.",
+			"Je k dispozici 24 hodin denně a vždy ve skvělé náladě. :o))",
+			"Vyhledává v dokumentech, manuálech a na webových stránkách společnosti.",
+			"Automatizuje firemní procesy."
+		]
+	},
+	"process": {
+		"background": "process-steps.jpg", 
+		"steps": [
+			"Náš tým detailně zanalyzoval činnosti a konverzace, které zaměstnanci technické podpory vedli se svými zákazníky a partnery, a na základě těchto dat jsme vybrali scénáře pro automatizaci.",
+			"Pak jsme InteliBota postupně učili všechny tyto činnosti a konverzace perfektně zvládat.",
+			"Vytvořili jsme také „duši“ InteliBota. Tedy osobnost, kterou by měl mít, aby reprezentoval svoji firmu a dokázal reflektovat její firemní kulturu a způsob komunikace."
+		]
+	},
+	"project_info": {
+		"length": "3 měsíce",
+		"channels": "Skype a webový chat",
+		"language": "Angličtina"
+	},
+	"outcomes": [
+		{"title": "SNÍŽENÍ NÁKLADŮ", "text":"na podporu zákazníků"},
+		{"title": "AUTOMATIZACE PROCESŮ", "text":"zákaznické podpory"},
+		{"title": "ANGAŽOVANOST ZAMĚSTNANCŮ", "text":"na zajímavé práci"},
+		{"title": "SNÍŽENÍ", "text":"resolution time"}
+	],
+	"client_opinion": {
+		"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“",
+		"author": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s."
+	},
+	"client_info": {
+		"text": "ComAp a.s. patří mezi přední světové producenty řídicích jednotek generátorů, využívaných v nemocnicích, velkých bankách či zlatých dolech. Výrobu těchto nezávislých zdrojů energie podporuje také rozsáhlým vlastním výzkumem a vývojem. Celkem společnost zaměstnává přibližně 350 lidí pracujících v 10 pobočkách umístěných v klíčových regionech světa. Celosvětové pokrytí zajišťuje také síť distributorů, umožňující společnosti vyvážet výrobky do více než 105 zemí.",
+		"images": [
+			"preview1.jpg",
+			"preview2.jpg",
+			"preview3.jpg",
+			"preview4.jpg"
+		]
+	},
+	"whats_next": {
+		"text": "Projekt dospěl do své druhé fáze.\nInteliBota dále rozvíjíme a učíme novým věcem."
+	}
+}

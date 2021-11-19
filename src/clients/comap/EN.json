@@ -1,0 +1,59 @@
+{
+	"header": {
+		"background": "header-panel.jpg",
+		"title": "ComAp\nInteliBot",
+		"boxes": [
+			"ComAp, the market leader in the global control systems market, with a presence in 8 countries around the world, wanted to better utilize its employees' time, and we helped them.",
+			"We gave them InteliBot, which helps and advises ComAp's customers so that employees can focus on doing work where they cannot be replaced."
+		]
+	},
+	"client": {
+		"requirements": "Using conversational artificial intelligence, InteliBot's task was to automate the most frequently repeated activities in the company’s customer care department, so that tech support staff would have as much time as possible for creative work.",
+		"solution": [
+			"Searches technical specifications and the user manual for a certain device and advises users in how to use it.",
+			"Resets users' passwords into the system.",
+			"Finds device parameters on the company's website.",
+			"Is available 24 hours a day, and is always in a good mood. :o))",
+			"Searches documents, manuals, and the company's website.",
+			"Automates business processes.",
+			"Integrated with company’s CRM system.",
+			"Automated learning – depending on relevance of answers.",
+			"Communicates with the comapny’s web page."
+		]
+	},
+	"process": {
+		"background": "process-steps.jpg",
+		"steps": [
+			"Our team performed a detailed analysis of activities and conversations tech support staff had with customers and partners, and based on this data we selected scenarios for automation.",
+			"We then gradually taught InteliBot to conduct all of these activities and conversations perfectly. We delivered Intelibot by agile project management, so the customer was included into demo days, tested the application every 3 weeks and thus was able to control  the course of project.",
+			"We also created the \"soul\" of InteliBot. That is, the personality it should have to represent the company and be able to reflect its corporate culture and way of communicating."
+		]
+	},
+	"project_info": {
+		"length": "3 months",
+		"channels": "Skype a web chat",
+		"language": "English"
+	},
+	"outcomes": [
+		{"title": "Reduced customer\nsupport costs", "text":""},
+		{"title": "Reduced\nresolution time", "text":""},
+		{"title": "Automation of customer\nsupport processes", "text":""},
+		{"title": "Employees are involved\nin interesting work", "text":""}
+	],
+	"client_opinion": {
+		"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“",
+		"author": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s."
+	},
+	"client_info": {
+		"text": "",
+		"images": [
+			"preview1.jpg",
+			"preview2.jpg",
+			"preview3.jpg",
+			"preview4.jpg"
+		]
+	},
+	"whats_next": {
+		"text": "The project is continuing into its second phase,\nand we're developing Intelibot and teaching it new things."
+	}
+}

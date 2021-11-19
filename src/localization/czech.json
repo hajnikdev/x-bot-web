@@ -1,0 +1,394 @@
+{
+	"meta": {
+		"code": "cs",
+		"tags": "chatbot, umela inteligence, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Vysoce personalizovaný chatbot na bázi umělé inteligence. Zautomatizuje vaše procesy, poskytne zákaznickou podporu vašim zákazníkům, vyřeší dotazy vašich zaměstnanců na helpdesku nebo v HR. Přirozeně rozpoznává řeč."
+	},
+	"contactButton": {
+		"label": "KONTAKTUJTE NÁS",
+		"link": "#contact"
+	},
+	"navigation": [
+		{
+			"label": "Xolution",
+			"link": "http://www.xolution.sk/"
+		},
+		{
+			"label": "Blog",
+			"link": "http://www.xolution.sk/knowledge-sharing/knowledge-base"
+		},
+		{
+			"label": "Kontakt",
+			"link": "http://www.xolution.sk/contact-us"
+		}
+	],
+	"header": {
+		"tagline": "Automatizácia procesov. Kreativita pre ľudí.",
+		"intro": "Vysoce personalizovaný chatbot na bázi umělé inteligence.",
+		"subintro": "Ideální zaměstnanec, který nikdy nespí. Návratnost investice v průměru do 1,5 roku. Nechte si námi vypočítat návratnost pro Vás.",
+		"knowmore": "CHCI VĚDĚT VÍC",
+		"calc_roi": "Chci vypočítat ROI",
+		"try_xbot": "Chci X-Bota na zkoušku"
+	},
+	"claims": {
+		"left": {
+			"title": "Co přinese X-BOT vaší firmě?",
+			"points": [
+				"Vaši zákazníci budou ihned obslouženi",
+				"Vaši zaměstnanci nebudou ve stresu",
+				"Vaše náklady se sníží",
+				"Připravíte svou firmu na digitální éru"
+			]
+		},
+		"right": [
+			{
+				"text": "Spolupracovat s firmou Xolution jsme začali teprve nedávno, ale hned bylo jasné, že jsme naladěni na stejnou vlnovou délku. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů firemního týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň.",
+				"author": "František Poupě, Technical support & Sales support manager - ComAp a.s"
+			},
+			{
+				"text": "Moje spolupráce se společností Xolution začala náhodným setkáním a musím se přiznat, že jsem ani nečekal, že kooperace našich společností bude tak příjemná. Za poměrně krátkou dobu se nám podařilo udělat pořádný kus práce. Musím říct, že kromě profesionality a inovativnosti je z celého týmu cítit i velmi dobrý přístup k zákazníkovi a ochota řešit jeho požadavky. Těším se na další spolupráci.",
+				"author": "Tomáš Matušovič, Product manager and support for digital products, Viessmann s.r.o"
+			}
+		],
+		"in_numbers": [
+			{
+				"value": "3,5x",
+				"text": "vzrostou opakované prodeje"
+			},
+			{
+				"value": "< 1",
+				"text": "návratnost investic do X-BOTA je v průměru menší než jeden rok"
+			},
+			{
+				"value": "> 65%",
+				"text": "zautomatizovaných úkolů a odpovědí"
+			},
+			{
+				"value": "8 z 10",
+				"text": "zaměstnanců zvýší své pracovní nasazení"
+			}
+		]
+	},
+	"portfolio": {
+		"title": "Naše reference",
+		"items": [
+			{
+				"link": "comap",
+				"image": "portfolio-3.jpg",
+				"title": "Customer Care Bot",
+				"client": "ComAp"
+			},
+			{
+				"link": "viessmann",
+				"image": "portfolio-2.jpg",
+				"title": "Sales Bot",
+				"client": "Viessmann"
+			},
+			{
+				"link": "prbot",
+				"image": "portfolio-4.jpg",
+				"title": "PR Bot",
+				"client": "E-shop summit"
+			},
+			{
+				"link": "#",
+				"image": "portfolio-1.jpg",
+				"title": "FAQs Bot"
+			}
+		]
+	},
+	"xbot": {
+		"title": "Seznamte se s <strong>X-BOTEM – prvním česko-slovenským chatbotem</strong> s umělou inteligencí. X-Bot automaticky komunikuje s vašimi zákazníky anebo zaměstnanci a ušetří spoustu času",
+		"customer": {
+			"title": "Jaké konkrétní výhody nabízí X-BOT vašim zákazníkům?",
+			"description": "Využite skutočne revolučný spôsob starostlivosti o vašich zákazníkov vrátane transformácie zákazníckej skúsenosti a konverzačného marketingu.",
+			"sections": [
+				{
+					"icon": "nonstop-starostlivost",
+					"title": "Péče a servis 24/7",
+					"description": "X-BOT je ideální zaměstnanec – <strong>nikdy nespí a má vždy dobrou náladu</strong>. Zákazník ho může kontaktovat kdykoliv."
+				},
+				{
+					"icon": "uspora-casu",
+					"title": "Nabídka na míru",
+					"description": "X-BOT si pamatuje každou zákazníkovu aktivitu, vnímá jeho náladu a preference. Při společné komunikaci <strong>nasbírá</strong> o zákaznících velmi cenná <strong>marketingová data</strong>, která se dají využít při <strong>personalizaci nabídky</strong>."
+				},
+				{
+					"icon": "uzivatelsky-komfort",
+					"title": "Multikanálová komunikace a inteligentní vyhledávání",
+					"description": "X-BOT umožňuje zákazníkovi komunikovat, kdy chce a jak zrovna chce. Zákazník tak může volně <strong>přepínat mezi</strong> svými oblíbenými <strong>komunikačními kanály</strong>: <strong>Facebook, Skype, SMS</strong> či <strong>Web Chat</strong>. X-BOT mu bleskově naservíruje <strong>přesnou odpověď</strong> na jeho otázku <strong>přímo do chatovacího okna</strong>."
+				},
+				{
+					"icon": "ludsky-pristup",
+					"title": "Lidský přístup",
+					"description": "X-BOT dokáže s vašimi zákazníky <strong>mluvit zcela přirozeně</strong>, a tak se jim přiblížit."
+				}
+			]
+		},
+		"company": {
+			"title": "Jaké konkrétní výhody nabízí X-BOT vaší firmě?",
+			"description": "Vyberte si pre vašu spoločnosť pohotové automatické riešenia vďaka spoľahlivému a plne digitalizovanému riadeniu firemných procesov.",
+			"sections": [
+				{
+					"icon": "plnoautomatizovane",
+					"title": "Plně automatizované procesy",
+					"description": "X-BOT jednoduše <strong>zodpoví tisíce dotazů</strong> místo vás a <strong>vykoná tisíce ukonů v reálném čase</strong>."
+				},
+				{
+					"icon": "vyhodna-investicia",
+					"title": "Úspora nákladů",
+					"description": "X-BOT na sebe <strong>dokáže převzít 65 % opakujících se úkonů</strong>, čímž významně ulehčí vašim zaměstnancům, kteří se mohou věnovat komplikovanější práci."
+				},
+				{
+					"icon": "neobmedzeny-vykon",
+					"title": "Neomezený výkon",
+					"description": "X-BOT <strong>za zlomek sekundy</strong> obslouží tisíce klientů a s neuvěřitelnou rychlostí zpracuje tisíce transakcí."
+				},
+				{
+					"icon": "ucenlivy-system",
+					"title": "Automatické učení",
+					"description": "X-BOT se stále učí – <strong>využívá neuronové sítě</strong>, a automaticky tak rozšiřuje svoji znalostní databázi."
+				}
+			]
+		}
+	},
+	"abilities": {
+		"title": "Co všechno X-BOT zvládne?",
+		"list": [
+			"Odpoví na jakékoliv opakující se otázky",
+			"Vystaví objednávku či fakturu",
+			"Inspiruje zákazníka ke koupi zboží",
+			"Vytvoří si profil zákazníka podle jeho preferencí",
+			"Nabídne zákazníkovi služby dostupné v jeho lokalitě",
+			"Vyhledá a zarezervuje volný termín",
+			"Rozezná fotografii a poskytne asistenci",
+			"Spojí zákazníka se živým operátorem",
+			"Spustí inteligentní vyhledávání",
+			"Řeší reklamace"
+		]
+	},
+	"implementation": {
+		"title": "S X-Botem získáte 2 v 1!<br>Nejnovější vychytávky umělé inteligence<br>spojené s plnou automatizací firemních procesů.",
+		"subtitle": "Nejnovější vychytávky umělé inteligence spojené s plnou automatizací firemních procesů",
+		"list": [
+			{
+				"title": "Konverzační umělá inteligence",
+				"x": 0.69865,
+				"y": 0,
+				"points": [
+					"Dialógový strom",
+					"Přirozené rozpoznávání komplexní řeči",
+					"Kontextuální chápání",
+					"Personalizovaná komunikace"
+				]
+			},
+			{
+				"title": "Přirozené rozpoznávání jazyka",
+				"x": 0.25,
+				"y": 0.1130604,
+				"points": [
+					"Angličtina",
+					"Slovenština",
+					"Čeština",
+					"Většina EU jazyků"
+				]
+			},
+			{
+				"title": "Inteligentní automatizace",
+				"x": 0,
+				"y": 0.35,
+				"points": [
+					"Automatizace konverzace",
+					"Inteligentní vyhledávání (dokumenty a obrázky)",
+					"Strojové učení"
+				]
+			},
+			{
+				"title": "Asynchronní personalizovaná komunikace",
+				"x": 0.4347826,
+				"y": 0.37037037,
+				"points": [
+					"Skype",
+					"Facebook messenger",
+					"Web",
+					"We Chat",
+					"Email",
+					"SMS"
+				]
+			},
+			{
+				"title": "Multikanálová komunikáce",
+				"x": 0.8245877,
+				"y": 0.331384015,
+				"points": [
+					"Autentizace uživatele",
+					"Integrace s podnikovým web chatem",
+					"Automatické propojení na pracovníka podpory"
+				]
+			},
+			{
+				"title": "Sofistikované zpracování dat",
+				"x": 0.20989505,
+				"y": 0.740740740,
+				"points": [
+					"Rozpoznání a interpretace obrazu",
+					"Přijetí a zpracování souborů",
+					"Nástroje pro analýzu zákaznických dat",
+					"Statistické přehledy"
+				]
+			},
+			{
+				"title": "Robotická automatizace procesů",
+				"x": 0.65967016,
+				"y": 0.73099415204,
+				"points": [
+					"Automatizace úkonů",
+					"Integrace s vnitropodnikovými systémy",
+					"Single sign-on"
+				]
+			}
+		]
+	},
+	"implementation_progress": {
+		"title": "Jaká bude cesta X-Bota právě do vaší firmy?",
+		"stage": "Fáze",
+		"planning": "Plánování",
+		"decision": "Rozhodnutí klienta",
+		"implementation": "Implementace",
+		"support": "Podpora",
+		"no_charge": "Bez poplatků",
+		"xbot_future": "X-Bot je budoucnost",
+		"phases": [
+			{
+				"progress": 0.08,
+				"description": "Nastavení strategie pro nasazení umělé inteligence."
+			},
+			{
+				"progress": 0.2,
+				"description": "Stanovení cílů projektu a tvorba dialogových stromů."
+			},
+			{
+				"progress": 0.36,
+				"special": "X-bot demo",
+				"description": "Identifikace osobnosti Bota, UX design."
+			},
+			{
+				"progress": 0.77,
+				"description": "X-Bot je dodáván v sprintech. Klient ovlivňuje chod projektu."
+			},
+			{
+				"progress": 1,
+				"description": "Plné nasazení X-Bota do reálného provozu."
+			},
+			{
+				"progress": 1.35,
+				"description": "Podpora a úpravy dle zpětné vazby uživatelů a dosažených KPI."
+			}
+		]
+	},
+	"carousel": {
+		"title": "Jaké úspěchy mají chatboti ve světě?",
+		"items": [
+			{
+				"description": "největší kanadský mobilní operátor<br><strong>o 60%</strong></br>lepší výkon zákaznického centra",
+				"brand": "ROGERS WIRELESS"
+			},
+			{
+				"description": "hotelové rezervace v hodnotě<br><strong>1 Milión $</strong><br>přes Messengera",
+				"brand": "SNAP TRAVEL"
+			},
+			{
+				"description": "<strong>&gt;11%</strong><br>objednávek přes chatbota<br>než z jiných kanálů",
+				"brand": "SEPHORA"
+			},
+			{
+				"description": "Telco služby<br><strong>3,5 x</strong><br>se zvýšila produktivita zaměstnanců",
+				"brand": "GLOBE"
+			},
+			{
+				"description": "Styling chatbot<br><strong>100 000</strong><br>aktivních uživatelů každý den",
+				"brand": "EPYTOM"
+			},
+			{
+				"description": "donáška květin<br><strong>&gt;70%</strong><br>objednávek přes chatbota přišlo od nových zákazníků, nárůst tržeb o<br><strong>6,8 %</strong>",
+				"brand": "1-800-FLOWERS"
+			},
+			{
+				"description": "železniční dopravce<br>25% nárůst objednávek<br><strong>1 milion $</strong> úspor v zákaznických centrech<br><strong>50 %</strong> meziroční nárůst aktivních uživatelů<br><strong>30%</strong> nárůst tržeb na jednu objednávku",
+				"brand": "AMTRAK"
+			},
+			{
+				"description": "HR agentura<br><strong>75%</strong> automatizace screeningového procesu kandidátů<br><strong>38%</strong> zvýšení efektivity<br><strong>150%</strong> nárůst zapojení uchazečů",
+				"brand": "FIRST JOB"
+			},
+			{
+				"description": "finanční služby<br><strong>70%</strong><br>automatizace konverzací přicházejících do zákaznického centra ",
+				"brand": "LV BROKER"
+			}
+		]
+	},
+	"cta": {
+		"title": "Je pro vás X-BOT zajímavý?",
+		"subtitle": "Ozvěte se. Poskytneme odpovědi na vaše otázky a na krátkém workshopu vyhodnotíme potenciál pro umělou inteligenci ve vaší firmě."
+	},
+	"contact_form": {
+		"header": "Kontaktujte nás",
+		"info": "Zanechte nám vzkaz a my se vám hned ozveme.",
+		"phone": "Vaše zpráva",
+		"submit": "Odeslat",
+		"submit_progress": "Odesílám",
+		"thanks": "Děkujeme!",
+		"subthanks": "Brzy se s vámi spojíme."
+	},
+	"subpages": {
+		"portfolio": {
+			"client": {
+				"requirements": "Co chtěl klient",
+				"solution": "Jak to InteliBot řeší"
+			},
+			"process": {
+				"header": "Jak jsme postupovali"
+			},
+			"project_info": {
+				"categories": {
+					"length": {
+						"image": "clients/calendar.svg",
+						"title": "Délka projektu"
+					},
+					"channels": {
+						"image": "clients/people.svg",
+						"title": "Komunikační platformy"
+					},
+					"language": {
+						"image": "clients/chatbubbles.svg",
+						"title": "Jazyk"
+					}
+				}
+			},
+			"results": {
+				"header": "Výsledky"
+			},
+			"outcomes": {
+				"header": "Výsledky"
+			},
+			"fact": {
+				"header": "Zajímavost"
+			},
+			"client_opinion": {
+				"header": "Co na to klient"
+			},
+			"whats_next": {
+				"header": "Co bude dál"
+			},
+			"cta": {
+				"title": "Jdete do toho s námi?",
+				"write": "Pište",
+				"call": "Volejte"
+			},
+			"navigation_article": {
+				"prev": "&lt; Předchozí reference",
+				"next": "Další reference &gt;"
+			}
+		}
+	}
+}

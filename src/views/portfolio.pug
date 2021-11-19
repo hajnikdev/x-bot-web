@@ -1,0 +1,224 @@
+- var localGlobal = htmlWebpackPlugin.options.options.local;
+- var local = htmlWebpackPlugin.options.options.local.subpages.portfolio;
+- var client = htmlWebpackPlugin.options.options.client;
+- var clientCode = htmlWebpackPlugin.options.options.clientCode;
+- var navigation = htmlWebpackPlugin.options.options.navigation;
+- var languages = htmlWebpackPlugin.options.options.languages;
+- var rel = !htmlWebpackPlugin.options.options.isDefault ? '../../' : '../';
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		meta(name="author", content="Ivan Sivak@Xolution")
+		meta(name="keywords", content=localGlobal.meta.keywords)
+		meta(name="description", content=localGlobal.meta.description)
+		link(rel="shortcut icon", href=rel+"assets/favicon.png", type="image/x-icon")
+		link(rel="apple-touch-icon", href=rel+"assets/favicon.png")
+		link(rel="stylesheet", href=rel+"assets/bootstrap.min.css")
+		link(rel="stylesheet", href=rel+"main.css")
+		title X-Bot
+		
+		script(async,src="https://www.googletagmanager.com/gtag/js?id=UA-68042186-1")
+
+		script.
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-WPDQZS6');
+
+		script.
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:1119387,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+		script.
+			window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());
+			gtag('config', 'AW-785172836');
+			function contactFormOnSubmit() { 
+				gtag('event', 'conversion', {'send_to': 'AW-785172836/EPMtCJqC1ooBEOSSs_YC'});
+				gtag('event', 'formulara', {'event_category': 'odoslanie','event_label': 'prve'});
+			}
+	body(class='subpage-client client-'+ clientCode)
+		noscript
+			iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-WPDQZS6",height="0",width="0",style="display:none;visibility:hidden")
+		header.client-header(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.header.background + ')')
+			.client-container
+				.d-flex.justify-content-between
+					a.main-header__logo(href="../")
+						img(src=rel+"assets/xolution-logo.svg", alt="logo")
+					a(href="#").nav-hamburger
+						.nav-hamburger__ham
+					nav#nav_main.navigation.pt-4
+						a.navigation__close(href="#")
+							.navigation__close__cross
+							.navigation__close__cross
+						.navigation__nav-links
+							each link in localGlobal.navigation
+								a.navigation__nav-link(href=link.link)= link.label
+							
+							//- .navigation__nav-link
+							div.navigation__nav-link.dropdown
+								a.btn.btn-secondary.dropdown-toggle(href="#",role="button",id="dropdownMenuLink",data-toggle="dropdown",aria-haspopup="true",aria-expanded="false")= languages[0] === 'CS' ? 'CZ' : languages[0]
+								div.dropdown-menu(aria-labelledby="dropdownMenuLink")
+									-var l = 0
+									while l < languages.length - 1
+										a.dropdown-item(href=rel + languages[++l] + '/clients/' + clientCode + '.html')= languages[l] === 'CS' ? 'CZ' : languages[l]
+
+				.client-header__introduction
+					img(src=rel+"assets/xbot-logo-white.svg", alt="")
+					h1 !{client.header.title.split('\n').join('<br>')}
+					.client-header__introduction__squares
+						.introduction__square !{client.header.boxes[0].split('\n').join('<br>')}
+						.introduction__square= client.header.boxes[1]
+
+		section.client-requirements
+			.client-container
+				.row
+					.col-md-5
+						h1= (client.client.requirementsHeader ? client.client.requirementsHeader : local.client.requirements)
+						p= client.client.requirements
+					.col-md-7
+						h1= (client.client.solutionHeader ? client.client.solutionHeader : local.client.solution)
+						ul
+							- for (var solution of client.client.solution)
+								li= solution
+				img.client-requirements__phone(src=rel+"assets/clients/"+clientCode+'/telefon.png', alt="")
+		
+		section.client-process(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.process.background + ')')
+			.client-container
+				.row
+					.col-md-6
+						h1= (client.process.header ? client.process.header : local.process.header)
+						.dashed-arrow
+							.dashed-arrow__line
+							.dashed-arrow__triangle
+					.col-md-6
+						if client.process.steps
+							ul
+								- var idx = 0;
+								- for (var step of client.process.steps)
+									- idx++;
+									li
+										div.client-process__step= idx + '.'
+										|!{step}
+						if client.process.text
+							p= client.process.text
+
+		section.project-info
+			.client-container
+				- var icons = local.project_info.categories
+				.row
+					- for (var infoCategory in client.project_info)
+						.project-info__info.col-md-4
+							img(src=rel+"assets/"+icons[infoCategory].image, alt="")
+							h4= icons[infoCategory].title
+							h1= client.project_info[infoCategory]
+		if client.results
+			section.results
+				.container
+					h1= (client.results.header ? client.results.header : local.results.header)
+					p= client.results.text
+					.results-container.row
+						- for (var result of client.results.items)
+							.result.col-md-4
+								h4= result.title
+								p= result.text
+		if client.outcomes
+			section.outcomes
+				.container
+					.results-container
+						h1= local.outcomes.header
+						- for (var result of client.outcomes)
+							.result
+								.result-container
+									h4 !{result.title.split('\n').join('<br>')}
+									p= result.text
+									.arrow
+		if client.fact
+			section.fact
+				.container
+					if client.fact.image
+						img(src=rel+"assets/clients/"+clientCode+'/'+client.fact.image, alt="")
+					h1= local.fact.header
+					p= client.fact.text
+		if client.client_opinion
+			section.client-opinion
+				.container
+					h1= local.client_opinion.header
+					.client-opinion__content
+						p= client.client_opinion.text
+						strong.client-opinion__author= client.client_opinion.author
+		if client.client_info
+			section.client-info
+				.client-info__presentation
+					- for (var img of client.client_info.images)
+						.client-info__presentation__image
+							.client-info__presentation__image__inside(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + img + ')')
+					.client-info__presentation__gradient
+				.client-container.client-info__content= client.client_info.text
+		if client.whats_next
+			section.portfolio-whats-next
+				.container
+					h1= local.whats_next.header
+					p !{client.whats_next.text.split('\n').join('<br>')}
+
+		section.portfolio-cta
+			.portfolio-cta__content
+				.row
+					.col-md-5
+						h1= local.cta.title
+						.dashed-arrow
+							.dashed-arrow__line
+							.dashed-arrow__triangle
+					.col-md-7
+						a(href='#contact')
+							span= local.cta.write
+						a(href='#contact')
+							span= local.cta.call
+
+		section.portfolio-navigation
+			.client-container
+				.row
+					.col-md-6.text-center.text-md-left
+						a(href=navigation[0] + '.html') !{local.navigation_article.prev}
+					.col-md-6.text-center.text-md-right
+						a(href=navigation[1] + '.html') !{local.navigation_article.next}
+
+		footer.footer
+			.container
+				.d-flex.justify-content-between
+					a.footer__logo(href="#top")
+						img(src=rel+"assets/xbot-logo_purple.svg", alt="logo")
+					nav.navigation.pt-4
+						each link in localGlobal.navigation
+							a.navigation__nav-link(href=link.link)= link.label
+
+		a.linkedin-float(title="Xolution LinkedIn", target="_blank", href="https://www.linkedin.com/company/xolution-europe")
+			img(src=rel+"assets/linkedin.png", alt="linkedin")
+
+		.contact-form
+			.contact-form__content
+				.contact-form__form
+					.contact-form__form__form
+						h1= localGlobal.contact_form.header
+						p= localGlobal.contact_form.info
+						form
+							#email_validation_wrap
+								input#contact_email(type="text",placeholder="E-mail")
+								div.error Please enter valid e-mail address
+							textarea#contact_message(type="text",placeholder=localGlobal.contact_form.phone)
+							input#contact_submit(type="submit",value=localGlobal.contact_form.submit,data-sending=localGlobal.contact_form.submit_progress)
+					.contact-form__form__thanks
+						h1= localGlobal.contact_form.thanks
+						p= localGlobal.contact_form.subthanks
+			a(href='#').contact-form__close
+				img(src=rel+"assets/close-button.svg")
+
+		script(src=rel+"chatbots.js")

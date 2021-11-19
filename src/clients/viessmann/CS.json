@@ -1,0 +1,55 @@
+{
+	"header": {
+		"background": "header-panel.jpg",
+		"title": "V-Bot\npro Viessmann",
+		"boxes": [
+			"Kvalifikovaná akvizice\nnových zákazníků ",
+			"V-Bot byl připraven na míru pro společnost Viessmann Group, která patří k předním mezinárodním výrobcům topných, průmyslových a chladicích systémů."
+		]
+	},
+	"client": {
+		"requirementsHeader": "S čím měl V-Bot pomoci",
+		"requirements": "V-Bot (nebo také Viliam bot :o) měl za úkol vybírat vstupní data od zákazníků společnosti takovým způsobem, aby společnost dokázala poslat zákazníkovi konkrétní nabídku, a tím si ho získala. Měl tak ušetřit čas zaměstnancům společnosti, kteří sbírali data o zákaznících telefonicky, a zároveň také firemní náklady s tím spojené.",
+		"solutionHeader": "Co všechno umí",
+		"solution": [
+			"Komunikuje ve slovenském jazyce.",
+			"Sbírá informace o zákaznících a získává nové.",
+			"Poskytuje analytické přehledy a vyhodnocuje svoji úspěšnost.",
+			"Je multikanálový – spouští se z různých stránek a pamatuje si historii komunikace se zákazníkem.",
+			"Je propojený s firemním IS."
+		]
+	},
+	"process": {
+		"header": "Výsledek projektu",
+		"background": "none.png",
+		"text": "V-Bot prokázal, že dokáže ušetřit náklady spojené s obsluhou a akvizicí zákazníků.\nSpolečnost Viessmann navíc prostřednictvím V-Bota zviditelnila svůj brand a také svoji technologickou vyspělost a inovativnost, protože umělou inteligenci ve formě bota implementovala jako jedna z prvních."
+	},
+	"project_info": {
+		"length": "2 měsíce",
+		"channels": "Webový chat přístupný z webu i mobilních zařízení",
+		"language": "Slovenština"
+	},
+	"results": {
+		"text": "za první dva měsíce provozu",
+		"items":[
+			{"title": "1223", "text":"zobrazení V-Bota"},
+			{"title": "709", "text":"konverzací s potenciálními zákazníky"},
+			{"title": "74", "text":"žádostí o cenovou nabídku"}
+		]
+	},
+	"outcomes": [
+		{"title": "Sběr\na analýza dat ", "text":""},
+		{"title": "Zvýšení\nkonverzního poměru", "text":""},
+		{"title": "Budování koparativní výhody\nv digitálním veku ", "text":""},
+		{"title": "Self-service\nzákazníka", "text":""}
+	],
+	"fact":{
+		"image": "Willam.svg",
+		"header": "Zajímavost",
+		"text": "Tvář V-Bota má animovanou podobu, což ho „zlidšťuje“ a přibližuje zákazníkům."
+	},
+	"client_opinion": {
+		"text": "„Moja spolupráca so spoločnosťou Xolution sa začala náhodným stretnutím a musím povedať, že som ani nečakal, že toto vzíde v takú príjemnú spoluprácu našich spoločností. Za pomerne krátku dobu sa nám podarilo spoločne spraviť kus práce a musím povedať, že rovnako ako inovatívnosť a profesionalitu je z celého tímu Xolution cítiť aj veľmi dobrý prístup k zákazníkovi a ochotu riešiť požiadavky zákazníka. Teším sa na ďalšiu spoluprácu. “",
+		"author": "Tomáš Matušovič, Product Manager and support for digital products, Viessmann s.r.o."
+	}
+}
