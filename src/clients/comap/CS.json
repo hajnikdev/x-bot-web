@@ -16,10 +16,11 @@
 			"Je k dispozici 24 hodin denně a vždy ve skvělé náladě. :o))",
 			"Vyhledává v dokumentech, manuálech a na webových stránkách společnosti.",
 			"Automatizuje firemní procesy."
-		]
+		],
+		"telephone": true
 	},
 	"process": {
-		"background": "process-steps.jpg", 
+		"background": "process-steps.jpg",
 		"steps": [
 			"Náš tým detailně zanalyzoval činnosti a konverzace, které zaměstnanci technické podpory vedli se svými zákazníky a partnery, a na základě těchto dat jsme vybrali scénáře pro automatizaci.",
 			"Pak jsme InteliBota postupně učili všechny tyto činnosti a konverzace perfektně zvládat.",
@@ -38,8 +39,16 @@
 		{"title": "SNÍŽENÍ", "text":"resolution time"}
 	],
 	"client_opinion": {
-		"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“",
-		"author": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s."
+		"paragraphs": [
+			{
+				"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“"
+			},
+			{
+				"type": "strong",
+				"text": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s.",
+				"isAuthor": true
+			}
+		]
 	},
 	"client_info": {
 		"text": "ComAp a.s. patří mezi přední světové producenty řídicích jednotek generátorů, využívaných v nemocnicích, velkých bankách či zlatých dolech. Výrobu těchto nezávislých zdrojů energie podporuje také rozsáhlým vlastním výzkumem a vývojem. Celkem společnost zaměstnává přibližně 350 lidí pracujících v 10 pobočkách umístěných v klíčových regionech světa. Celosvětové pokrytí zajišťuje také síť distributorů, umožňující společnosti vyvážet výrobky do více než 105 zemí.",

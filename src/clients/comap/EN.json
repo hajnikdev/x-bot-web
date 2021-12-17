@@ -19,7 +19,8 @@
 			"Integrated with company’s CRM system.",
 			"Automated learning – depending on relevance of answers.",
 			"Communicates with the comapny’s web page."
-		]
+		],
+		"telephone": true
 	},
 	"process": {
 		"background": "process-steps.jpg",
@@ -41,8 +42,16 @@
 		{"title": "Employees are involved\nin interesting work", "text":""}
 	],
 	"client_opinion": {
-		"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“",
-		"author": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s."
+		"paragraphs": [
+			{
+				"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“"
+			},
+			{
+				"type": "strong",
+				"text": "František Poupě, Technical Support and Sales Support Manager, ComAp a.s.",
+				"isAuthor": true
+			}
+		]
 	},
 	"client_info": {
 		"text": "",

@@ -7,15 +7,26 @@ html(lang=local.meta.code)
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		meta(http-equiv="X-UA-Compatible", content="ie=edge")
-		meta(name="author", content="Ivan Sivak@Xolution")
+		meta(name="author", content="Maroš Hajník")
 		meta(name="keywords", content=local.meta.keywords)
 		meta(name="description", content=local.meta.description)
+		meta(property='og:url' content=local.meta.ogURL)
+		meta(property='og:title' content=local.meta.title)
+		meta(property='og:description' content=local.meta.description)
+		title !{local.meta.title}
+
 		link(rel="shortcut icon", href=rel+"assets/favicon.png", type="image/x-icon")
 		link(rel="apple-touch-icon", href=rel+"assets/favicon.png")
-		//- link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700&amp;subset=latin-ext")
-		link(rel="stylesheet", href=rel+"assets/bootstrap.min.css")
+
+		link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+		link(rel="stylesheet", href=rel+"assets/bootstrap/bootstrap.min.css")
 		link(rel="stylesheet", href=rel+"main.css")
-		title X-Bot
+
+		script(src=rel+"assets/bootstrap/jquery-3.4.1.slim.min.js")
+		script(src=rel+"assets/bootstrap/popper.min.js")
+		script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js", integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6", crossorigin="anonymous")
+
+		script(src='https://www.youtube.com/iframe_api')
 
 		script(async,src="https://www.googletagmanager.com/gtag/js?id=UA-68042186-1")
 
@@ -39,117 +50,466 @@ html(lang=local.meta.code)
 		script.
 			window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());
 			gtag('config', 'AW-785172836');
-			function contactFormOnSubmit() { 
+			function contactFormOnSubmit() {
 				gtag('event', 'conversion', {'send_to': 'AW-785172836/EPMtCJqC1ooBEOSSs_YC'});
 				gtag('event', 'formulara', {'event_category': 'odoslanie','event_label': 'prve'});
 			}
-	body
+	body(style="overflow: hidden")
 		noscript
 			iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-WPDQZS6",height="0",width="0",style="display:none;visibility:hidden")
-		header.main-header
-			video(loop,muted)
-				source(src=rel+"assets/6c97f76c87e6bc05a3b0345183038530.mp4", type="video/mp4")
-				source(src=rel+"assets/d820af32f7facfd7bca8905c175cd3c8.ogv", type="video/ogg")
-				source(src=rel+"assets/e441d1409f93e0b976c968feca6a2ce4.webm", type="video/webm")
+		header.floating-header
 			.container
 				.d-flex.justify-content-between
 					a.main-header__logo(href="#")
 						img(src=rel+"assets/xolution-logo.svg", alt="logo")
 					a(href="#").nav-hamburger
 						.nav-hamburger__ham
-					nav#nav_main.navigation.pt-4
+					nav#nav_main.navigation
+						img(src=rel+"assets/xolution-logo.svg", alt="logo")
 						a.navigation__close(href="#")
 							.navigation__close__cross
 							.navigation__close__cross
 						.navigation__nav-links
 							each link in local.navigation
-								a.navigation__nav-link(href=link.link)= link.label
+								a.navigation__nav-link(href=link.link, class=link.class)= link.label
 
-							div.navigation__nav-link.dropdown
+							div.navigation__nav-link.dropdown.square-purple-filled
+								a.btn.btn-secondary.dropdown-toggle(href="#",role="button",id="dropdownMenuLink",data-toggle="dropdown",aria-haspopup="true",aria-expanded="false")= languages[0] === 'CS' ? 'CZ' : languages[0]
+								div.dropdown-menu(aria-labelledby="dropdownMenuLink")
+									-var l = 0
+									while l < languages.length - 1
+										a.dropdown-item(href=rel + languages[++l] + "/")= languages[l] === 'CS' ? 'CZ' : languages[l]
+
+		header.main-header
+			.container
+				.d-flex.justify-content-between
+					a.main-header__logo(href="#")
+						img(src=rel+"assets/xolution-logo.svg", alt="logo")
+					a(href="#").nav-hamburger
+						.nav-hamburger__ham
+					nav#nav_main.navigation
+						img(src=rel+"assets/xolution-logo.svg", alt="logo")
+						a.navigation__close(href="#")
+							.navigation__close__cross
+							.navigation__close__cross
+						.navigation__nav-links
+							each link in local.navigation
+								a.navigation__nav-link(href=link.link, class=link.class)= link.label
+
+							div.navigation__nav-link.dropdown.square-purple-filled
 								a.btn.btn-secondary.dropdown-toggle(href="#",role="button",id="dropdownMenuLink",data-toggle="dropdown",aria-haspopup="true",aria-expanded="false")= languages[0] === 'CS' ? 'CZ' : languages[0]
 								div.dropdown-menu(aria-labelledby="dropdownMenuLink")
 									-var l = 0
 									while l < languages.length - 1
 										a.dropdown-item(href=rel + languages[++l])= languages[l] === 'CS' ? 'CZ' : languages[l]
 				.main-header__introduction
-					img(src=rel+"assets/xbot-logo.svg", alt="")
-					h1 !{local.header.intro}
-					h2 !{local.header.subintro}
-				//- a.btn.btn-arrow(href="http://www.xolution.sk/contact-us")= local.header.calc_roi
-				a.btn.btn-arrow(href="#contact")= local.header.try_xbot
+					img.main-image(
+						src=rel+"assets/header-image.png",
+						data-aos="fade-in",
+						data-aos-delay="300",
+						data-aos-duration="400",
+						data-aos-easing="ease-in-out",
+						data-aos-once="true"
+					)
+					.main-header__introduction__images
+						img(src=rel+"assets/xbot-logo.svg", alt="xbot", data-aos="fade-right",
+							data-aos-delay="0",
+							data-aos-duration="300",
+							data-aos-easing="ease-in-out",
+							data-aos-once="true")
+					h1(
+						data-aos="fade-right",
+						data-aos-delay="150",
+						data-aos-duration="300",
+						data-aos-easing="ease-in-out",
+						data-aos-once="true"
+					)
+						b !{local.header.intro_bold}
+						span !{local.header.intro}
 
-		section.bot-facts
+					h2(
+						data-aos="fade-right",
+						data-aos-delay="300",
+						data-aos-duration="300",
+						data-aos-easing="ease-in-out",
+						data-aos-once="true"
+					) !{local.header.subintro}
+					.main-header__introduction__actions
+						a.btn.blue(
+							href="#contactform",
+							data-aos="fade-right",
+							data-aos-delay="600",
+							data-aos-duration="300",
+							data-aos-easing="ease-in-out",
+							data-aos-once="true"
+						)= local.header.call
+						a.btn.purple(
+							href="#casestudies",
+							data-aos="fade-right",
+							data-aos-delay="450",
+							data-aos-duration="300",
+							data-aos-easing="ease-in-out",
+							data-aos-once="true"
+						)= local.header.more_info
+					.main-header__introduction__images
+						img(src=rel+"assets/ms-awards-2021.svg", alt="xbot", data-aos="fade-right",
+							data-aos-delay="750",
+							data-aos-duration="300",
+							data-aos-easing="ease-in-out",
+							data-aos-once="true")
+						img(src=rel+"assets/ms-awards-2019.svg", alt="award", data-aos="fade-right",
+							data-aos-delay="900",
+							data-aos-duration="250",
+							data-aos-easing="ease-in-out",
+							data-aos-once="true")
+
+		section.xbot-brands
 			.container
-				.bot-facts__brief.row
-					.bot-facts__brief__claim.col-md-7
-						h2= local.claims.left.title
-						ul.bot-facts__brief__claim__points
-							each point in local.claims.left.points
-								li= point
-					.bot-facts__brief__quote.col-md-5
-						.bot-facts__brief__quote__quotation
-						.carousel(data-siemainterval=10000)
-							.carousel__container
-								each item in local.claims.right
-									.carousel__item
-										p= item.text
-										strong= item.author
-							ul.carousel__bullets
+				.carousel(
+					data-siemainterval=2000,
+					data-aos="fade-bottom",
+					data-aos-duration="200",
+					data-aos-once="true",
+					data-aos-easing="ease-in-out",
+				)
+					.carousel__container
+						each page in local.brands
+							.carousel__item
+								each item in page.images
+									img(src=rel+item.link, alt=item.alt)
+					ul.carousel__bullets
+				.carousel.single-brand(data-siemainterval=3000)
+					.carousel__container
+						each page in local.brands
+							each item in page.images
+								.carousel__item
+									img(src=rel+item.link, alt=item.alt)
+					ul.carousel__bullets
 
-		section.xbot-portfolio
-			h1= local.portfolio.title
-			.xbot-portfolio__container
-				.xbot-portfolio__items.row
-					- for(var i = 0; i < 4; i++)
-						- var item = local.portfolio.items[i]
-						a(href=(item.link === '#' ? '#' : (htmlWebpackPlugin.options.options.isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'clients/' + item.link + '.html')).xbot-portfolio__item.col-md-6
-							.xbot-portfolio__item__bg(style='background-image: url(' + rel + 'assets/' + item.image + ')')
-							.xbot-portfolio__item__content
-								h2= item.title
-								- if('client' in item)
-									.xbot-portfolio__item__client= item.client
-
-		section#xbot.xbot-features
-			.xbot-features__overlay
-				.xbot-features__title.container
-					.xbot-features__title__effect--left
-					h2 !{local.xbot.title}
-					.xbot-features__title__effect--right
+		section.xbot-compare(
+			data-aos="fade-in"
+		)
 			.container
-				.row.text-center.d-none.d-sm-none.d-lg-flex
-					.col-md-6
-						img(src=rel+"assets/intelligence.png", alt="").xbot-features__header-img.xbot-features__header-img--left
-					.col-md-6
-						img(src=rel+"assets/company.png", alt="").xbot-features__header-img.xbot-features__header-img--right
-				.xbot-features__categories.row
-					each half in ['customer', 'company']
-						- half = local.xbot[half];
-						.xbot-features__categories__category.col-md
-							h3= half.title
-							- //p.xbot-features__categories__category__description= half.description
-							each section in half.sections
-								div.xbot-features__single.align-items-center(onclick="javascript:void(0)")
-									.xbot-features__single__img-holder.align-items-center
-										img(src=rel+'assets/svg/' + section.icon + '.svg', alt='')
-									.xbot-features__single__description
-										h4= section.title
-										div !{section.description}
-				//- hr
-				//-.text-center
-					//-a.btn.btn-purple.btn-purple--ghost(href=local.contactButton.link)= local.contactButton.label
+				.side
+					h2 !{local.compare.old.title}
+					h3 !{local.compare.old.subtitle}
+					.chat-card.old
+						.send-message
+							.content
+								p !{local.compare.old.message.sended}
+							.chat-head
+								img(src=rel+"assets/avatars/Avatar1.png", alt="",style="width:100%").chat-head__sended
+						.receive-message
+							.content
+								p !{local.compare.old.message.received}
+							.chat-head
+								img(src=rel+"assets/avatars/CB.svg", alt="",style="width:100%").chat-head__received
+				.side
+					h2 !{local.compare.new.title}
+					h3 !{local.compare.new.subtitle}
+					.chat-card.new
+						.send-message
+							.content
+								img(src=rel+"assets/icon-circle-play.svg")
+								p !{local.compare.new.message.sended}
+							.chat-head
+								img(src=rel+"assets/avatars/Avatar1.png", alt="Elmhurst Energy",style="width:100%").chat-head__sended
+						.receive-message
+							.content
+								img(src=rel+"assets/icon-circle-play.svg")
+								p !{local.compare.new.message.received}
+							.chat-head
+								img(src=rel+"assets/avatars/X-avatar.svg", alt="Elmhurst Energy",style="width:100%").chat-head__received
 
-		section.xbot_abilities.padded-section
-			h2= local.abilities.title
-			#botAbilities
-				canvas
-				.xbot_abilities__abilities
-					each ability in local.abilities.list
-						div.xbot_abilities__ability
-							span= ability
-			- //div(style="text-align: center")
-				- //img(src="/assets/abilities.jpg", alt="")
-			- //each ability in local.abilities.list
-				- //div= ability
+		section.xbot-review(id="reference", data-aos="fade-in")
+			.container
+				img.quote(src=rel+"assets/review/quote/quote.svg")
+				img.quote(src=rel+"assets/review/quote/quote.svg")
+				.carousel(data-siemainterval=7000)
+					.carousel__container
+						each item in local.review.carousel.items
+							.carousel__item
+								.image
+									if item.image
+										img(src=rel+"assets/review/"+ item.image)
+								.info
+									.comment !{item.comment}
+									.name !{item.person.name}
+									.company !{item.person.company}
+								p !{item.value}
+					ul.carousel__bullets
+
+		section.xbot-usecases.customer(id="usecases", data-aos="fade-in")
+			.container
+				h3 !{local.xbotfor.customers.caption}
+				h2 !{local.xbotfor.customers.title}
+				.carousel-holder
+					.btn.prev(id="siemaPrev1")
+						img(src=rel+"assets/xbotfor/arrow.svg", alt="")
+					.carousel
+						.carousel__container
+							each item in local.xbotfor.customers.carousel.items
+								.carousel__item
+									p !{item.value}
+						ul.carousel__bullets
+					.btn.next(id="siemaNext1")
+						img(src=rel+"assets/xbotfor/arrow.svg", alt="")
+					.progress
+						.progress-bar.progress-bar1(role="progressbar", style="width: 0%;", aria-valuenow="0", aria-valuemin="0", aria-valuemax="100")
+
+				.cards
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.customers.tabs.item1.icon)
+						.card-body
+							p.card-text !{local.xbotfor.customers.tabs.item1.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.customers.tabs.item1.description}
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.customers.tabs.item2.icon)
+						.card-body
+							p.card-text !{local.xbotfor.customers.tabs.item2.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.customers.tabs.item2.description}
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.customers.tabs.item3.icon)
+						.card-body
+							p.card-text !{local.xbotfor.customers.tabs.item3.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.customers.tabs.item3.description}
+
+		section.xbot-ebook(
+			data-aos="fade-in"
+		)
+			img.xlogo(src=rel+"assets/ebook/xbot-logo.svg")
+			img.xlogo(src=rel+"assets/ebook/xbot-logo.svg")
+			.container
+				.title !{local.ebook.title}
+				.subtitle
+					text !{local.ebook.subtitle}
+					b !{local.ebook.boldsubtitle}
+				.input-wrapper
+					.input-group.input.einput(
+						data-aos="fade-up",
+						data-aos-delay="20",
+						data-aos-duration="200",
+						data-aos-easing="ease-in-out",
+						data-aos-anchor-placement="top-bottom"
+					)
+						input.form-control(
+							placeholder=local.ebook.input.placeholder,
+							aria-describedby="ebook-button",
+							id="ebookinput",
+							type="email")
+						.input-group-append
+							button.btn.btn-outline-secondary(type="button",id="ebook-button") !{local.ebook.input.buttontext}
+					.ebookThanks !{local.ebook.thanks}
+				div.invalid-feedback !{local.ebook.invalidfeedback}
+
+
+		section.xbot-usecases.company(data-aos="fade-in")
+			.container
+				h3 !{local.xbotfor.company.caption}
+				h2 !{local.xbotfor.company.title}
+				.title
+				.carousel-holder
+					.btn.prev(id="siemaPrev2")
+						img(src=rel+"assets/xbotfor/arrow.svg", alt="")
+					.carousel
+						.carousel__container
+							each item in local.xbotfor.company.carousel.items
+								.carousel__item
+									p !{item.value}
+						ul.carousel__bullets
+					.btn.next(id="siemaNext2")
+						img(src=rel+"assets/xbotfor/arrow.svg", alt="")
+					.progress
+						.progress-bar.progress-bar2(role="progressbar", style="width: 0%;", aria-valuenow="0", aria-valuemin="0", aria-valuemax="100")
+
+				.cards
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.company.tabs.item1.icon)
+						.card-body
+							p.card-text !{local.xbotfor.company.tabs.item1.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.company.tabs.item1.description}
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.company.tabs.item2.icon)
+						.card-body
+							p.card-text !{local.xbotfor.company.tabs.item2.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.company.tabs.item2.description}
+					.x-card
+						img.card-img-top(src=rel+"assets/xbotfor/"+ local.xbotfor.company.tabs.item3.icon)
+						.card-body
+							p.card-text !{local.xbotfor.company.tabs.item3.title}
+							.delimiter
+							p.card-text.light !{local.xbotfor.company.tabs.item3.description}
+
+		section.xbot-demovideo
+			.container
+				img.stars(src=rel+"assets/demovideo/pattern-demovideo.png")
+				img.stars(src=rel+"assets/demovideo/pattern-demovideo.png")
+				.wrapper
+					.container(style="position:relative")
+						.row.justify-content-center
+							.col-12.col-md-3.text-center.align-self-center.justify-content-end
+								.watch(
+									data-aos="fade-right",
+									data-aos-once="true"
+								) !{local.demovideo.watch}
+							.col-auto.text-center(
+								data-aos="fade-in",
+								data-aos-once="true"
+							)
+								.circle
+									.circle1
+										.circle2
+											img(id="playDemoVideoButton",src=rel+"assets/demovideo/icon-play.svg",data-toggle='modal', data-target='#exampleModalCenter')
+							.col-12.col-md-3.text-center.align-self-center.justify-content-start
+								.demovideotext(
+									data-aos="fade-left",
+									data-aos-once="true"
+								) !{local.demovideo.demovideo}
+					#exampleModalCenter.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true')
+						.modal-dialog.modal-dialog-centered(role='document',style="display:flex;justify-content:center;max-width:792px")
+							.modal-content(style="padding: 0;position:absolute; background: transparent; outline: none; border: none; height: 100%; max-height: 600px;")
+								.modal-body(style="position: relative; padding: 0; display:flex; justify-content: center; align-items:center; background: transparent")
+									button.close(type='button' data-dismiss='modal' aria-label='Close', style="position:absolute;top: 0.8rem;right: 1rem;")
+											span(aria-hidden='true',style="font-size:5rem;color: white;" onclick="player.stopVideo()" ) &times;
+									#videoWrapper
+
+		section.xbot-portfolio(id="casestudies", data-aos="fade-in", data-aos-once="true")
+				h1= local.portfolio.title
+				.container.xbot-portfolio__container
+					.xbot-portfolio__items.row
+						- for(var i = 0; i < 4; i++)
+							- var item = local.portfolio.items[i]
+							a(href=(item.link === '#' ? '#' : (htmlWebpackPlugin.options.options.isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'clients/' + item.link + '.html')).xbot-portfolio__item.col-md-6(data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
+								.xbot-portfolio__item__bg(style='background-image: url(' + rel + 'assets/portfolio/' + item.image + ')')
+								.xbot-portfolio__item__content
+									h2= item.title
+									- if('client' in item)
+										.xbot-portfolio__item__client= item.client
+
+		section.xbot-form(
+			id="contactform"
+			data-aos="fade-in",
+			data-aos-once="true"
+		)
+			.container
+				h3 !{local.formsection.caption}
+				h2 !{local.formsection.title}
+				.table
+					.column.info(
+						data-aos="zoom-in-right",
+						data-aos-once="true"
+					)
+						.informations
+							.info-item
+								img(src=rel+"assets/formsection/icon-check.svg")
+								div !{local.formsection.infoitem1}
+							.info-item
+								img(src=rel+"assets/formsection/icon-check.svg")
+								div !{local.formsection.infoitem2}
+							.info-item
+								img(src=rel+"assets/formsection/icon-check.svg")
+								div !{local.formsection.infoitem3}
+						.person
+							.avatar
+								.image
+									img(src=rel+"assets/formsection/" + local.formsection.person.image)
+							.personinfo
+								b !{local.formsection.person.name}
+								div !{local.formsection.person.company}
+							.signature
+								img(src=rel+"assets/formsection/" + local.formsection.person.signature)
+					.column.form(
+						data-aos="zoom-in-left",
+						data-aos-once="true"
+					)
+						img.background(src=rel+"assets/formsection/pattern-newsletter.png")
+						form.needs-validation(id="formsection")
+							.form-row
+								.item
+									label(for="Name") !{local.formsection.form.Name}
+									input.form-control.form-control-lg(type="text",id="Name",name="Name",required)
+									div.invalid-feedback !{local.formsection.form.nameFeedback}
+								.item
+									label(for="CompanyOrWeb") !{local.formsection.form.CompanyOrWeb}
+									input.form-control.form-control-lg(type="text",id="CompanyOrWeb",name="CompanyOrWeb",required)
+									div.invalid-feedback !{local.formsection.form.CompanyOrWebFeedback}
+								.item
+									label(for="Email") !{local.formsection.form.Email}
+									input.form-control.form-control-lg(type="email",id="Email",name="Mail",required)
+									div.invalid-feedback !{local.formsection.form.EmailFeedback}
+								.item
+									label(for="Phone") !{local.formsection.form.Phone}
+									input.form-control.form-control-lg(type="text",id="Phone",name="Phone",required)
+									div.invalid-feedback !{local.formsection.form.PhoneFeedback}
+								.item
+									label(for="Message") !{local.formsection.form.Message}
+									input.form-control.form-control-lg(type="text",id="Message",name="Message")
+								.item
+									button.btn.formbutton(type="submit") !{local.formsection.form.button}
+							.form-row.formThanks !{local.formsection.form.thanks}
+
+		section.xbot-about-xolution(id="team", data-aos="fade-in", data-aos-once="true")
+			.container
+				img.logo(src=rel+"assets/about/about/" + local.aboutXolution.logo)
+				h3 !{local.aboutXolution.caption}
+				h2 !{local.aboutXolution.title}
+				.accordion(id="about-xolution")
+					each item in local.aboutXolution.items
+						.card(data-aos="zoom-in-up",data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
+							.card-header(id=item.title)
+								h2
+									button.btn(
+										type="button",
+										data-toggle="collapse",
+										data-target="#"+item.id,
+										aria-expanded=item.show ? "true" : "false"
+										aria-controls=item.id
+									) !{item.title}
+							.collapse(id=item.id, class=item.show, aria-labelledby=item.title, data-parent="#about-xolution")
+								.card-body
+									each paragraph in item.paragraphs
+										p !{paragraph}
+
+		section.xbot-about(data-aos="fade-in",data-aos-once="true")
+			img.stars(src=rel+"assets/about/about/pattern-dots.png")
+			img.stars(src=rel+"assets/about/about/pattern-dots.png")
+			.container
+				.aboutcontainer
+					.bubles
+						.buble(
+							data-aos="zoom-out-down",
+							data-aos-delay="0",
+							data-aos-duration="550",
+							data-aos-once="true"
+						)
+							.number !{local.about.about.buble1.number}
+							.text !{local.about.about.buble1.text}
+						.buble(
+							data-aos="zoom-out-down",
+							data-aos-delay="100",
+							data-aos-duration="425",
+							data-aos-once="true"
+						)
+							.number !{local.about.about.buble2.number}
+							.text !{local.about.about.buble2.text}
+						.buble(
+							data-aos="zoom-out-down",
+							data-aos-delay="200",
+							data-aos-once="true"
+						)
+							.number !{local.about.about.buble3.number}
+							.text !{local.about.about.buble3.text}
+					.aboutfooter
+						.text !{local.about.about.footer.text}
+						span
+							img(src=rel+"assets/about/about/" + local.about.about.footer.logo)
+					.aboutfootercaption !{local.about.about.footer.caption}
+						a.aboutfootercaptionlink(href=local.about.about.footer.captionlink) !{local.about.about.footer.captionlinktext}
 
 		section.implementation.padded-section
 			h2 !{local.implementation.title}
@@ -177,64 +537,82 @@ html(lang=local.meta.code)
 							div.implementation__bubble
 								span !{title}
 						- bubbleIdx++;
-		
-		section.successful_bots
-			h2= local.carousel.title
-			.container
-				.carousel--multiple-holder
-					.carousel.carousel--multiple(data-siemainterval=6000)
-						.carousel__container
-							each item in local.carousel.items
-								.carousel__item
-									.claim__author= item.brand
-									p !{item.description}
-						ul.carousel__bullets
 
-		section.implementation-progress.padded-section
-			- section = local.implementation_progress;
-			h2= section.title
-			.implementation-progress__wrapper
-				.implementation-progress__wrapper__scrollable
-					.implementation-progress__chart.row.no-gutters
-						- for(var i = 0; i < 6; i++) {
-							.implementation-progress__chart__stage.col(data-progress=section.phases[i].progress,onclick="javascript:void(0)")
-								.implementation-progress__chart__stage__description= section.phases[i].description
-								if(i < section.phases.length - 1)
-									.implementation-progress__chart__stage__circle
-								.implementation-progress__chart__stage__container
-									h5= section.stage+' '+(i+1)
-									if(i < section.phases.length - 1)
-										.implementation-progress__chart__stage__progress= section.phases[i].progress*100+'%'
-						- }
-					.implementation-progress__map.row.no-gutters
-						.implementation-progress__map__stage.implementation-progress__map__stage--dashed.row.col-6.align-items-center.d-flex
-							.implementation-progress__map__stage.implementation-progress__map__stage--planning.col-4= section.planning
-						.implementation-progress__map__stage.implementation-progress__map__stage--stage-2.row.col-6
-							.implementation-progress__map__stage.implementation-progress__map__stage--green.col-8= section.implementation
-							.implementation-progress__map__stage.implementation-progress__map__stage--yellow.col-4
-								.implementation-progress__map__stage--yellow__inner= section.support
-					//- .implementation-progress__map__no-charge= section.no_charge
-					//- div(style="height: 20px")
-			//- h2.implementation-progress__xbot-future= section.xbot_future
-
-		.xbot_cta#contact
-			.xbot_cta__bg
+		section.xbot-articles(id="articles", data-aos="fade-in", data-aos-once="true")
 			.container
-				h1= local.cta.title
-				h2= local.cta.subtitle
-				a.btn.btn-arrow(href=local.contactButton.link)= local.contactButton.label
+				h2 !{local.about.more.title}
+				.more
+					.card(
+						data-aos="zoom-in-up",
+						data-aos-once="true"
+					)
+						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab1.image,
+								onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')")
+						.card-body
+							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')") !{local.about.more.tab1.title}
+							.card-text !{local.about.more.tab1.text}
+							a.btn(href=local.about.more.tab1.buttonlink) !{local.about.more.tab1.button}
+					.card(
+						data-aos="zoom-in-up",
+						data-aos-once="true"
+					)
+						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab2.image,
+								onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')")
+						.card-body
+							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')") !{local.about.more.tab2.title}
+							.card-text !{local.about.more.tab2.text}
+							a.btn(href=local.about.more.tab2.buttonlink) !{local.about.more.tab2.button}
+					.card(
+						data-aos="zoom-in-up",
+						data-aos-once="true"
+					)
+						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab3.image,
+								onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')")
+						.card-body
+							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')") !{local.about.more.tab3.title}
+							.card-text !{local.about.more.tab3.text}
+							a.btn(href=local.about.more.tab3.buttonlink) !{local.about.more.tab3.button}
+					.card(
+						data-aos="zoom-in-up",
+						data-aos-once="true"
+					)
+						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab4.image,
+								onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')")
+						.card-body
+							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')") !{local.about.more.tab4.title}
+							.card-text !{local.about.more.tab4.text}
+							a.btn(href=local.about.more.tab4.buttonlink) !{local.about.more.tab4.button}
 
-		footer.footer
+		footer.xbot-footer
+			.container.purple
+				a.logo(href="#top")
+					img(src=rel+"assets/xbot-logo.svg", alt="logo")
+				.spacer
+				p Powered by Xolution s.r.o.
+				nav.navigation
+					each link in local.navigation
+						a.navigation__nav-link(class=link.link,href=link.link)= link.label
+		section.xbot-contact-info
 			.container
-				.d-flex.justify-content-between
-					a.footer__logo(href="#top")
-						img(src=rel+"assets/xbot-logo_purple.svg", alt="logo")
-					nav.navigation.pt-4
-						each link in local.navigation
-							a.navigation__nav-link(href=link.link)= link.label
+				.row
+					h2 !{local.footer.contact}
+				.row.info
+					img(src=rel+"assets/xolution-logo-dark.svg", alt="logo")
+					a(href="mailto:xolution@xolution.sk") xolution@xolution.sk
+					p
+						span Tomášikova 37,&nbsp;
+						b Košice
+					p
+						span Na Strži 2102/61a,&nbsp;
+						b Praha
+
+					p IČO: 36 205 338
 
 		a.linkedin-float(title="Xolution LinkedIn", target="_blank", href="https://www.linkedin.com/company/xolution-europe")
 			img(src=rel+"assets/linkedin.png", alt="linkedin")
+
+		button.scrolltop-float(title="Scroll to top")
+			img(src=rel+"assets/up-arrow.png" alt="scrollTop")
 
 		.contact-form
 			.contact-form__content
@@ -254,6 +632,56 @@ html(lang=local.meta.code)
 			a(href='#').contact-form__close
 				img(src=rel+"assets/close-button.svg")
 
+
+		script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+		script.
+			// 2. This code loads the IFrame Player API code asynchronously.
+			var tag = document.createElement('script');
+			tag.src = 'https://www.youtube.com/iframe_api';
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			var overlay = $('<div id="overlay"> <div class="overlay-close"></div> </div>');
+			overlay.appendTo('body').hide();
+
+			$('#playDemoVideoButton').click(function (event) {
+				$('body').css({
+					overflow: 'hidden',
+				});
+				var youtubePlayer = $('<div/>', { id: 'videoWrapper' }).appendTo(overlay);
+				var player;
+
+				player = new YT.Player('videoWrapper', {
+					height: '390',
+					width: '640',
+					videoId: 'r3BLGeMbXDM',
+					events: {
+						onReady: onPlayerReady,
+					},
+				});
+
+				function onPlayerReady(event) {
+					event.target.playVideo();
+				}
+
+				overlay.add(youtubePlayer).show();
+			});
+
+			overlay.on('click', function () {
+				$('body').css({
+					overflow: 'auto',
+				});
+				$('#videoWrapper').remove();
+				overlay.hide();
+			});
+
+			$('a.overlay-close').click(function () {
+				$('body').css({
+					overflow: 'auto',
+				});
+				$('#videoWrapper').remove();
+				overlay.hide();
+			});
 		script(src="https://www.google.com/recaptcha/api.js",async,defer)
 		#recaptcha.g-recaptcha(data-sitekey="6Lf5iWIUAAAAAIfOdZDaTCIW_B2kTR8XNRgnNimR",data-callback="formSubmitFn",data-size="invisible")
 		script(src=rel+"chatbots.js")

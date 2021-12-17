@@ -4,50 +4,76 @@
 		"title": "Viessmann\nV-Bot",
 		"boxes": [
 			"Qualified acquisition\nof new customers",
-			"V-Bot was custom-developed for the Viessmann Group, a leading international manufacturer of heating, industrial, and cooling systems."
+			{
+				"text": "„V-Bot was custom-developed for the Viessmann Group, a leading international manufacturer of heating, industrial, and cooling systems.“",
+				"author": "Miroslav Janda, Generální ředitel Viessmann Slovensko"
+			}
 		]
 	},
-	"client": {
-		"requirementsHeader": "V-Bot's task",
-		"requirements": "The task of V-Bot (aka Viliam Bot) was to select input data from the company's customers so that the company could send customers personalized offers. Its goal was to save the time of company employees who collect customer data by phone, and thus related costs.",
-		"solutionHeader": "What is V-Bot capable of",
-		"solution": [
-			"Communicates in Slovak.",
-			"Collects information on customers and gains new ones.",
-			"Provides analytical overviews and evaluates its success rate.",
-			"Multichannel - can be launched from various pages and channels and remembers customer’s communication history with a particular customer.",
-			"Is connected to the company's IS.",
-			"Communicates with the company‘s web page"
+	"challenge": {
+		"title": "VÝZVA",
+		"paragraphs": [
+			"Viessmann chtěl zautomatizovat kvalifikaci leadů tak, aby nabídky reagovaly na specifické požadavky zákazníků. Zároveň měl V-Bot ulevit technikům od dotazů, které mají jen administrativní charakter a zdržují je od odborné práce. Společnost chtěla poskytnout svým zákazníkům kvalitní zákaznickou podporu a zodpovědět jejich dotazy okamžitě a 24/7. Zákazníky obzvlášť zajímaly informace o dotacích, které se Viessmann rozhodl poskytovat v rámci bezplatného poradenství."
 		]
 	},
-	"process": {
-		"header": "Project results",
-		"background": "none.png",
-		"text": "V-Bot proved that it can cut costs related to customer service and acquisition. In addition, through V-Bot Viessmann increased the visibility of its brand and took its company to the leading edge of technology and innovation, because it was one of the first companies to implement artificial intelligence in the form of a bot."
-	},
-	"project_info": {
-		"length": "2 months",
-		"channels": "Web chat accessible from the web and mobile devices",
-		"language": "Slovak"
+	"solution": {
+		"title": "ŘEŠENÍ",
+		"content": {
+			"strong": "Zanalyzovali jsme témata, která zákazníky opravdu zajímají. Tuto analýzu Viessmann využil k nastavení personalizované komunikace na samotném webu",
+			"paragraph": "V-Bota jsme natrénovali na kvalifikaci zákaznických potřeb a sběr leadů. Na speciální landing page společnosti se stal konzultantem pro oblast dotací. Následně jsme jej naučili poskytovat informace o servisování produktů a pomáhat zákazníkům společnosti orientovat se v komplexní produktové nabídce."
+		},
+		"items": [
+			{
+				"icon": {
+					"src": "icon-chat.png",
+					"alt": ""
+				},
+				"headline": "Odpovídá na",
+				"text": "200+ FAQs otázek zákazníků Viessmann"
+			},
+			{
+				"icon": {
+					"src": "icon-source.png",
+					"alt": ""
+				},
+				"headline": "Rozumí",
+				"text": "5000+ alternativním formulacím otázek"
+			},
+			{
+				"icon": {
+					"src": "icon-web.png",
+					"alt": ""
+				},
+				"headline": "Bot manažer umožňuje",
+				"text": "jednoduchý trénink dalších otázek"
+			}
+		]
 	},
 	"results": {
-		"header": "Outcomes",
-		"text": "for first 2 months",
-		"items":[
-			{"title": "1223", "text":"instances of V-Bot being displayed"},
-			{"title": "709", "text":"conversations with potential customers"},
-			{"title": "74", "text":"requests for quote"}
+		"background": "client-opinion.png",
+		"text": "ZA PRVNÍ DVA MĚSÍCE PROVOZU",
+		"items": [
+			{ "title": "25 000", "text": "krát za měsíc nabídne V-Bot zákazníkům asistenci" },
+			{ "title": "1 000", "text": "zákazníků měsíčne V-Bot pomůže vyřešit dotaz" },
+			{ "title": "40 %", "text": "zákazníků díky V-Botovi zanechá kontakt" }
 		]
 	},
-	"outcomes": [
-		{"title": "Data collection\nand analysis", "text":""},
-		{"title": "Increased\nconversion rate", "text":""},
-		{"title": "Building a comparative advantage\nin the digital age", "text":""},
-		{"title": "Customer\nself-service", "text":""}
-	],
 	"fact":{
-		"image": "Willam.svg",
-		"header": "Did you know that...",
-		"text": "V-Bot has an animated appearance, which makes it more \"human\" and customer-friendly."
+		"image": "xbot-award.svg",
+		"header": "Zajímavost",
+		"text": "Mimořádnost řešení V-Bota dokládá i to, že byl tento produkt oceněn v mezinárodní soutěži Viessmann Awards, a také získal Microsoft Awards za rok 2021!",
+		"msAwards": true
+	},
+	"client_opinion": {
+		"paragraphs": [
+			{
+				"text": "„Naším cílem je vytvářet životní prostor pro budoucí generace a V-Bot se v tomto snažení stal plnohodnotným členem naší Viessmann rodiny na Slovensku. Dokáže nám ulevit od množství práce. Jeho úspěchy nás přesvědčují, že V-Bot je pro nás ta správná cesta.“"
+			},
+			{
+				"type": "strong",
+				"text": "Tomáš Matušovič, Product Manager and support for digital products, Viessmann s.r.o.",
+				"isAuthor": true
+			}
+		]
 	}
 }

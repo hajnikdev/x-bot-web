@@ -16,10 +16,11 @@
 			"Je k dispozícii 24 hodín denne a je vždy v skvelej nálade :o)",
 			"Vyhľadáva v dokumentoch, manuáloch a na webových stránkach spoločnosti.",
 			"Automatizuje firemné procesy."
-		]
+		],
+		"telephone": true
 	},
 	"process": {
-		"background": "process-steps.jpg", 
+		"background": "process-steps.jpg",
 		"steps": [
 			"Náš tím detailne zanalyzoval činnosti a konverzácie, ktoré zamestnanci technickej podpory viedli so svojimi zákazníkmi a partnermi. Na základe týchto dát sme vybrali scenáre pre automatizáciu.",
 			"Následne sme InteliBota postupne učili všetky tieto činnosti a konverzácie perfektne zvládať.",
@@ -38,8 +39,16 @@
 		{"title": "ZNÍŽENIE", "text":"resolution time"}
 	],
 	"client_opinion": {
-		"text": "„Svoju spoluprácu s firmou Xolution sme začali iba nedávno, no od začiatku bolo jasné, že sme naladení na rovnakú vlnovú dĺžku. Sme prekvapení entuziazmom, úsilím, výkonom a profesionalitou všetkých členov ich tímu. Spolupráca na našom projekte X-Bota posúva výkonnosť a angažovanosť celého nášho tímu na vyššiu úroveň.”",
-		"author": "František Poupě, Technical Support a Sales Support Manager, ComAp a.s."
+		"paragraphs": [
+			{
+				"text": "„Svoju spoluprácu s firmou Xolution sme začali iba nedávno, no od začiatku bolo jasné, že sme naladení na rovnakú vlnovú dĺžku. Sme prekvapení entuziazmom, úsilím, výkonom a profesionalitou všetkých členov ich tímu. Spolupráca na našom projekte X-Bota posúva výkonnosť a angažovanosť celého nášho tímu na vyššiu úroveň.”"
+			},
+			{
+				"type": "strong",
+				"text": "František Poupě, Technical Support a Sales Support Manager, ComAp a.s.",
+				"isAuthor": true
+			}
+		]
 	},
 	"client_info": {
 		"text": "ComAp a.s. patrí medzi popredných svetových producentov riadiacich jednotiek generátorov využívaných v nemocniciach, veľkých bankách či baniach. Výrobu týchto nezávislých zdrojov energie podporuje taktiež vlastným rozsiahlym výskumom a vývojom. Celkovo spoločnosť zamestnáva približne 350 ľudí pracujúcich v 10 pobočkách umiestnených v kľúčových regiónoch sveta. Celosvetové pokrytie zaisťuje takisto sieť distribútorov, umožňujúcich spoločnosti vyvážať výrobky do viac ako 105 krajín.",

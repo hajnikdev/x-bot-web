@@ -1,0 +1,88 @@
+{
+	"header": {
+		"background": "header-panel.jpg",
+		"title": "Digitální asistent\npro společnost Xella",
+		"boxes": [
+			"Digitální asistent pomáhá zákazníkům 24/7 a nahrazuje fyzického operátora na chatu.",
+			{
+				"text": "„Po zavedení digitáního asistenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnější.“",
+				"author": "Luděk Suchomel, Marketing Manager CEE, Xella CZ"
+			}
+		]
+	},
+	"challenge": {
+		"background": "challenge.png",
+		"title": "Výzva",
+		"paragraphs": [
+			"Společnost Xella chtěla poskytnout svým zákazníkům nadstandardní zákaznický servis 24/7, což by v případě fyzických operátorů znamenalo náročný 3směnný provoz. Zákazník prémiové značky nemůže čekat na přeplněné lince a zaslouží si najít odpověď na svůj dotaz hned a kdykoliv.",
+			"Xella má navíc poměrně komplexní a sofistikovaný sortiment a pomoc uživatelům s navigováním v jeho nabídce a na webu je pro zákaznickou spokojenost zásadní."
+		]
+	},
+	"solution": {
+		"title": "Řešení",
+		"content": {
+			"strong": "Vytrénovali jsme digitálního asistenta takovým způsobem, aby byl schopný odpovídat na pre-sales, ale také na “care” dotazy, tj. jak konkrétně produkty používat.",
+			"paragraph": "Digitální asistent nabídne zákazníkovi relevantní podstránku, video nebo radu přímo z FAQs a umí odpovídat na přirozeně položené otázky."
+		},
+		"items": [
+			{
+				"icon": {
+					"src": "icon-faq.png",
+					"alt": "Understanding hundreds of types of FAQs and thousands of wordings"
+				},
+				"text": "Porozumění stovkám typů FAQs a tisícům formulací"
+			},
+			{
+				"icon": {
+					"src": "icon-web.png",
+					"alt": "Active web navigation"
+				},
+				"text": "Aktivní navigace na webu"
+			},
+			{
+				"icon": {
+					"src": "icon-source.png",
+					"alt": "Automatic selection of information source"
+				},
+				"text": "Automatický výběr informačního zdroje"
+			}
+		]
+	},
+	"resultsBig": {
+		"background": "lightness.png",
+		"title": "VÝSLEDKY",
+		"items": [
+			{
+				"title": "8 000 x",
+				"text": "měsíčně nabídne digitální asistent pomoc zákazníkům"
+			},
+			{
+				"title": "700",
+				"text": "zákazníků měsíčně YBot pomůže vyřešit dotaz"
+			},
+			{
+				"title": "30 x",
+				"text": "za měsíc YBot vytvoří lead"
+			}
+		],
+		"paragraph": "Po nasazení asistenta se počet konverzací v chatu vedených se zákazníky zvýšil 5x a ve více jak polovině případů se to dělo mimo běžnou pracovní dobu. Díky jeho asistenci se také zkrátil “response time” při řešení technických dotazů."
+	},
+	"award": {
+		"content": "Společnost Xella získala v digitálním asistentovi “všeobjímající nástroj”, díky kterému dokáže být svým zákazníkům blíž a vždy dostane informaci, když se vyskytne nějaký problém."
+	},
+	"client_opinion": {
+		"paragraphs": [
+			{
+				"type": "strong",
+				"text": "„Jsme rádi, že jsme si zvolili digitálního asistenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“"
+			},
+			{
+				"text": "Jan Podbřecký, Marketing specialist, Xella CZ.",
+				"isAuthor": true
+			},
+			{
+				"text": "Nadnárodní koncern Xella International působí v České republice i na Slovensku a zastupuje proslulou značku pórobetonu YTONG. Výrobky značky YTONG jsou na našem trhu velmi dobře známé a oblíbené, představují synonymum medzinárodního stylu, který je moderní a inovativní."
+			}
+		]
+	}
+}

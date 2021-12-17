@@ -1,24 +1,34 @@
 - var localGlobal = htmlWebpackPlugin.options.options.local;
-- var local = htmlWebpackPlugin.options.options.local.subpages.portfolio;
+- var local = htmlWebpackPlugin.options.options.local.subpages;
 - var client = htmlWebpackPlugin.options.options.client;
 - var clientCode = htmlWebpackPlugin.options.options.clientCode;
 - var navigation = htmlWebpackPlugin.options.options.navigation;
 - var languages = htmlWebpackPlugin.options.options.languages;
 - var rel = !htmlWebpackPlugin.options.options.isDefault ? '../../' : '../';
-html(lang="en")
+html(lang=localGlobal.meta.code)
 	head
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		meta(http-equiv="X-UA-Compatible", content="ie=edge")
-		meta(name="author", content="Ivan Sivak@Xolution")
+		meta(name="author", content="Maroš Hajník")
 		meta(name="keywords", content=localGlobal.meta.keywords)
 		meta(name="description", content=localGlobal.meta.description)
+		meta(property='og:url' content=localGlobal.meta.ogURL)
+		meta(property='og:title' content=localGlobal.meta.title)
+		meta(property='og:description' content=localGlobal.meta.description)
+		title !{localGlobal.meta.title}
+
 		link(rel="shortcut icon", href=rel+"assets/favicon.png", type="image/x-icon")
 		link(rel="apple-touch-icon", href=rel+"assets/favicon.png")
-		link(rel="stylesheet", href=rel+"assets/bootstrap.min.css")
+
+		link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		link(rel="stylesheet", href=rel+"main.css")
-		title X-Bot
-		
+
+		script(src=rel+"assets/bootstrap/jquery-3.4.1.slim.min.js")
+		script(src=rel+"assets/bootstrap/popper.min.js")
+		script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js", integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6", crossorigin="anonymous")
+
 		script(async,src="https://www.googletagmanager.com/gtag/js?id=UA-68042186-1")
 
 		script.
@@ -41,11 +51,11 @@ html(lang="en")
 		script.
 			window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());
 			gtag('config', 'AW-785172836');
-			function contactFormOnSubmit() { 
+			function contactFormOnSubmit() {
 				gtag('event', 'conversion', {'send_to': 'AW-785172836/EPMtCJqC1ooBEOSSs_YC'});
 				gtag('event', 'formulara', {'event_category': 'odoslanie','event_label': 'prve'});
 			}
-	body(class='subpage-client client-'+ clientCode)
+	body(class='subpage-client client-' + clientCode)
 		noscript
 			iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-WPDQZS6",height="0",width="0",style="display:none;visibility:hidden")
 		header.client-header(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.header.background + ')')
@@ -55,15 +65,15 @@ html(lang="en")
 						img(src=rel+"assets/xolution-logo.svg", alt="logo")
 					a(href="#").nav-hamburger
 						.nav-hamburger__ham
-					nav#nav_main.navigation.pt-4
+					nav#nav_main.navigation
+						img(src=rel+"assets/xolution-logo.svg", alt="logo")
 						a.navigation__close(href="#")
 							.navigation__close__cross
 							.navigation__close__cross
 						.navigation__nav-links
-							each link in localGlobal.navigation
-								a.navigation__nav-link(href=link.link)= link.label
-							
-							//- .navigation__nav-link
+							each link in local.navigation
+								a.navigation__nav-link(href=link.link, class=link.class)= link.label
+
 							div.navigation__nav-link.dropdown
 								a.btn.btn-secondary.dropdown-toggle(href="#",role="button",id="dropdownMenuLink",data-toggle="dropdown",aria-haspopup="true",aria-expanded="false")= languages[0] === 'CS' ? 'CZ' : languages[0]
 								div.dropdown-menu(aria-labelledby="dropdownMenuLink")
@@ -76,65 +86,131 @@ html(lang="en")
 					h1 !{client.header.title.split('\n').join('<br>')}
 					.client-header__introduction__squares
 						.introduction__square !{client.header.boxes[0].split('\n').join('<br>')}
-						.introduction__square= client.header.boxes[1]
+						if client.header.boxes[1].text
+							.introduction__square
+								span !{client.header.boxes[1].text}
+								if client.header.boxes[1].author
+									p !{client.header.boxes[1].author}
+						else
+							.introduction__square= client.header.boxes[1]
 
-		section.client-requirements
-			.client-container
-				.row
-					.col-md-5
-						h1= (client.client.requirementsHeader ? client.client.requirementsHeader : local.client.requirements)
-						p= client.client.requirements
-					.col-md-7
-						h1= (client.client.solutionHeader ? client.client.solutionHeader : local.client.solution)
-						ul
-							- for (var solution of client.client.solution)
-								li= solution
-				img.client-requirements__phone(src=rel+"assets/clients/"+clientCode+'/telefon.png', alt="")
-		
-		section.client-process(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.process.background + ')')
-			.client-container
-				.row
-					.col-md-6
-						h1= (client.process.header ? client.process.header : local.process.header)
-						.dashed-arrow
-							.dashed-arrow__line
-							.dashed-arrow__triangle
-					.col-md-6
-						if client.process.steps
+		if client.challenge
+			if client.challenge.background
+				section.client-challenge(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.challenge.background + ')')
+					.container
+						h1 !{client.challenge.title}
+						.challenge__content
+							each paragraph in client.challenge.paragraphs
+								p !{paragraph}
+			else
+				section.client-challenge
+					.container
+						h1 !{client.challenge.title}
+						.challenge__content
+							each paragraph in client.challenge.paragraphs
+								p !{paragraph}
+
+		if client.client
+			section.client-requirements
+				.client-container
+					.row
+						.col-md-5
+							h1= (client.client.requirementsHeader ? client.client.requirementsHeader : local.portfolio.client.requirements)
+							p= client.client.requirements
+						.col-md-7
+							h1= (client.client.solutionHeader ? client.client.solutionHeader : local.portfolio.client.solution)
 							ul
-								- var idx = 0;
-								- for (var step of client.process.steps)
-									- idx++;
-									li
-										div.client-process__step= idx + '.'
-										|!{step}
-						if client.process.text
-							p= client.process.text
+								- for (var solution of client.client.solution)
+									li= solution
 
-		section.project-info
-			.client-container
-				- var icons = local.project_info.categories
-				.row
-					- for (var infoCategory in client.project_info)
-						.project-info__info.col-md-4
-							img(src=rel+"assets/"+icons[infoCategory].image, alt="")
-							h4= icons[infoCategory].title
-							h1= client.project_info[infoCategory]
-		if client.results
-			section.results
+					if client.client.telephone
+						img.client-requirements__phone(src=rel+"assets/clients/"+clientCode+'/telefon.png', alt="")
+
+		if client.process && local.portfolio
+			section.client-process(style='background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.process.background + ')')
+				.client-container
+					.row
+						.col-md-6
+							h1= (client.process.header ? client.process.header : local.portfolio.process.header)
+							.dashed-arrow
+								.dashed-arrow__line
+								.dashed-arrow__triangle
+						.col-md-6
+							if client.process.steps
+								ul
+									- var idx = 0;
+									- for (var step of client.process.steps)
+										- idx++;
+										li
+											div.client-process__step= idx + '.'
+											|!{step}
+							if client.process.text
+								p= client.process.text
+
+		if client.solution
+			section.client-solution(
+				style=client.solution.background ? 'background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.solution.background + ')' : null
+			)
 				.container
-					h1= (client.results.header ? client.results.header : local.results.header)
+					h1 !{client.solution.title}
+					.dashed-arrow
+						.dashed-arrow__line
+						.dashed-arrow__triangle
+					.solution__content
+						strong !{client.solution.content.strong}
+						p !{client.solution.content.paragraph}
+				.solution-info-container
+					.row
+						each item in client.solution.items
+							.solution-info__info.col-md-4
+								img(src=rel+"assets/clients/"+clientCode+"/"+item.icon.src, alt=item.icon.alt)
+								if item.headline
+									h3 !{item.headline}
+								h4 !{item.text}
+
+		if client.project_info && local.portfolio.project_info.categories
+			section.project-info
+				.client-container
+					- var icons = local.portfolio.project_info.categories
+					.row
+						- for (var infoCategory in client.project_info)
+							.project-info__info.col-md-4
+								img(src=rel+"assets/"+icons[infoCategory].image, alt="")
+								h4= icons[infoCategory].title
+								h1= client.project_info[infoCategory]
+
+		if client.results
+			section.results(
+				style=client.results.background ? 'background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.results.background + ')' : null
+			)
+				.container
+					h1= (client.results.header ? client.results.header : local.portfolio.results.header)
 					p= client.results.text
 					.results-container.row
 						- for (var result of client.results.items)
 							.result.col-md-4
 								h4= result.title
 								p= result.text
+		if client.resultsBig
+			section.client-result-big(
+				style=client.resultsBig.background ? 'background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.resultsBig.background + ')' : null
+			)
+				.container
+					h1 !{client.resultsBig.title}
+					.result-info-container
+						.row
+							each item in client.resultsBig.items
+								.result-info__info.col-md-4
+									h1 !{item.title}
+									h4 !{item.text}
+					.result__content
+						p !{client.resultsBig.paragraph}
+
 		if client.outcomes
 			section.outcomes
 				.container
 					.results-container
-						h1= local.outcomes.header
+						h1= local.portfolio.outcomes.header
 						- for (var result of client.outcomes)
 							.result
 								.result-container
@@ -146,15 +222,37 @@ html(lang="en")
 				.container
 					if client.fact.image
 						img(src=rel+"assets/clients/"+clientCode+'/'+client.fact.image, alt="")
-					h1= local.fact.header
+					h1= local.portfolio.fact.header
 					p= client.fact.text
+					if client.fact.msAwards
+						img.ms-award(src=rel+"assets/ms-awards-2021.svg", alt="")
+
+		if client.award
+			section.client-award(
+				style=client.award.background ? 'background-image:url(' + rel + 'assets/clients/' + clientCode + '/' + client.award.background + ')' : null
+			)
+				.container
+					h1 !{client.award.title}
+					if client.award.content
+						.award__content !{client.award.content}
+					if client.award.items
+						.award__content
+							each item in client.award.items
+								p !{item}
+
 		if client.client_opinion
 			section.client-opinion
 				.container
-					h1= local.client_opinion.header
+					h1= local.portfolio.client_opinion.header
 					.client-opinion__content
-						p= client.client_opinion.text
-						strong.client-opinion__author= client.client_opinion.author
+						if client.client_opinion.paragraphs
+							each item in client.client_opinion.paragraphs
+								if item.type && item.type == "strong"
+									p(style=(item.isAuthor ? "margin-bottom: 2em": ""))
+										strong.client-opinion__author !{item.text}
+								else
+									p(style=(item.isAuthor ? "margin-bottom: 2em": "")) !{item.text}
+
 		if client.client_info
 			section.client-info
 				.client-info__presentation
@@ -166,38 +264,39 @@ html(lang="en")
 		if client.whats_next
 			section.portfolio-whats-next
 				.container
-					h1= local.whats_next.header
+					h1= local.portfolio.whats_next.header
 					p !{client.whats_next.text.split('\n').join('<br>')}
 
 		section.portfolio-cta
 			.portfolio-cta__content
 				.row
 					.col-md-5
-						h1= local.cta.title
+						h1= local.portfolio.cta.title
 						.dashed-arrow
 							.dashed-arrow__line
 							.dashed-arrow__triangle
 					.col-md-7
 						a(href='#contact')
-							span= local.cta.write
+							span= local.portfolio.cta.write
 						a(href='#contact')
-							span= local.cta.call
+							span= local.portfolio.cta.call
 
 		section.portfolio-navigation
 			.client-container
 				.row
 					.col-md-6.text-center.text-md-left
-						a(href=navigation[0] + '.html') !{local.navigation_article.prev}
+						a(href=navigation[0] + '.html') !{local.portfolio.navigation_article.prev}
 					.col-md-6.text-center.text-md-right
-						a(href=navigation[1] + '.html') !{local.navigation_article.next}
+						a(href=navigation[1] + '.html') !{local.portfolio.navigation_article.next}
 
-		footer.footer
+		footer.xbot-footer
 			.container
-				.d-flex.justify-content-between
-					a.footer__logo(href="#top")
-						img(src=rel+"assets/xbot-logo_purple.svg", alt="logo")
-					nav.navigation.pt-4
-						each link in localGlobal.navigation
+				a.logo(href="#top")
+					img(src=rel+"assets/xbot-logo_purple.svg", alt="logo")
+				.spacer
+				p Powered by Xolution s.r.o.
+				nav.navigation
+					each link in local.navigation
 							a.navigation__nav-link(href=link.link)= link.label
 
 		a.linkedin-float(title="Xolution LinkedIn", target="_blank", href="https://www.linkedin.com/company/xolution-europe")
@@ -221,4 +320,5 @@ html(lang="en")
 			a(href='#').contact-form__close
 				img(src=rel+"assets/close-button.svg")
 
+		script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
 		script(src=rel+"chatbots.js")

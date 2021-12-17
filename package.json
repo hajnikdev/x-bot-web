@@ -13,7 +13,7 @@
     "website",
     "marketing"
   ],
-  "author": "Ivan Sivak",
+  "author": "Maroš Hajník",
   "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^4.4.1",
