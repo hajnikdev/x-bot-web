@@ -1,27 +1,27 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "Digitální asistent\npro Onio",
+		"title": "Digitálny asistent\npre Onio",
 		"boxes": [
-			"Xolution digitální asistent usnadňuje operátorům zákaznické podpory v eShopu Onio zvládat narůstající počet kontaků, a ulevuje jim tak od opakujících se činností.",
+			"Xolution digitálny asistent uľahčuje operátorom zákazníckej podpory v e-shope Onio zvládať narastajúci počet kontaktov, a uľavuje im tak od opakujúcich sa činností.",
 			{
-				"text": "„Digitální asistent nám vyřeší 80% chatů. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špiček.“",
-				"author": "Tereza Přibylová, Manažér zákaznické péče ONIO"
+				"text": "„Digitálny asistent nám vyrieši 80% chatov. Po jeho zavedení sme našim zákazníkom nepretržite k dispozícii aj v čase špičiek.“",
+				"author": "Tereza Přibylová, Manažér zákazníckej starostlivosti ONIO"
 			}
 		]
 	},
 	"challenge": {
 		"title": "VÝZVA",
 		"paragraphs": [
-			"Úkolem digitálního asistenta pro Onio bylo vyladit péči o zákazníky s cílem zvládnout rostoucí objem dotazů, zlepšit zákaznickou zkušenost a nabídnout automatické možnosti samoobsluhy 24 hodin denně, 7 dní v týdnu."
+			"Úlohou digitálneho asistenta pre Onio bolo vyladiť starostlivosť o zákazníkov s cieľom zvládnuť rastúci objem otázok, zlepšiť zákaznícku skúsenosť a ponúknuť automatické možnosti samoobsluhy 24 hodín denne, 7 dní v týždni."
 		]
 	},
 	"solution": {
 		"background": "tire-casing.png",
-		"title": "Řešení",
+		"title": "RIEŠENIE",
 		"content": {
-			"strong": "Zprovoznili jsme pro Onio digitálního asistenta, který odpovídá na otázky zákazníků a jehož schopnost porozumět se každý měsíc automaticky zdokonaluje.",
-			"paragraph": "Onio operátor sám a jednoduše asistenta trénuje a učí ho novým otázkám. Pokud asistent ještě není na otázku “natrénovan”, automaticky předá dotaz operátorovi. Tak je zaručeno, že zákazník bude vždy obsloužen."
+			"strong": "Sprevádzkovali sme pre Onio digitálneho asistenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
+			"paragraph": "Onio operátor sám a jednoducho asistenta trénuje a učí ho novým otázkam. Pokiaľ asistent ešte nie je na otázku “natrénovaný”, automaticky odovzdá dopyt operátorovi. Tak je zaručené, že zákazník bude vždy obslúžený."
 		},
 		"items": [
 			{
@@ -29,21 +29,21 @@
 					"src": "icon-search.png",
 					"alt": ""
 				},
-				"text": "Vyhledává na webu"
+				"text": "Vyhľadáva na webe"
 			},
 			{
 				"icon": {
 					"src": "icon-chat.png",
 					"alt": ""
 				},
-				"text": "Rozumí souvětím"
+				"text": "Rozumie súvetiam"
 			},
 			{
 				"icon": {
 					"src": "icon-direction.png",
 					"alt": ""
 				},
-				"text": "Nepřetržitě se zdokonaluje"
+				"text": "Nepretržite sa zdokonaľuje"
 			}
 		]
 	},
@@ -53,44 +53,44 @@
 		"items": [
 			{
 				"title": "630x",
-				"text": "za měsíc pomůže bot zákazníkům zodpovědet dotaz"
+				"text": "za mesiac pomôže bot zákazníkom zodpovedať otázku"
 			},
 			{
 				"title": "83 %",
-				"text": "konverzací obslouží digitální asistent bez pomoci fyzického operátora"
+				"text": "konverzácií obslúži digitálny asistent bez pomoci fyzického operátora"
 			},
 			{
 				"title": "300x",
-				"text": "za měsíc pomůže zákazníkům po pracovní době"
+				"text": "za mesiac pomôže zákazníkom po pracovnej dobe"
 			}
 		],
-		"paragraph": "Xolution digitální asistent umožňuje firmě Onio ustávat návaly dotazů v čase špiček a zabezpečit kvalitní zákaznický servis. Operátoři tak nejsou “bombardováni” otázkami a mají čas se soustředit na konzultační dotazy zákazníků."
+		"paragraph": "Xolution digitálny asistent umožňuje firme Onio ustávať návaly otázok v čase špičiek a zabezpečiť kvalitný zákaznícky servis. Operátori tak nie sú \"bombardovaní\" otázkami a majú čas sa sústrediť na konzultačné otázky zákazníkov."
 	},
 	"award": {
 		"background": "future.png",
-		"title": "A BUDOUCNOST?",
+		"title": "A BUDÚCNOSŤ?",
 		"items": [
-			"Chceme naučit digitálního asistenta pomáhat při tvorbě cenové nabídky, a tak ho vytrénovat i na sběr leadů.",
-			"Dalším krokem bude jeho propojení s e-shop systémem, aby mohl zákazníky informovat o stavu jejich objednávek a případně je měnit.",
-			"S naší pomocí pak Onio plánuje spustit nový e-shop obsluhovaný pouze digitálním asistentem, tj. zcela bez lidské podpory."
+			"Chceme naučiť digitálneho asistenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
+			"Ďalším krokom bude jeho prepojenie s e-shop systémom, aby mohol zákazníkov informovať o stave ich objednávok a prípadne ich meniť.",
+			"S našou pomocou potom Onio plánuje spustiť nový e-shop obsluhovaný iba digitálnym asistentom, t.j. úplne bez ľudskej podpory."
 		]
 	},
 	"client_opinion": {
 		"paragraphs": [
 			{
 				"type": "strong",
-				"text": "„Už si neumím představit, jak bychom fungovali bez bota!“"
+				"text": "„Už si neviem predstaviť, ako by sme fungovali bez bota!“"
 			},
 			{
-				"text": "„S digitálním asistentem jsme tak spokojeni, že plánujeme zavést automatizaci i na další naše weby. Našim cílem je spustit na našich webech plně automatizovaný chat a tak získat možnost věnovat našim zákazníkům se speciálními dotazy osobní péči efektivněji.“"
+				"text": "„S digitálnym asistentom sme tak spokojní, že plánujeme zaviesť automatizáciu aj na ďalšie naše weby. Našim cieľom je spustiť na našich weboch plne automatizovaný chat a tak získať možnosť venovať našim zákazníkom so špeciálnymi otázkami osobnú starostlivosť efektívnejšie.“"
 			},
 			{
 				"type": "strong",
-				"text": "Tereza Přibylová, ONIO, manažer zákaznické podpory",
+				"text": "Tereza Přibylová, ONIO, manažér zákazníckej podpory",
 				"isAuthor": true
 			},
 			{
-				"text": "Společnost ONIO s.r.o. provozuje specializované internetové obchody a oborové portály a pod tímto jménem působí na trhu už od roku 2006. Jeden z jejích internetových obchodů Pneumatiky.cz se pravidelně umisťuje na předních žebříčcích v prestižních soutěžích Shop roku a WebTop100."
+				"text": "Spoločnosť ONIO s.r.o. prevádzkuje špecializované internetové obchody a odborové portály a pod týmto menom pôsobí na trhu už od roku 2006. Jeden z jej internetových obchodov Pneumatiky.cz sa pravidelne umiestňuje na popredných rebríčkoch v prestížnych súťažiach Shop roku a WebTop100."
 			}
 		]
 	}

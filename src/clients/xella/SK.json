@@ -1,50 +1,50 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "Digitální asistent\npro společnost Xella",
+		"title": "Digitálny asistent\npre spoločnosť Xella",
 		"boxes": [
-			"Digitální asistent pomáhá zákazníkům 24/7 a nahrazuje fyzického operátora na chatu.",
+			"Digitálny asistent pomáha zákazníkom 24/7 a nahrádza fyzického operátora na chate.",
 			{
-				"text": "„Po zavedení digitáního asistenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnější.“",
+				"text": "„Po zavedení digitálneho asistenta je komunikácia s našimi zákazníkmi intenzívnejšia a náš customer support efektívnejší.“",
 				"author": "Luděk Suchomel, Marketing Manager CEE, Xella CZ"
 			}
 		]
 	},
 	"challenge": {
 		"background": "challenge.png",
-		"title": "Výzva",
+		"title": "VÝZVA",
 		"paragraphs": [
-			"Společnost Xella chtěla poskytnout svým zákazníkům nadstandardní zákaznický servis 24/7, což by v případě fyzických operátorů znamenalo náročný 3směnný provoz. Zákazník prémiové značky nemůže čekat na přeplněné lince a zaslouží si najít odpověď na svůj dotaz hned a kdykoliv.",
-			"Xella má navíc poměrně komplexní a sofistikovaný sortiment a pomoc uživatelům s navigováním v jeho nabídce a na webu je pro zákaznickou spokojenost zásadní."
+			"Spoločnosť Xella chcela poskytnúť svojim zákazníkom nadštandardný zákaznícky servis 24/7, čo by v prípade fyzických operátorov znamenalo náročnú 3-smennú prevádzku. Zákazník prémiovej značky nemôže čakať na preplnenej linke a zaslúži si nájsť odpoveď na svoju otázku hneď a kedykoľvek.",
+			"Xella má navyše pomerne komplexný a sofistikovaný sortiment a pomoc používateľom s navigovaním v jeho ponuke a na webe je pre zákaznícku spokojnosť zásadná."
 		]
 	},
 	"solution": {
-		"title": "Řešení",
+		"title": "RIEŠENIE",
 		"content": {
-			"strong": "Vytrénovali jsme digitálního asistenta takovým způsobem, aby byl schopný odpovídat na pre-sales, ale také na “care” dotazy, tj. jak konkrétně produkty používat.",
-			"paragraph": "Digitální asistent nabídne zákazníkovi relevantní podstránku, video nebo radu přímo z FAQs a umí odpovídat na přirozeně položené otázky."
+			"strong": "Vytrénovali sme digitálneho asistenta takým spôsobom, aby bol schopný odpovedať na pre-sales, ale aj na „care“ otázky, t.j. ako konkrétne produkty používať.",
+			"paragraph": "Digitálny asistent ponúkne zákazníkovi relevantnú podstránku, video alebo radu priamo z FAQs a vie odpovedať na prirodzene položené otázky."
 		},
 		"items": [
 			{
 				"icon": {
 					"src": "icon-faq.png",
-					"alt": "Understanding hundreds of types of FAQs and thousands of wordings"
+					"alt": "Porozumenie stovkám typov FAQs a tisícom formulácií"
 				},
-				"text": "Porozumění stovkám typů FAQs a tisícům formulací"
+				"text": "Porozumenie stovkám typov FAQs a tisícom formulácií"
 			},
 			{
 				"icon": {
 					"src": "icon-web.png",
-					"alt": "Active web navigation"
+					"alt": "Aktívna navigácia na webe"
 				},
-				"text": "Aktivní navigace na webu"
+				"text": "Aktívna navigácia na webe"
 			},
 			{
 				"icon": {
 					"src": "icon-source.png",
-					"alt": "Automatic selection of information source"
+					"alt": "Automatický výber informačného zdroja"
 				},
-				"text": "Automatický výběr informačního zdroje"
+				"text": "Automatický výber informačného zdroja"
 			}
 		]
 	},
@@ -54,34 +54,34 @@
 		"items": [
 			{
 				"title": "8 000 x",
-				"text": "měsíčně nabídne digitální asistent pomoc zákazníkům"
+				"text": "mesačne ponúkne digitálny asistent pomoc zákazníkom"
 			},
 			{
 				"title": "700",
-				"text": "zákazníků měsíčně YBot pomůže vyřešit dotaz"
+				"text": "zákazníkom mesačne YBot pomôže vyriešiť otázku"
 			},
 			{
 				"title": "30 x",
-				"text": "za měsíc YBot vytvoří lead"
+				"text": "za mesiac YBot vytvorí lead"
 			}
 		],
-		"paragraph": "Po nasazení asistenta se počet konverzací v chatu vedených se zákazníky zvýšil 5x a ve více jak polovině případů se to dělo mimo běžnou pracovní dobu. Díky jeho asistenci se také zkrátil “response time” při řešení technických dotazů."
+		"paragraph": "Po nasadení asistenta sa počet konverzácií v chate vedených so zákazníkmi zvýšil 5x a vo viac ako polovici prípadov sa to dialo mimo bežného pracovného času. Vďaka jeho asistencii sa tiež skrátil \"response time\" pri riešení technických otázok."
 	},
 	"award": {
-		"content": "Společnost Xella získala v digitálním asistentovi “všeobjímající nástroj”, díky kterému dokáže být svým zákazníkům blíž a vždy dostane informaci, když se vyskytne nějaký problém."
+		"content": "Spoločnosť Xella získala v digitálnom asistentovi \"všeobjímajúci nástroj\", vďaka ktorému dokáže byť svojim zákazníkom bližšie a vždy dostane informáciu, keď sa vyskytne nejaký problém."
 	},
 	"client_opinion": {
 		"paragraphs": [
 			{
 				"type": "strong",
-				"text": "„Jsme rádi, že jsme si zvolili digitálního asistenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“"
+				"text": "„Sme radi, že sme si zvolili digitálneho asistenta od Xolution a že spoločne pracujeme s prelomovou technológiou. Veríme, že sa nám tak podarí ísť s trendmi v digitalizácii a dlhodobo zvyšovať konkurencieschopnosť našej firmy v tomto rýchlom svete.“"
 			},
 			{
 				"text": "Jan Podbřecký, Marketing specialist, Xella CZ.",
 				"isAuthor": true
 			},
 			{
-				"text": "Nadnárodní koncern Xella International působí v České republice i na Slovensku a zastupuje proslulou značku pórobetonu YTONG. Výrobky značky YTONG jsou na našem trhu velmi dobře známé a oblíbené, představují synonymum medzinárodního stylu, který je moderní a inovativní."
+				"text": "Nadnárodný koncern Xella International pôsobí v Českej republike aj na Slovensku a zastupuje preslávenú značku pórobetónu YTONG. Výrobky značky YTONG sú na našom trhu veľmi dobre známe a obľúbené, predstavujú synonymum medzinárodného štýlu, ktorý je moderný a inovatívny."
 			}
 		]
 	}
