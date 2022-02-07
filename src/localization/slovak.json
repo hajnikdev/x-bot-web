@@ -35,7 +35,7 @@
 	],
 	"header": {
 		"tagline": "Procesná automatizácia. Creativity for people.",
-		"intro_bold": "Digitálny asistent pre customer servis ",
+		"intro_bold": "Virtuálny agent pre customer servis ",
 		"intro": "s porozumením prirodzenému ľudskému jazyku",
 		"subintro": "Automatizuje až 65% konverzácií zákazníkov v eCommerce a zvyšuje konkurencieschopnosť eShopov.",
 		"more_info": "Case studies",
@@ -93,7 +93,7 @@
 			}
 		},
 		"new": {
-			"title": "Digitálny asistent X-bot",
+			"title": "Virtuálny agent X-bot",
 			"subtitle": "Porozumenie prirodzenému jazyku",
 			"message": {
 				"sended": "Dobrý deň, tu je Anna. Pri kontrole objednávky 591628 som zistila chybu v adrese dodania. Dodanie požadujem na firemnú adresu a nie na fakturačnú adresu.",
@@ -204,7 +204,7 @@
 			"tabs": {
 				"item1": {
 					"icon": "company/icon-cloud.svg",
-					"title": "Virtuálny asistent na vašom chate",
+					"title": "Virtuálny agent na vašom chate",
 					"description": "Sám vyrieši až 65% konverzácií"
 				},
 				"item2": {
@@ -378,25 +378,25 @@
 			{
 				"link": "onio",
 				"image": "case-onio.jpg",
-				"title": "Digitálny asistent",
+				"title": "Virtuálny agent",
 				"client": "Onio"
 			},
 			{
 				"link": "xella",
 				"image": "case-xella.jpg",
-				"title": "Digitálny asistent",
+				"title": "Virtuálny agent",
 				"client": "Xella"
 			},
 			{
 				"link": "viessmann",
 				"image": "case-viessmann.jpg",
-				"title": "Digitálny asistent",
+				"title": "Virtuálny agent",
 				"client": "Viessmann"
 			},
 			{
 				"link": "comap",
 				"image": "case-comap.jpg",
-				"title": "Customer Care Bot",
+				"title": "Virtuálny agent",
 				"client": "ComAp"
 			}
 		]
@@ -437,7 +437,7 @@
 				"show": "show",
 				"title": "Prečo kybernetici tvrdia, že sme sa určite zbláznili?",
 				"paragraphs": [
-					"Už 4 roky staviame v brutálnej kvalite digitálnych asistentov neprebádanou architektúrou kybernetiky. Nikto iný to takto nerobí.",
+					"Už 4 roky staviame v brutálnej kvalite virtuálnych agentov neprebádanou architektúrou kybernetiky. Nikto iný to takto nerobí.",
 					"Jasne, každý hovorí, že má unikátnu technológiu. Ako je to s Xolution naozaj?",
 					"Realita je taká, že sme kybernetickí rebeli a úmyselne nepoužívame buzzwords AI a machine learning. Za nás hovoria výsledky."
 				]
@@ -457,17 +457,17 @@
 				"paragraphs": [
 					"To znejú ako dosť nízke ambície, malý trh, …. .",
 					"Tieto dva jazyky nám teraz úplne stačia pre vývoj niečoho grandiózneho.",
-					"Sme kúsok od toho dokončiť to a ako prví na svete vytvoriť globálneho digitálneho asistenta, ktorý sa neustále sám zlepšuje v akomkoľvek jazyku. Musíme ho ale najskôr vyladiť v jazyku nám blízkom.",
+					"Sme kúsok od toho dokončiť to a ako prví na svete vytvoriť globálneho virtuálneho agenta, ktorý sa neustále sám zlepšuje v akomkoľvek jazyku. Musíme ho ale najskôr vyladiť v jazyku nám blízkom.",
 					"To nám umožní obratom, automaticky škálovať do každého jazyka na svete."
 				]
 			},
 			{
 				"id": "item-4",
-				"title": "Ako je možné, že digitálni asistenti u konkurencie stoja státisíce dolárov a X-Bot je za zlomok ceny?",
+				"title": "Ako je možné, že virtuálni agenti u konkurencie stoja státisíce dolárov a X-Bot je za zlomok ceny?",
 				"paragraphs": [
 					"Iné riešenia sú buď drahé, pretože produkt je komplikovaný, alebo lacné a nepoužiteľné. Vďaka elegantnému twistu v architektúre produktu sa nám podarilo zvýšiť kvalitu porozumenia a to za súčasného zníženia nákladov na implementáciu. Takže si dnes aj bežný zamestnanec supportu dokáže natrénovať digitálneho asistenta v kvalite, ktorú si doteraz mohli dovoliť iba korporáty.",
 					"Navyše kvalita porozumenia nepretržite rastie.",
-					"Každý klient totiž naučí nášho core digitálneho asistenta niečo nové a ten túto skúsenosť automaticky používa pri tom ďalšom.",
+					"Každý klient totiž naučí nášho core virtuálneho agenta niečo nové a ten túto skúsenosť automaticky používa pri tom ďalšom.",
 					"Tak je postavený od prvého dňa, sám seba automaticky vylepšuje."
 				]
 			}

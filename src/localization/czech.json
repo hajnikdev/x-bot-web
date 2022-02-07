@@ -35,7 +35,7 @@
 	],
 	"header": {
 		"tagline": "Process automation. Creativity for people.",
-		"intro_bold": "Digitální asistent pro customer servis ",
+		"intro_bold": "Virtuální agent pro customer servis ",
 		"intro": "s porozuměním přirozenému lidskému jazyku",
 		"subintro": "Automatizuje až 65% konverzací zákazníků v eCommerce a zvyšuje konkurenceschopnost eShopů.",
 		"more_info": "Case studies",
@@ -93,7 +93,7 @@
 			}
 		},
 		"new": {
-			"title": "Digitální asistent X-Bot",
+			"title": "Virtuální agent X-Bot",
 			"subtitle": "Porozumění přirozenému jazyku",
 			"message": {
 				"sended": "Dobrý den, tady je Anna. Při kontrole objednávky 591628 jsem zjistila chybu v adrese dodání. Dodání požaduji na firemní, a ne na fakturační adresu.",
@@ -195,7 +195,7 @@
 			"tabs": {
 				"item1": {
 					"icon": "company/icon-cloud.svg",
-					"title": "Virtuální operátor na vašem chatu",
+					"title": "Virtuální agent na vašem chatu",
 					"description": "Sám vyřeší až 65% konverzací"
 				},
 				"item2": {
@@ -361,25 +361,25 @@
 			{
 				"link": "onio",
 				"image": "case-onio.jpg",
-				"title": "Digitální asistent",
+				"title": "Virtuální agent",
 				"client": "Onio"
 			},
 			{
 				"link": "xella",
 				"image": "case-xella.jpg",
-				"title": "Digitální asistent",
+				"title": "Virtuální agent",
 				"client": "Xella"
 			},
 			{
 				"link": "viessmann",
 				"image": "case-viessmann.jpg",
-				"title": "Digitální asistent",
+				"title": "Virtuální agent",
 				"client": "Viessmann"
 			},
 			{
 				"link": "comap",
 				"image": "case-comap.jpg",
-				"title": "Customer Care Bot",
+				"title": "Virtuální agent",
 				"client": "ComAp"
 			}
 		]
@@ -420,7 +420,7 @@
 				"show": "show",
 				"title": "Proč kybernetici tvrdí, že jsme se určitě zbláznili?",
 				"paragraphs": [
-					"Už 4 roky stavíme v brutální kvalitě digitální asistenty neprobádanou architekturou kybernetiky. Nikdo jiný to takto nedělá.",
+					"Už 4 roky stavíme v brutální kvalitě virtuální agenty neprobádanou architekturou kybernetiky. Nikdo jiný to takto nedělá.",
 					"Jasně, každý říká, že má unikátní technologii. Jak je to s Xolution doopravdy?",
 					"Realita je taková, že jsme kybernetičtí rebelové a úmyslně nepoužíváme buzzwords AI a machine learning. Za nás hovoří výsledky."
 				]
@@ -440,17 +440,17 @@
 				"paragraphs": [
 					"To zní jako dost nízké ambice, malý trh, …. .",
 					"Tyto dva jazyky nám nyní úplně stačí pro vývoj něčeho grandiózního.",
-					"Jsme kousek od toho dokončit to a jako první na světě vytvořit globálního digitálního asistenta, který se neustále sám zlepšuje v jakémkoliv jazyce. Musíme ho ale nejdřív  vyladit v jazyce nám blízkému.",
+					"Jsme kousek od toho dokončit to a jako první na světě vytvořit globálního virtuálního agenta, který se neustále sám zlepšuje v jakémkoliv jazyce. Musíme ho ale nejdřív  vyladit v jazyce nám blízkému.",
 					"To nám umožní obratem, automaticky škálovat do každého jazyka na světě."
 				]
 			},
 			{
 				"id": "item-4",
-				"title": "Jak je možné, že digitální asistenti u konkurence  stojí statisíce dolarů a X-Bot je za zlomek ceny?",
+				"title": "Jak je možné, že virtuální agenty u konkurence stojí statisíce dolarů a X-Bot je za zlomek ceny?",
 				"paragraphs": [
 					"Jiná řešení jsou buď drahá, protože produkt je komplikovaný, nebo levná a nepoužitelná. Díky elegantnímu twistu v architektuře produktu se nám podařilo zvýšit kvalitu porozumění a to za současného snížení nákladů na implementaci. Takže si dnes i běžný zaměstnanec supportu dokáže natrénovat bota v kvalitě, kterou si dosud mohly dovolit jen korporáty.",
 					"Navíc kvalita porozumění nepřetržitě roste.",
-					"Každý klient totiž naučí našeho core digitálního asistenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
+					"Každý klient totiž naučí našeho core virtuálního agenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
 					"Tak je postaven od prvního dne, sám sebe automaticky vylepšuje."
 				]
 			}
