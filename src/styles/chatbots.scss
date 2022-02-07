@@ -632,7 +632,7 @@ h2 {
 		}
 		h1 {
 			width: 100%;
-			max-width: 520px;
+			max-width: 490px;
 			font-size: 2.6rem;
 			font-weight: 400;
 			letter-spacing: 0;
@@ -790,7 +790,7 @@ h2 {
 				@media screen and (min-width: 993px) {
 					box-shadow: inset 50px 0 10px -52px #0000001a;
 					h2 {
-						max-width: 30rem;
+						max-width: 28rem;
 					}
 				}
 			}
@@ -1037,7 +1037,6 @@ h2 {
 				opacity: 0;
 				transition: opacity 0.3s ease-in-out;
 			}
-
 		}
 
 		.invalid-feedback {
