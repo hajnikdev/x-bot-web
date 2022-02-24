@@ -28,16 +28,16 @@
 			"link": "#contactform"
 		},
 		{
-			"label": "Domluvme si telefonát",
+			"label": "Domluvit telefonát",
 			"link": "#contactform",
 			"class": "square-purple-filled"
 		}
 	],
 	"header": {
 		"tagline": "Process automation. Creativity for people.",
-		"intro_bold": "Virtuální agent pro customer servis ",
-		"intro": "s porozuměním přirozenému lidskému jazyku",
-		"subintro": "Automatizuje až 65% konverzací zákazníků v eCommerce a zvyšuje konkurenceschopnost eShopů.",
+		"intro_bold": "Virtuální agent pro automatizaci zákaznické podpory, ",
+		"intro": "který rozumí lidské řeči",
+		"subintro": "X-Bot zvládne práci za 25 operátorů zákaznické podpory. Vašim zákazníkům poskytne kvalitní servis za zlomek nákladů.",
 		"more_info": "Case studies",
 		"call": "Chci demo zdarma"
 	},
@@ -103,7 +103,7 @@
 	},
 	"ebook": {
 		"title": "Získejte e-book lídrů digitalizace customer servisu",
-		"subtitle": "Objednejte si rychlokurz jak zavést virtuálniho agenta, který na sebe vydělá.",
+		"subtitle": "Objednejte si rychlokurz zavedení virtuálního agenta.",
 		"input": {
 			"placeholder": "Pracovní e-mailová adresa",
 			"buttontext": "Objednat e-book zdarma"
@@ -114,7 +114,7 @@
 	"xbotfor": {
 		"customers": {
 			"caption": "X-BOT PRO VAŠE ZÁKAZNÍKY",
-			"title": "Výjimečná zákaznická zkušenost",
+			"title": "Špičková zákaznická zkušenost",
 			"carousel": {
 				"items": [
 					{
@@ -146,26 +146,32 @@
 			"tabs": {
 				"item1": {
 					"icon": "customer/icon-support.svg",
-					"title": "Rozumí přirozenému jazyku",
-					"description": "Přímo odpoví na dotaz zákazníka, přepojí, nebo vytvoří ticket"
+					"title": "Rozumí lidské řeči",
+					"description": "Přímo odpoví na dotaz zákazníka, přepojí, nebo vytvoří ticket."
 				},
 				"item2": {
 					"icon": "customer/icon-chat.svg",
 					"title": "Zákazníky obsluhuje okamžitě",
-					"description": "Zkrácení response time, a to i v čase špiček"
+					"description": "Zkrátí response time, a to i v čase špiček."
 				},
 				"item3": {
 					"icon": "customer/icon-language.svg",
-					"title": "Propojený s vašim searchem",
-					"description": "Zákazníci vždy jednoduše najdou na webu to, co hledají"
+					"title": "Vyhledává na webu",
+					"description": "Zákazníkům vždy nabídne to, co u vás hledají."
 				}
 			}
 		},
 		"company": {
 			"caption": "X-BOT PRO VAŠI FIRMU",
-			"title": "Vyšší efektivita, nižší náklady",
+			"title": "Support 2.0",
 			"carousel": {
 				"items": [
+					{
+						"value": "zautomatizuje opakující se činnosti"
+					},
+					{
+						"value": "výrazně zkrátí čas vyřešení"
+					},
 					{
 						"value": "uvolní lidský kapitál pro činnosti s vysokou přidanou hodnotou"
 					},
@@ -174,12 +180,6 @@
 					},
 					{
 						"value": "analyzuje nejčastější témata vašich zákazníků"
-					},
-					{
-						"value": "zautomatizuje repetitivní činnosti"
-					},
-					{
-						"value": "výrazně zkrátí resolution time"
 					},
 					{
 						"value": "sám sebe automaticky vyhodnocuje"
@@ -195,18 +195,18 @@
 			"tabs": {
 				"item1": {
 					"icon": "company/icon-cloud.svg",
-					"title": "Virtuální agent na vašem chatu",
-					"description": "Sám vyřeší až 65% konverzací"
+					"title": "Sám vyřeší až 65 % konverzací",
+					"description": "Které už nemusí řešit lidští operátoři."
 				},
 				"item2": {
 					"icon": "company/icon-control.svg",
-					"title": "Plně pod vaší kontrolou",
-					"description": "Jednoduchá editace otázek a odpovědí"
+					"title": "Jednoduchá editace otázek a odpovědí",
+					"description": "Vše plně pod vaší kontrolou."
 				},
 				"item3": {
 					"icon": "company/icon-rocket.svg",
-					"title": "Neustále se učí",
-					"description": "Sám sebe automaticky zdokonaluje a vyhodnocuje"
+					"title": "Sám sebe zdokonaluje a vyhodnocuje",
+					"description": "Každý den tak poskytuje lepší servis."
 				}
 			}
 		}
@@ -215,30 +215,31 @@
 		"carousel": {
 			"items": [
 				{
-					"image": "MiroslavJanda.png",
-					"comment": "“Virtuálny agent od Xolution šetrí čas našich ľudí a zvyšuje kvalitu komunikácie s našimi zákazníkmi. Zvyšuje tak konkurencieschopnosť celej spoločnosti.”",
+					"comment": "„Už si neumím představit, jak bychom fungovali bez X-bota! Virtuální agent nám vyřeší 80 % otázek na chatu. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špiček.“",
 					"person": {
-						"name": "Miroslav Janda",
-						"company": "Generálny riaditeľ Viessmann Slovensko"
+						"name": "Tereza Přibylová",
+						"company": "Manažer zákaznické podpory, Onio"
 					}
 				},
 				{
 					"image": "LudekSuchomel.png",
-					"comment": "“ Po zavedení virtuálniho agenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnejší.”",
+					"comment": "„Po zavedení virtuálního agenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnější.“",
 					"person": {
 						"name": "Luděk Suchomel",
 						"company": "Marketing Manager CEE, Xella CZ"
 					}
 				},
 				{
-					"comment": "“Už si neumím představit, jak bychom fungovali bez bota! Virtuální agent nám vyřeší 80% chatu. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špicek.”",
+					"image": "MiroslavJanda.png",
+					"comment": "„Virtuální agent od Xolution šetří čas našich lidí a zvyšuje kvalitu komunikace s našimi zákazníky. Zvyšuje tak konkurenceschopnost celé společnosti.“",
 					"person": {
-						"company": "Manažer zákaznické podpory, Onio"
+						"name": "Miroslav Janda",
+						"company": "generální ředitel Viessmann Slovensko"
 					}
 				},
 				{
 					"image": "JanPodbrecky.png",
-					"comment": "„Jsme rádi, že jsme si zvolili virtuálniho agenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“",
+					"comment": "„Jsme rádi, že jsme si zvolili virtuálního agenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“",
 					"person": {
 						"name": "Jan Podbřecký",
 						"company": "Marketing specialist CEE, Xella"
@@ -246,7 +247,7 @@
 				},
 				{
 					"image": "FrantisekPoupe.png",
-					"comment": "„Projekt X-Bot přinesl úžasný nástroj a službu pro naše zákazníky, která posouvá uživatelský komfort zase o kus dopředu. Současně jsme našli perfektního partnera, se kterým se výborně spolupracuje a díky kterému rozšiřujeme společnou spolupráci o další velmi zajímavé a užitečné projekty. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů Xolution týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň. Dělá to radost nám i našim zákazníkům.“",
+					"comment": "„Projekt InteliBot, jak se X-Bot jmenuje u nás, přinesl úžasný nástroj a službu pro naše zákazníky, která posouvá uživatelský komfort zase o kus dopředu. Současně jsme našli perfektního partnera, se kterým se výborně spolupracuje a díky kterému rozšiřujeme společnou spolupráci o další velmi zajímavé a užitečné projekty. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů Xolution týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň. Dělá to radost nám i našim zákazníkům.“",
 					"person": {
 						"name": "František Poupě",
 						"company": "Technical Support & Services Manager - ComAp a.s."
@@ -254,7 +255,7 @@
 				},
 				{
 					"image": "TomasMatusovic.jpg",
-					"comment": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a X-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že X-Bot je pre nás tá správna cesta.“",
+					"comment": "„Naším cílem je vytvářet životní prostor pro budoucí generace a X-Bot se v tomto snažení stal plnohodnotným členem naší Viessmann rodina na Slovensku. Dokáže nám ulevit od množství práce. Jeho úspěchy nás přesvědčují, že X-Bot je pro nás ta správná cesta.“",
 					"person": {
 						"name": "Tomáš Matušovič",
 						"company": "Technical specialist for digital products, Viessmann Slovakia"
@@ -262,7 +263,7 @@
 				},
 				{
 					"image": "SimonaPlevova.jpg",
-					"comment": "„Jejich vášeň pro poskytování špičkových řešení je skutečně nakažlivá! U nás v ComAp se všichni shodneme na tom, že Xolution je velmi flexibilní a dynamický partner, se kterým pracujeme opravdu rádi. Vážím si přátelského přístupu a zároveň neuvěřitelných technických dovedností jejich zaměstnanců, které nám pomáhají překračovat hranice mezi IT, obchodní strategií a marketingem. A vždycky se těším na další neznámé výzvy, protože jsem přesvědčena, že ve všem, co děláme s Xolutionem, bude přidaná hodnota.“",
+					"comment": "„Jejich vášeň pro poskytování špičkových řešení je skutečně nakažlivá! U nás v ComAp se všichni shodneme na tom, že Xolution je velmi flexibilní a dynamický partner, se kterým pracujeme opravdu rádi. Vážím si přátelského přístupu a zároveň neuvěřitelných technických dovedností jejich zaměstnanců, které nám pomáhají překračovat hranice mezi IT, obchodní strategií a marketingem. A vždycky se těším na další neznámé výzvy, protože jsem přesvědčena, že ve všem, co děláme s Xolution, bude přidaná hodnota.“",
 					"person": {
 						"name": "Simona Plevová",
 						"company": "ComAp a.s"
@@ -385,11 +386,11 @@
 		]
 	},
 	"formsection": {
-		"caption": "Získejte technologický náskok před konkurencí, který bude náročné doběhnout",
-		"title": "30 minut, které změní pohled na customer support ve vašem eShopu",
-		"infoitem1": "Vyhodnotíme potenciál virtuálniho agenta ve Vašem eShopu",
-		"infoitem2": "Kvantifikujeme přínosy",
-		"infoitem3": "Odpovím na Vaše otázky",
+		"caption": "Zvyšte počet objednávek a stálých zákazníků",
+		"title": "Domluvte si demo, které změní váš pohled na customer support ve vašem e-shopu",
+		"infoitem1": "Vyhodnotíme potenciál virtuálního agenta ve vašem e-shopu.",
+		"infoitem2": "Ukážeme přínosy zavedení X-Bota.",
+		"infoitem3": "Zodpovíme vaše otázky.",
 		"person": {
 			"image": "avatar-jana.png",
 			"name": "Jana Cilli",
@@ -405,7 +406,7 @@
 			"EmailFeedback": "Prosím zadejne správni pracovní e-mailovou adresu",
 			"Phone": "Telefonní číslo *",
 			"PhoneFeedback": "Prosím zadejte telefonní číslo",
-			"Message": "Přidat vzkaz (optional)",
+			"Message": "Přidat vzkaz (nepovinné)",
 			"button": "Dohodnout telefonát",
 			"thanks": "<b>Děkujeme!</b>  Ozveme se co nejdříve s návrhem termínů rozhovoru."
 		}
