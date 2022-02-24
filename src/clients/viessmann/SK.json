@@ -1,7 +1,7 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "V-Bot\npre Viessmann",
+		"title": "X-Bot\npre Viessmann",
 		"boxes": [
 			"Kvalifikovaná akvizícia\nnových zákazníkov",
 			{
@@ -13,14 +13,14 @@
 	"challenge": {
 		"title": "VÝZVA",
 		"paragraphs": [
-			"Viessmann chcel zautomatizovať kvalifikáciu leadov tak, aby ponuky reagovali na špecifické požiadavky zákazníkov. Zároveň mal V-Bot uľaviť technikom od otázok, ktoré majú len administratívny charakter a zdržujú ich od odbornej práce. Spoločnosť chcela poskytnúť svojim zákazníkom kvalitnú zákaznícku podporu a zodpovedať ich otázky okamžite a 24/7. Zákazníkov obzvlášť zaujímali informácie o dotáciách, ktoré sa Viessmann rozhodol poskytovať v rámci bezplatného poradenstva."
+			"Viessmann chcel zautomatizovať kvalifikáciu leadov tak, aby ponuky reagovali na špecifické požiadavky zákazníkov. Zároveň mal X-Bot uľaviť technikom od otázok, ktoré majú len administratívny charakter a zdržujú ich od odbornej práce. Spoločnosť chcela poskytnúť svojim zákazníkom kvalitnú zákaznícku podporu a zodpovedať ich otázky okamžite a 24/7. Zákazníkov obzvlášť zaujímali informácie o dotáciách, ktoré sa Viessmann rozhodol poskytovať v rámci bezplatného poradenstva."
 		]
 	},
 	"solution": {
 		"title": "RIEŠENIE",
 		"content": {
 			"strong": "Zanalyzovali sme témy, ktoré zákazníkov naozaj zaujímajú. Túto analýzu Viessmann využil na nastavenie personalizovanej komunikácie na samotnom webe",
-			"paragraph": "V-Bota sme natrénovali na kvalifikáciu zákazníckych potrieb a zber leadov. Na špeciálnej landing page spoločnosti sa stal konzultantom pre oblasť dotácií. Následne sme ho naučili poskytovať informácie o servisovaní produktov a pomáhať zákazníkom spoločnosti orientovať sa v komplexnej produktovej ponuke."
+			"paragraph": "X-Bota sme natrénovali na kvalifikáciu zákazníckych potrieb a zber leadov. Na špeciálnej landing page spoločnosti sa stal konzultantom pre oblasť dotácií. Následne sme ho naučili poskytovať informácie o servisovaní produktov a pomáhať zákazníkom spoločnosti orientovať sa v komplexnej produktovej ponuke."
 		},
 		"items": [
 			{
@@ -53,21 +53,21 @@
 		"background": "client-opinion.png",
 		"text": "ZA PRVÉ DVA MESIACE PREVÁDZKY",
 		"items": [
-			{ "title": "25 000", "text": "krát za mesiac ponúkne V-Bot zákazníkom asistenciu" },
-			{ "title": "1 000", "text": "zákazníkom mesačne V-Bot pomôže vyriešiť otázku" },
-			{ "title": "40 %", "text": "zákazníkov vďaka V-Botovi zanechá kontakt" }
+			{ "title": "25 000", "text": "krát za mesiac ponúkne X-Bot zákazníkom asistenciu" },
+			{ "title": "1 000", "text": "zákazníkom mesačne X-Bot pomôže vyriešiť otázku" },
+			{ "title": "40 %", "text": "zákazníkov vďaka X-Botovi zanechá kontakt" }
 		]
 	},
 	"fact":{
 		"image": "xbot-award.svg",
 		"header": "Zaujímavý fakt",
-		"text": "Mimoriadnosť riešenia V-Bota dokladá aj to, že bol tento produkt ocenený v medzinárodnej súťaži Viessmann Awards, a taktiež získal Microsoft Awards za rok 2021!",
+		"text": "Mimoriadnosť riešenia X-Bota dokladá aj to, že bol tento produkt ocenený v medzinárodnej súťaži Viessmann Awards, a taktiež získal Microsoft Awards za rok 2021!",
 		"msAwards": true
 	},
 	"client_opinion": {
 		"paragraphs": [
 			{
-				"text": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a V-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že V-Bot je pre nás tá správna cesta.“"
+				"text": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a X-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že X-Bot je pre nás tá správna cesta.“"
 			},
 			{
 				"type": "strong",

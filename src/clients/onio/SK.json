@@ -1,11 +1,11 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "Digitálny asistent\npre Onio",
+		"title": "Virtuálny agent\npre Onio",
 		"boxes": [
-			"Xolution digitálny asistent uľahčuje operátorom zákazníckej podpory v e-shope Onio zvládať narastajúci počet kontaktov, a uľavuje im tak od opakujúcich sa činností.",
+			"Xolution virtuálny agent uľahčuje operátorom zákazníckej podpory v e-shope Onio zvládať narastajúci počet kontaktov, a uľavuje im tak od opakujúcich sa činností.",
 			{
-				"text": "„Digitálny asistent nám vyrieši 80% chatov. Po jeho zavedení sme našim zákazníkom nepretržite k dispozícii aj v čase špičiek.“",
+				"text": "„Virtuálny agent nám vyrieši 80% chatov. Po jeho zavedení sme našim zákazníkom nepretržite k dispozícii aj v čase špičiek.“",
 				"author": "Tereza Přibylová, Manažér zákazníckej starostlivosti ONIO"
 			}
 		]
@@ -13,14 +13,14 @@
 	"challenge": {
 		"title": "VÝZVA",
 		"paragraphs": [
-			"Úlohou digitálneho asistenta pre Onio bolo vyladiť starostlivosť o zákazníkov s cieľom zvládnuť rastúci objem otázok, zlepšiť zákaznícku skúsenosť a ponúknuť automatické možnosti samoobsluhy 24 hodín denne, 7 dní v týždni."
+			"Úlohou vrtuálneho agenta pre Onio bolo vyladiť starostlivosť o zákazníkov s cieľom zvládnuť rastúci objem otázok, zlepšiť zákaznícku skúsenosť a ponúknuť automatické možnosti samoobsluhy 24 hodín denne, 7 dní v týždni."
 		]
 	},
 	"solution": {
 		"background": "tire-casing.png",
 		"title": "RIEŠENIE",
 		"content": {
-			"strong": "Sprevádzkovali sme pre Onio digitálneho asistenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
+			"strong": "Sprevádzkovali sme pre Onio vrtuálneho agenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
 			"paragraph": "Onio operátor sám a jednoducho asistenta trénuje a učí ho novým otázkam. Pokiaľ asistent ešte nie je na otázku “natrénovaný”, automaticky odovzdá dopyt operátorovi. Tak je zaručené, že zákazník bude vždy obslúžený."
 		},
 		"items": [
@@ -57,22 +57,22 @@
 			},
 			{
 				"title": "83 %",
-				"text": "konverzácií obslúži digitálny asistent bez pomoci fyzického operátora"
+				"text": "konverzácií obslúži virtuálny agent bez pomoci fyzického operátora"
 			},
 			{
 				"title": "300x",
 				"text": "za mesiac pomôže zákazníkom po pracovnej dobe"
 			}
 		],
-		"paragraph": "Xolution digitálny asistent umožňuje firme Onio ustávať návaly otázok v čase špičiek a zabezpečiť kvalitný zákaznícky servis. Operátori tak nie sú \"bombardovaní\" otázkami a majú čas sa sústrediť na konzultačné otázky zákazníkov."
+		"paragraph": "Xolution virtuálny agent umožňuje firme Onio ustávať návaly otázok v čase špičiek a zabezpečiť kvalitný zákaznícky servis. Operátori tak nie sú \"bombardovaní\" otázkami a majú čas sa sústrediť na konzultačné otázky zákazníkov."
 	},
 	"award": {
 		"background": "future.png",
 		"title": "A BUDÚCNOSŤ?",
 		"items": [
-			"Chceme naučiť digitálneho asistenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
+			"Chceme naučiť vrtuálneho agenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
 			"Ďalším krokom bude jeho prepojenie s e-shop systémom, aby mohol zákazníkov informovať o stave ich objednávok a prípadne ich meniť.",
-			"S našou pomocou potom Onio plánuje spustiť nový e-shop obsluhovaný iba digitálnym asistentom, t.j. úplne bez ľudskej podpory."
+			"S našou pomocou potom Onio plánuje spustiť nový e-shop obsluhovaný iba vrtuálnym agentom, t.j. úplne bez ľudskej podpory."
 		]
 	},
 	"client_opinion": {
@@ -82,7 +82,7 @@
 				"text": "„Už si neviem predstaviť, ako by sme fungovali bez bota!“"
 			},
 			{
-				"text": "„S digitálnym asistentom sme tak spokojní, že plánujeme zaviesť automatizáciu aj na ďalšie naše weby. Našim cieľom je spustiť na našich weboch plne automatizovaný chat a tak získať možnosť venovať našim zákazníkom so špeciálnymi otázkami osobnú starostlivosť efektívnejšie.“"
+				"text": "„S vrtuálnym agentom sme tak spokojní, že plánujeme zaviesť automatizáciu aj na ďalšie naše weby. Našim cieľom je spustiť na našich weboch plne automatizovaný chat a tak získať možnosť venovať našim zákazníkom so špeciálnymi otázkami osobnú starostlivosť efektívnejšie.“"
 			},
 			{
 				"type": "strong",

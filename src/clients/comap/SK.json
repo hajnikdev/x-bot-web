@@ -1,14 +1,14 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "InteliBot\npre ComAp",
+		"title": "X-Bot\npre ComAp",
 		"boxes": [
 			"Spoločnosť ComAp pôsobí v 8 krajinách po celom svete a je jednotkou na svetovom trhu s riadiacimi systémami.\nComApu šlo o lepšie využitie času svojich zamestnancov, a tak sme im s tým pomohli.",
-			"Dodali sme InteliBota, ktorý pomáha a radí zákazníkom. Zamestnanci ComApu sa tak môžu sústrediť na inú prácu, pri ktorej je ich hodnota nenahraditeľná."
+			"Dodali sme X-Bota, ktorý pomáha a radí zákazníkom. Zamestnanci ComApu sa tak môžu sústrediť na inú prácu, pri ktorej je ich hodnota nenahraditeľná."
 		]
 	},
 	"client": {
-		"requirements": "Pomocou konverzačnej umelej inteligencie mal InteliBot za úlohu zautomatizovať najčastejšie sa opakujúce úkony vo firme, aby zamestnancom technickej podpory spoločnosti čo najviac uvoľnil ruky a mohli sa sústrediť na kreatívnu prácu.",
+		"requirements": "Pomocou konverzačnej umelej inteligencie mal X-Bot za úlohu zautomatizovať najčastejšie sa opakujúce úkony vo firme, aby zamestnancom technickej podpory spoločnosti čo najviac uvoľnil ruky a mohli sa sústrediť na kreatívnu prácu.",
 		"solution": [
 			"Obnovuje užívateľské prístupové heslá do systému.",
 			"Vyhľadáva technické špecifikácie a presný manuál k určitému zariadeniu, ale aj radí užívateľovi s jeho používaním.",
@@ -23,8 +23,8 @@
 		"background": "process-steps.jpg",
 		"steps": [
 			"Náš tím detailne zanalyzoval činnosti a konverzácie, ktoré zamestnanci technickej podpory viedli so svojimi zákazníkmi a partnermi. Na základe týchto dát sme vybrali scenáre pre automatizáciu.",
-			"Následne sme InteliBota postupne učili všetky tieto činnosti a konverzácie perfektne zvládať.",
-			"Vytvorili sme takisto „dušu“ InteliBota. To znamená osobnosť, ktorú by mal mať, aby reprezentoval svoju firmu a dokázal reflektovať jej firemnú kultúru a spôsob komunikácie."
+			"Následne sme X-Bota postupne učili všetky tieto činnosti a konverzácie perfektne zvládať.",
+			"Vytvorili sme takisto „dušu“ X-Bota. To znamená osobnosť, ktorú by mal mať, aby reprezentoval svoju firmu a dokázal reflektovať jej firemnú kultúru a spôsob komunikácie."
 		]
 	},
 	"project_info": {
@@ -60,6 +60,6 @@
 		]
 	},
 	"whats_next": {
-		"text": "Projekt sa dostal do druhej fázy.\nInteliBota ďalej rozvíjame a učíme novým veciam."
+		"text": "Projekt sa dostal do druhej fázy.\nX-Bota ďalej rozvíjame a učíme novým veciam."
 	}
 }

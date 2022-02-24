@@ -103,7 +103,7 @@
 	},
 	"ebook": {
 		"title": "Získejte e-book lídrů digitalizace customer servisu",
-		"subtitle": "Objednejte si rychlokurz jak zavést digitálního asistenta, který na sebe vydělá.",
+		"subtitle": "Objednejte si rychlokurz jak zavést virtuálniho agenta, který na sebe vydělá.",
 		"input": {
 			"placeholder": "Pracovní e-mailová adresa",
 			"buttontext": "Objednat e-book zdarma"
@@ -216,7 +216,7 @@
 			"items": [
 				{
 					"image": "MiroslavJanda.png",
-					"comment": "“Digitálny asistent od Xolution šetrí čas našich ľudí a zvyšuje kvalitu komunikácie s našimi zákazníkmi. Zvyšuje tak konkurencieschopnosť celej spoločnosti.”",
+					"comment": "“Virtuálny agent od Xolution šetrí čas našich ľudí a zvyšuje kvalitu komunikácie s našimi zákazníkmi. Zvyšuje tak konkurencieschopnosť celej spoločnosti.”",
 					"person": {
 						"name": "Miroslav Janda",
 						"company": "Generálny riaditeľ Viessmann Slovensko"
@@ -224,21 +224,21 @@
 				},
 				{
 					"image": "LudekSuchomel.png",
-					"comment": "“ Po zavedení digitálního asistenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnejší.”",
+					"comment": "“ Po zavedení virtuálniho agenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnejší.”",
 					"person": {
 						"name": "Luděk Suchomel",
 						"company": "Marketing Manager CEE, Xella CZ"
 					}
 				},
 				{
-					"comment": "“Už si neumím představit, jak bychom fungovali bez bota! Digitální asistent nám vyřeší 80% chatu. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špicek.”",
+					"comment": "“Už si neumím představit, jak bychom fungovali bez bota! Virtuální agent nám vyřeší 80% chatu. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špicek.”",
 					"person": {
 						"company": "Manažer zákaznické podpory, Onio"
 					}
 				},
 				{
 					"image": "JanPodbrecky.png",
-					"comment": "„Jsme rádi, že jsme si zvolili digitálního asistenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“",
+					"comment": "„Jsme rádi, že jsme si zvolili virtuálniho agenta od Xolution a že společně pracujeme s přelomovou technologií. Věříme, že se nám tak podaří jít s trendy v digitalizaci a dlouhodobě zvyšovat konkurenceschopnost naší firmy v tomto rychlém světě.“",
 					"person": {
 						"name": "Jan Podbřecký",
 						"company": "Marketing specialist CEE, Xella"
@@ -246,7 +246,7 @@
 				},
 				{
 					"image": "FrantisekPoupe.png",
-					"comment": "„Projekt InteliBot přinesl úžasný nástroj a službu pro naše zákazníky, která posouvá uživatelský komfort zase o kus dopředu. Současně jsme našli perfektního partnera, se kterým se výborně spolupracuje a díky kterému rozšiřujeme společnou spolupráci o další velmi zajímavé a užitečné projekty. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů Xolution týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň. Dělá to radost nám i našim zákazníkům.“",
+					"comment": "„Projekt X-Bot přinesl úžasný nástroj a službu pro naše zákazníky, která posouvá uživatelský komfort zase o kus dopředu. Současně jsme našli perfektního partnera, se kterým se výborně spolupracuje a díky kterému rozšiřujeme společnou spolupráci o další velmi zajímavé a užitečné projekty. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů Xolution týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň. Dělá to radost nám i našim zákazníkům.“",
 					"person": {
 						"name": "František Poupě",
 						"company": "Technical Support & Services Manager - ComAp a.s."
@@ -254,7 +254,7 @@
 				},
 				{
 					"image": "TomasMatusovic.jpg",
-					"comment": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a V-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že V-Bot je pre nás tá správna cesta.“",
+					"comment": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a X-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že X-Bot je pre nás tá správna cesta.“",
 					"person": {
 						"name": "Tomáš Matušovič",
 						"company": "Technical specialist for digital products, Viessmann Slovakia"
@@ -387,7 +387,7 @@
 	"formsection": {
 		"caption": "Získejte technologický náskok před konkurencí, který bude náročné doběhnout",
 		"title": "30 minut, které změní pohled na customer support ve vašem eShopu",
-		"infoitem1": "Vyhodnotíme potenciál digitálního asistenta ve Vašem eShopu",
+		"infoitem1": "Vyhodnotíme potenciál virtuálniho agenta ve Vašem eShopu",
 		"infoitem2": "Kvantifikujeme přínosy",
 		"infoitem3": "Odpovím na Vaše otázky",
 		"person": {
@@ -482,8 +482,8 @@
 			},
 			"tab4": {
 				"image": "article-04.png",
-				"title": "InteliBot získává první místo v Microsoft Awards 2019 v kategorii AI.",
-				"text": "Sečteno a podtrženo, InteliBot je jedním z důkazů, že časová i finanční investice do inteligentního konverzačního bota se vyplatí...",
+				"title": "X-Bot získává první místo v Microsoft Awards 2019 v kategorii AI.",
+				"text": "Sečteno a podtrženo, X-Bot je jedním z důkazů, že časová i finanční investice do inteligentního konverzačního bota se vyplatí...",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/343/intelibot-ziskava-prvni-misto-v-microsoft-awards-2019-v-kategorii-ai"
 			}
@@ -693,7 +693,7 @@
 		"portfolio": {
 			"client": {
 				"requirements": "Co chtěl klient",
-				"solution": "Jak to InteliBot řeší"
+				"solution": "Jak to X-Bot řeší"
 			},
 			"process": {
 				"header": "Jak jsme postupovali"

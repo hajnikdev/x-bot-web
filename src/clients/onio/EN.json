@@ -1,11 +1,11 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "Digitální asistent\npro Onio",
+		"title": "Virtuální agent\npro Onio",
 		"boxes": [
-			"Xolution digitální asistent usnadňuje operátorům zákaznické podpory v eShopu Onio zvládat narůstající počet kontaků, a ulevuje jim tak od opakujících se činností.",
+			"Xolution virtuální agent usnadňuje operátorům zákaznické podpory v eShopu Onio zvládat narůstající počet kontaků, a ulevuje jim tak od opakujících se činností.",
 			{
-				"text": "„Digitální asistent nám vyřeší 80% chatů. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špiček.“",
+				"text": "„Virtuální agent nám vyřeší 80% chatů. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špiček.“",
 				"author": "Tereza Přibylová, Manažér zákaznické péče ONIO"
 			}
 		]
@@ -13,14 +13,14 @@
 	"challenge": {
 		"title": "VÝZVA",
 		"paragraphs": [
-			"Úkolem digitálního asistenta pro Onio bylo vyladit péči o zákazníky s cílem zvládnout rostoucí objem dotazů, zlepšit zákaznickou zkušenost a nabídnout automatické možnosti samoobsluhy 24 hodin denně, 7 dní v týdnu."
+			"Úkolem virtuálniho agenta pro Onio bylo vyladit péči o zákazníky s cílem zvládnout rostoucí objem dotazů, zlepšit zákaznickou zkušenost a nabídnout automatické možnosti samoobsluhy 24 hodin denně, 7 dní v týdnu."
 		]
 	},
 	"solution": {
 		"background": "tire-casing.png",
 		"title": "Řešení",
 		"content": {
-			"strong": "Zprovoznili jsme pro Onio digitálního asistenta, který odpovídá na otázky zákazníků a jehož schopnost porozumět se každý měsíc automaticky zdokonaluje.",
+			"strong": "Zprovoznili jsme pro Onio virtuálniho agenta, který odpovídá na otázky zákazníků a jehož schopnost porozumět se každý měsíc automaticky zdokonaluje.",
 			"paragraph": "Onio operátor sám a jednoduše asistenta trénuje a učí ho novým otázkám. Pokud asistent ještě není na otázku “natrénovan”, automaticky předá dotaz operátorovi. Tak je zaručeno, že zákazník bude vždy obsloužen."
 		},
 		"items": [
@@ -57,22 +57,22 @@
 			},
 			{
 				"title": "83 %",
-				"text": "konverzací obslouží digitální asistent bez pomoci fyzického operátora"
+				"text": "konverzací obslouží virtuální agent bez pomoci fyzického operátora"
 			},
 			{
 				"title": "300x",
 				"text": "za měsíc pomůže zákazníkům po pracovní době"
 			}
 		],
-		"paragraph": "Xolution digitální asistent umožňuje firmě Onio ustávat návaly dotazů v čase špiček a zabezpečit kvalitní zákaznický servis. Operátoři tak nejsou “bombardováni” otázkami a mají čas se soustředit na konzultační dotazy zákazníků."
+		"paragraph": "Xolution virtuální agent umožňuje firmě Onio ustávat návaly dotazů v čase špiček a zabezpečit kvalitní zákaznický servis. Operátoři tak nejsou “bombardováni” otázkami a mají čas se soustředit na konzultační dotazy zákazníků."
 	},
 	"award": {
 		"background": "future.png",
 		"title": "A BUDOUCNOST?",
 		"items": [
-			"Chceme naučit digitálního asistenta pomáhat při tvorbě cenové nabídky, a tak ho vytrénovat i na sběr leadů.",
+			"Chceme naučit virtuálniho agenta pomáhat při tvorbě cenové nabídky, a tak ho vytrénovat i na sběr leadů.",
 			"Dalším krokem bude jeho propojení s e-shop systémem, aby mohl zákazníky informovat o stavu jejich objednávek a případně je měnit.",
-			"S naší pomocí pak Onio plánuje spustit nový e-shop obsluhovaný pouze digitálním asistentem, tj. zcela bez lidské podpory."
+			"S naší pomocí pak Onio plánuje spustit nový e-shop obsluhovaný pouze virtuálním agentem, tj. zcela bez lidské podpory."
 		]
 	},
 	"client_opinion": {
@@ -82,7 +82,7 @@
 				"text": "„Už si neumím představit, jak bychom fungovali bez bota!“"
 			},
 			{
-				"text": "„S digitálním asistentem jsme tak spokojeni, že plánujeme zavést automatizaci i na další naše weby. Našim cílem je spustit na našich webech plně automatizovaný chat a tak získat možnost věnovat našim zákazníkům se speciálními dotazy osobní péči efektivněji.“"
+				"text": "„S virtuálním agentem jsme tak spokojeni, že plánujeme zavést automatizaci i na další naše weby. Našim cílem je spustit na našich webech plně automatizovaný chat a tak získat možnost věnovat našim zákazníkům se speciálními dotazy osobní péči efektivněji.“"
 			},
 			{
 				"type": "strong",

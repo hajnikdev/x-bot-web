@@ -1,11 +1,11 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "Digitálny asistent\npre spoločnosť Xella",
+		"title": "Virtuálny agent\npre spoločnosť Xella",
 		"boxes": [
-			"Digitálny asistent pomáha zákazníkom 24/7 a nahrádza fyzického operátora na chate.",
+			"Virtuálny agent pomáha zákazníkom 24/7 a nahrádza fyzického operátora na chate.",
 			{
-				"text": "„Po zavedení digitálneho asistenta je komunikácia s našimi zákazníkmi intenzívnejšia a náš customer support efektívnejší.“",
+				"text": "„Po zavedení vrtuálneho agenta je komunikácia s našimi zákazníkmi intenzívnejšia a náš customer support efektívnejší.“",
 				"author": "Luděk Suchomel, Marketing Manager CEE, Xella CZ"
 			}
 		]
@@ -21,8 +21,8 @@
 	"solution": {
 		"title": "RIEŠENIE",
 		"content": {
-			"strong": "Vytrénovali sme digitálneho asistenta takým spôsobom, aby bol schopný odpovedať na pre-sales, ale aj na „care“ otázky, t.j. ako konkrétne produkty používať.",
-			"paragraph": "Digitálny asistent ponúkne zákazníkovi relevantnú podstránku, video alebo radu priamo z FAQs a vie odpovedať na prirodzene položené otázky."
+			"strong": "Vytrénovali sme vrtuálneho agenta takým spôsobom, aby bol schopný odpovedať na pre-sales, ale aj na „care“ otázky, t.j. ako konkrétne produkty používať.",
+			"paragraph": "Virtuálny agent ponúkne zákazníkovi relevantnú podstránku, video alebo radu priamo z FAQs a vie odpovedať na prirodzene položené otázky."
 		},
 		"items": [
 			{
@@ -54,7 +54,7 @@
 		"items": [
 			{
 				"title": "8 000 x",
-				"text": "mesačne ponúkne digitálny asistent pomoc zákazníkom"
+				"text": "mesačne ponúkne virtuálny agent pomoc zákazníkom"
 			},
 			{
 				"title": "700",
@@ -68,13 +68,13 @@
 		"paragraph": "Po nasadení asistenta sa počet konverzácií v chate vedených so zákazníkmi zvýšil 5x a vo viac ako polovici prípadov sa to dialo mimo bežného pracovného času. Vďaka jeho asistencii sa tiež skrátil \"response time\" pri riešení technických otázok."
 	},
 	"award": {
-		"content": "Spoločnosť Xella získala v digitálnom asistentovi \"všeobjímajúci nástroj\", vďaka ktorému dokáže byť svojim zákazníkom bližšie a vždy dostane informáciu, keď sa vyskytne nejaký problém."
+		"content": "Spoločnosť Xella získala v virtuálnom agentovi \"všeobjímajúci nástroj\", vďaka ktorému dokáže byť svojim zákazníkom bližšie a vždy dostane informáciu, keď sa vyskytne nejaký problém."
 	},
 	"client_opinion": {
 		"paragraphs": [
 			{
 				"type": "strong",
-				"text": "„Sme radi, že sme si zvolili digitálneho asistenta od Xolution a že spoločne pracujeme s prelomovou technológiou. Veríme, že sa nám tak podarí ísť s trendmi v digitalizácii a dlhodobo zvyšovať konkurencieschopnosť našej firmy v tomto rýchlom svete.“"
+				"text": "„Sme radi, že sme si zvolili vrtuálneho agenta od Xolution a že spoločne pracujeme s prelomovou technológiou. Veríme, že sa nám tak podarí ísť s trendmi v digitalizácii a dlhodobo zvyšovať konkurencieschopnosť našej firmy v tomto rýchlom svete.“"
 			},
 			{
 				"text": "Jan Podbřecký, Marketing specialist, Xella CZ.",

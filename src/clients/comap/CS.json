@@ -1,14 +1,14 @@
 {
 	"header": {
 		"background": "header-panel.jpg",
-		"title": "InteliBot\npro ComAp",
+		"title": "X-Bot\npro ComAp",
 		"boxes": [
 			"Společnost ComAp působí v 8 zemích po celém světě a je jedničkou na světovém trhu s řídicími systémy.\nŠlo jí o to lépe využít čas svých zaměstnanců a my jsme jí s tím pomohli.",
-			"Dodali jsme InteliBota, který pomáhá a radí zákazníkům. Zaměstnanci ComApu se tak můžou soustředit na jinou práci, u níž je jejich hodnota nenahraditelná."
+			"Dodali jsme X-Bota, který pomáhá a radí zákazníkům. Zaměstnanci ComApu se tak můžou soustředit na jinou práci, u níž je jejich hodnota nenahraditelná."
 		]
 	},
 	"client": {
-		"requirements": "Pomocí konverzační umělé inteligence měl InteliBot za úkol zautomatizovat nejčastěji se opakující úkony ve firmě, aby zaměstnancům technické podpory společnosti co nejvíce uvolnil ruce na kreativní práci.",
+		"requirements": "Pomocí konverzační umělé inteligence měl X-Bot za úkol zautomatizovat nejčastěji se opakující úkony ve firmě, aby zaměstnancům technické podpory společnosti co nejvíce uvolnil ruce na kreativní práci.",
 		"solution": [
 			"Obnovuje uživatelská přístupová hesla do systému.",
 			"Vyhledává technické specifikace i přesný manuál k určitému zařízení a radí uživateli s jeho používáním.",
@@ -23,8 +23,8 @@
 		"background": "process-steps.jpg",
 		"steps": [
 			"Náš tým detailně zanalyzoval činnosti a konverzace, které zaměstnanci technické podpory vedli se svými zákazníky a partnery, a na základě těchto dat jsme vybrali scénáře pro automatizaci.",
-			"Pak jsme InteliBota postupně učili všechny tyto činnosti a konverzace perfektně zvládat.",
-			"Vytvořili jsme také „duši“ InteliBota. Tedy osobnost, kterou by měl mít, aby reprezentoval svoji firmu a dokázal reflektovat její firemní kulturu a způsob komunikace."
+			"Pak jsme X-Bota postupně učili všechny tyto činnosti a konverzace perfektně zvládat.",
+			"Vytvořili jsme také „duši“ X-Bota. Tedy osobnost, kterou by měl mít, aby reprezentoval svoji firmu a dokázal reflektovat její firemní kulturu a způsob komunikace."
 		]
 	},
 	"project_info": {
@@ -60,6 +60,6 @@
 		]
 	},
 	"whats_next": {
-		"text": "Projekt dospěl do své druhé fáze.\nInteliBota dále rozvíjíme a učíme novým věcem."
+		"text": "Projekt dospěl do své druhé fáze.\nX-Bota dále rozvíjíme a učíme novým věcem."
 	}
 }

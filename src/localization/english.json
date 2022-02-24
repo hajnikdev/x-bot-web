@@ -319,13 +319,13 @@
 			{
 				"link": "onio",
 				"image": "case-onio.jpg",
-				"title": "Digitální asistent",
+				"title": "Virtuální agent",
 				"client": "Onio"
 			},
 			{
 				"link": "xella",
 				"image": "case-xella.jpg",
-				"title": "Digitální asistent",
+				"title": "Virtuální agent",
 				"client": "Xella"
 			},
 			{
@@ -378,7 +378,7 @@
 				"show": "show",
 				"title": "Proč kybernetici tvrdí, že jsme se určitě zbláznili?",
 				"paragraphs": [
-					"Už 4 roky stavíme v brutální kvalitě digitální asistenty neprobádanou architekturou kybernetiky. Nikdo jiný to takto nedělá.",
+					"Už 4 roky stavíme v brutální kvalitě virtuální agenty neprobádanou architekturou kybernetiky. Nikdo jiný to takto nedělá.",
 					"Jasně, každý říká, že má unikátní technologii. Jak je to s Xolution doopravdy?",
 					"Realita je taková, že jsme kybernetičtí rebelové a úmyslně nepoužíváme buzzwords AI a machine learning. Za nás prostě hovoří výsledky."
 				]
@@ -404,22 +404,22 @@
 			},
 			{
 				"id": "item-4",
-				"title": "Jak je možné, že digitální asistenti u konkurence  stojí statisíce dolarů a X-Bot je za zlomek ceny?",
+				"title": "Jak je možné, že virtuální agenty u konkurence  stojí statisíce dolarů a X-Bot je za zlomek ceny?",
 				"paragraphs": [
 					"Zatímco ostatní jsou buď drazí, protože produkt je komplikovaný, nebo levní, ale nepoužitelní. Díky elegantnímu twistu v architektuře produktu se nám podařilo zvýšit kvalitu porozumění a to za současného snížení nákladů na implementaci. Takže si dnes i běžný zaměstnanec supportu dokáže natrénovat bota v kvalitě, kterou si dosud mohly dovolit jen korporáty.",
 					"Navíc kvalita porozumění nepřetržitě roste.",
-					"Každý klient totiž naučí našeho core digitálního asistenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
+					"Každý klient totiž naučí našeho core virtuálniho agenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
 					"Tak je postaven od prvního dne, sám sebe automaticky vylepšuje."
 				]
 			},
 			{
 				"id": "item-5",
-				"title": "Jak je možné, že digitální asistenti u konkurence  stojí statisíce dolarů a X-Bot je za zlomek ceny?",
+				"title": "Jak je možné, že virtuální agenty u konkurence  stojí statisíce dolarů a X-Bot je za zlomek ceny?",
 				"paragraphs": [
 					"Zatímco ostatní jsou buď drazí, protože produkt je komplikovaný, nebo levní, ale nepoužitelní.",
 					"Díky elegantnímu twistu v architektuře produktu se nám podařilo zvýšit kvalitu porozumění a to za současného snížení nákladů na implementaci.",
 					"Takže si dnes i běžný zaměstnanec supportu dokáže natrénovat bota v kvalitě, kterou si dosud mohly dovolit jen korporáty.",
-					"Navíc kvalita porozumění nepřetržitě roste. Každý klient totiž naučí našeho core digitálního asistenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
+					"Navíc kvalita porozumění nepřetržitě roste. Každý klient totiž naučí našeho core virtuálniho agenta něco nového a ten tuto zkušenost automaticky používá u toho dalšího.",
 					"Tak je postaven od prvního dne, sám sebe automaticky vylepšuje."
 				]
 			}
@@ -451,8 +451,8 @@
 			},
 			"tab4": {
 				"image": "article-04.png",
-				"title": "InteliBot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
-				"text": "In short, InteliBot is one of the proofs that the time and money investment in a smart conversation bot pays off...",
+				"title": "X-Bot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
+				"text": "In short, X-Bot is one of the proofs that the time and money investment in a smart conversation bot pays off...",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/343/intelibot-ziskava-prvni-misto-v-microsoft-awards-2019-v-kategorii-ai"
 			}
@@ -662,7 +662,7 @@
 		"portfolio": {
 			"client": {
 				"requirements": "What was needed",
-				"solution": "What InteliBot can do"
+				"solution": "What X-Bot can do"
 			},
 			"process": {
 				"header": "How the entire project proceeded"
