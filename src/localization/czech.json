@@ -3,8 +3,8 @@
 		"ogURL": "https://www.xolution.sk/X-Bot/CS/",
 		"code": "cs",
 		"tags": "chatbot, umela inteligence, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
-		"description": "Vysoce personalizovaný chatbot na bázi umělé inteligence. Zautomatizuje vaše procesy, poskytne zákaznickou podporu vašim zákazníkům, vyřeší dotazy vašich zaměstnanců na helpdesku nebo v HR. Přirozeně rozpoznává řeč.",
-		"title": "X-Bot - Platforma konverzační inteligence s porozuměním lidskému jazyku"
+		"description": "X-Bot - váš nový operátor supportu. Síla 25+ lidských operátorů. Zodpoví v průměru 65 % dotazů jako člověk - odpoví na dotazy, vyhledá info o produktech, poradí.",
+		"title": "Xolution - Virtuální agent pro zákaznickou podporu v e-commerce"
 	},
 	"contactButton": {
 		"label": "CONTACT US",
@@ -255,7 +255,7 @@
 				},
 				{
 					"image": "TomasMatusovic.jpg",
-					"comment": "„Naším cílem je vytvářet životní prostor pro budoucí generace a X-Bot se v tomto snažení stal plnohodnotným členem naší Viessmann rodina na Slovensku. Dokáže nám ulevit od množství práce. Jeho úspěchy nás přesvědčují, že X-Bot je pro nás ta správná cesta.“",
+					"comment": "„Naším cílem je vytvářet životní prostor pro budoucí generace a X-Bot se v tomto snažení stal plnohodnotným členem naší Viessmann rodiny na Slovensku. Dokáže nám ulevit od množství práce. Jeho úspěchy nás přesvědčují, že X-Bot je pro nás ta správná cesta.“",
 					"person": {
 						"name": "Tomáš Matušovič",
 						"company": "Technical specialist for digital products, Viessmann Slovakia"
