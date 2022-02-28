@@ -62,7 +62,10 @@
 			"preview4.jpg"
 		]
 	},
-	"whats_next": {
-		"text": "The project is continuing into its second phase,\nand we're developing Intelibot and teaching it new things."
+	"fact_comap":{
+		"image": "xbot-award.svg",
+		"header": "The best conversational AI solution",
+		"text": "X-Bot for Comap won first place in the Microsoft Awards in the AI ​​category.",
+		"msAwards": true
 	}
 }

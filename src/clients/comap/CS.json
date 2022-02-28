@@ -41,7 +41,7 @@
 	"client_opinion": {
 		"paragraphs": [
 			{
-				"text": "„We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.“"
+				"text": "„Projekt InteliBot, jak se X-Bot jmenuje u nás, přinesl úžasný nástroj a službu pro naše zákazníky, která posouvá uživatelský komfort zase o kus dopředu. Současně jsme našli perfektního partnera, se kterým se výborně spolupracuje a díky kterému rozšiřujeme společnou spolupráci o další velmi zajímavé a užitečné projekty. Jsme překvapeni entuziasmem, úsilím, výkonem a profesionalitou všech členů Xolution týmu. Spolupráce na našem projektu X-Bota posouvá výkonnost a angažovanost celého našeho týmu na vyšší úroveň. Dělá to radost nám i našim zákazníkům.“"
 			},
 			{
 				"type": "strong",
@@ -59,7 +59,10 @@
 			"preview4.jpg"
 		]
 	},
-	"whats_next": {
-		"text": "Projekt dospěl do své druhé fáze.\nX-Bota dále rozvíjíme a učíme novým věcem."
+	"fact_comap":{
+		"image": "xbot-award.svg",
+		"header": "Nejlepší konverzační AI řešení",
+		"text": "X-Bot pro Comap získal první místo v Microsoft Awards v kategorii AI.",
+		"msAwards": true
 	}
 }

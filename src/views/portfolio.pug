@@ -267,6 +267,16 @@ html(lang=localGlobal.meta.code)
 					h1= local.portfolio.whats_next.header
 					p !{client.whats_next.text.split('\n').join('<br>')}
 
+		if client.fact_comap
+			section.fact
+				.container
+					if client.fact_comap.image
+						img(src=rel+"assets/clients/"+clientCode+'/'+client.fact_comap.image, alt="")
+					h1= client.fact_comap.header
+					p= client.fact_comap.text
+					if client.fact_comap.msAwards
+						img.ms-award(src=rel+"assets/ms-awards-2021.svg", alt="")
+
 		section.portfolio-cta
 			.portfolio-cta__content
 				.row
