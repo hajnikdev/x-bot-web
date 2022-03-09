@@ -13,14 +13,14 @@
 	"challenge": {
 		"title": "VÝZVA",
 		"paragraphs": [
-			"Úlohou vrtuálneho agenta pre Onio bolo vyladiť starostlivosť o zákazníkov s cieľom zvládnuť rastúci objem otázok, zlepšiť zákaznícku skúsenosť a ponúknuť automatické možnosti samoobsluhy 24 hodín denne, 7 dní v týždni."
+			"Úlohou virtuálneho agenta pre Onio bolo vyladiť starostlivosť o zákazníkov s cieľom zvládnuť rastúci objem otázok, zlepšiť zákaznícku skúsenosť a ponúknuť automatické možnosti samoobsluhy 24 hodín denne, 7 dní v týždni."
 		]
 	},
 	"solution": {
 		"background": "tire-casing.png",
 		"title": "RIEŠENIE",
 		"content": {
-			"strong": "Sprevádzkovali sme pre Onio vrtuálneho agenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
+			"strong": "Sprevádzkovali sme pre Onio virtuálneho agenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
 			"paragraph": "Onio operátor sám a jednoducho asistenta trénuje a učí ho novým otázkam. Pokiaľ asistent ešte nie je na otázku “natrénovaný”, automaticky odovzdá dopyt operátorovi. Tak je zaručené, že zákazník bude vždy obslúžený."
 		},
 		"items": [
@@ -70,9 +70,9 @@
 		"background": "future.png",
 		"title": "A BUDÚCNOSŤ?",
 		"items": [
-			"Chceme naučiť vrtuálneho agenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
+			"Chceme naučiť virtuálneho agenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
 			"Ďalším krokom bude jeho prepojenie s e-shop systémom, aby mohol zákazníkov informovať o stave ich objednávok a prípadne ich meniť.",
-			"S našou pomocou potom Onio plánuje spustiť nový e-shop obsluhovaný iba vrtuálnym agentom, t.j. úplne bez ľudskej podpory."
+			"S našou pomocou potom Onio plánuje spustiť nový e-shop obsluhovaný iba virtuálnym agentom, t.j. úplne bez ľudskej podpory."
 		]
 	},
 	"client_opinion": {
@@ -82,7 +82,7 @@
 				"text": "„Už si neviem predstaviť, ako by sme fungovali bez bota!“"
 			},
 			{
-				"text": "„S vrtuálnym agentom sme tak spokojní, že plánujeme zaviesť automatizáciu aj na ďalšie naše weby. Našim cieľom je spustiť na našich weboch plne automatizovaný chat a tak získať možnosť venovať našim zákazníkom so špeciálnymi otázkami osobnú starostlivosť efektívnejšie.“"
+				"text": "„S virtuálnym agentom sme tak spokojní, že plánujeme zaviesť automatizáciu aj na ďalšie naše weby. Našim cieľom je spustiť na našich weboch plne automatizovaný chat a tak získať možnosť venovať našim zákazníkom so špeciálnymi otázkami osobnú starostlivosť efektívnejšie.“"
 			},
 			{
 				"type": "strong",

@@ -459,7 +459,7 @@
 				"id": "item-4",
 				"title": "Ako je možné, že virtuálni agenti u konkurencie stoja státisíce dolárov a X-Bot je za zlomok ceny?",
 				"paragraphs": [
-					"Iné riešenia sú buď drahé, pretože produkt je komplikovaný, alebo lacné a nepoužiteľné. Vďaka elegantnému twistu v architektúre produktu sa nám podarilo zvýšiť kvalitu porozumenia a to za súčasného zníženia nákladov na implementáciu. Takže si dnes aj bežný zamestnanec supportu dokáže natrénovať vrtuálneho agenta v kvalite, ktorú si doteraz mohli dovoliť iba korporáty.",
+					"Iné riešenia sú buď drahé, pretože produkt je komplikovaný, alebo lacné a nepoužiteľné. Vďaka elegantnému twistu v architektúre produktu sa nám podarilo zvýšiť kvalitu porozumenia a to za súčasného zníženia nákladov na implementáciu. Takže si dnes aj bežný zamestnanec supportu dokáže natrénovať virtuálneho agenta v kvalite, ktorú si doteraz mohli dovoliť iba korporáty.",
 					"Navyše kvalita porozumenia nepretržite rastie.",
 					"Každý klient totiž naučí nášho core virtuálneho agenta niečo nové a ten túto skúsenosť automaticky používa pri tom ďalšom.",
 					"Tak je postavený od prvého dňa, sám seba automaticky vylepšuje."
@@ -495,7 +495,7 @@
 				"image": "article-04.png",
 				"title": "X-Bot získava prvé miesto v Microsoft Awards 2019 v kategórii AI.",
 				"text": "Sčítané a podčiarknuté, X-Bot je jedným z dôkazov, že časová i finančná investícia do inteligentného konverzačného bota sa oplatí...",
-				"button": "Read more >",
+				"button": "Čítať viac >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/343/intelibot-ziskava-prvni-misto-v-microsoft-awards-2019-v-kategorii-ai"
 			}
 		},
