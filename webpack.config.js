@@ -1,21 +1,14 @@
-var webpack = require('webpack'),
-	path = require('path'),
-	CopyWebpackPlugin = require('copy-webpack-plugin'),
+var path = require('path'),
 	HtmlWebpackPlugin = require('html-webpack-plugin'),
-	MiniCSSExtractPlugin = require('mini-css-extract-plugin'),
-	ReloadPlugin = require('reload-html-webpack-plugin'),
-	UglifyJsPlugin = require('uglifyjs-webpack-plugin'),
-	OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+	MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 
 var devMode = process.env.NODE_ENV !== 'production';
 
-var languages = ['SK', 'CS', 'EN'];
-
-function clientConfig(clientCode, lang, navigation, isDefault) {
+const clientConfig = (clientCode, lang, navigation, isDefault) => {
 	return new HtmlWebpackPlugin({
 		inject: false,
 		template: './src/views/portfolio.pug',
-		filename: 'clients/' + clientCode + '.html',
+		filename: lang + '/clients/' + clientCode + '.html',
 		minify: false,
 		options: {
 			local: require('./src/localization/czech.json'),
@@ -28,12 +21,26 @@ function clientConfig(clientCode, lang, navigation, isDefault) {
 	});
 }
 
+const articleConfig = (articleCode, lang, isDefault) => {
+	return new HtmlWebpackPlugin({
+		inject: false,
+		template: './src/views/article.pug',
+		filename: 'article/' + articleCode + '.html',
+		minify: false,
+		options: {
+			local: require('./src/localization/slovak.json'),
+			article: require('./src/articles/' + articleCode + '/' + lang + '.json'),
+			articleCode: articleCode,
+			isDefault: isDefault,
+			languages: ['SK', 'CS', /*'EN'*/].sort((a, b) => (a === lang ? -1 : 1)),
+		},
+	});
+}
+
 var config = {
-	// context: path.resolve(__dirname, './'),
-	entry: ['./src/index.js', './src/styles/chatbots.scss'],
+	entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss'],
 	devServer: {
 		host: '0.0.0.0',
-		// hot: true,
 		inline: true,
 		contentBase: './src/',
 	},
@@ -67,21 +74,24 @@ var config = {
 			template: './src/views/index.pug',
 			minify: false,
 			options: {
-				local: require('./src/localization/czech.json'),
-				isDefault: true,
-				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'CS' ? -1 : 1)),
+				local: require('./src/localization/slovak.json'),
+				isDefault: false,
+				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'SK' ? -1 : 1)),
 			},
 		}),
-		clientConfig('comap', 'CS', ['xella', 'viessmann'], true),
-		clientConfig('viessmann', 'CS', ['comap', 'xella'], false),
-		clientConfig('xella', 'CS', ['viessmann', 'onio'], false),
-		clientConfig('onio', 'CS', ['xella', 'comap'], false),
+		clientConfig('comap', 'SK', ['xella', 'viessmann'], false),
+		clientConfig('viessmann', 'SK', ['comap', 'xella'], false),
+		clientConfig('xella', 'SK', ['viessmann', 'onio'], false),
+		clientConfig('onio', 'SK', ['xella', 'comap'], false),
 
-		/*new CopyWebpackPlugin([
-			{
-				from: 'src/assets'
-			}
-		])*/
+		articleConfig('potencial-umelej-inteligencie-pre-podniky', 'SK', false),
+		articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', 'SK', false),
+		articleConfig('xolution-academy-pripravuje-studenty-it', 'SK', false),
+		articleConfig('prve-miesto-v-microsoft-awards-2019', 'SK', false),
+		articleConfig('nova-era-chatbotov', 'SK', false),
+		articleConfig('trh-prace-v-roku-2025', 'SK', false),
+		articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'CS', false),
+		articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'CS', false),
 	],
 };
 

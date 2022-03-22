@@ -1,0 +1,3 @@
+Sitemap: https://www.xolution.sk/sitemap.xml
+User-agent: *
+Disallow:

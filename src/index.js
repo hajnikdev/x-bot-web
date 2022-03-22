@@ -731,7 +731,9 @@ window.addEventListener('load', function() {
 	window.onresize = resizeHandler;
 	window.onscroll = scrollHandler;
 
-	staticHamburgerMenu.onclick = staticHambugerMenuClick;
+	if(staticHamburgerMenu && staticHamburgerMenu.onclick) {
+		staticHamburgerMenu.onclick = staticHambugerMenuClick;
+	}
 
 	if (scrollTopButton) {
 		scrollTopButton.onclick = scrollTopButtonClickHandler;

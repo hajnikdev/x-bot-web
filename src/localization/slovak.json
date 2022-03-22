@@ -45,19 +45,19 @@
 		{
 			"images": [
 				{
-					"link": "assets/header-brands/logo-comap.png",
+					"link": "assets/header-brands/logo-comap.webp",
 					"alt": "ComAp"
 				},
 				{
-					"link": "assets/header-brands/logo-viessmann.png",
+					"link": "assets/header-brands/logo-viessmann.webp",
 					"alt": "Viessmann"
 				},
 				{
-					"link": "assets/header-brands/logo-elmhurst.png",
+					"link": "assets/header-brands/logo-elmhurst.webp",
 					"alt": "Elmhurst Energy"
 				},
 				{
-					"link": "assets/header-brands/logo-xella.png",
+					"link": "assets/header-brands/logo-xella.webp",
 					"alt": "Xella"
 				}
 			]
@@ -65,19 +65,19 @@
 		{
 			"images": [
 				{
-					"link": "assets/header-brands/logo-zidle.png",
+					"link": "assets/header-brands/logo-zidle.webp",
 					"alt": "Kancelarske zidle"
 				},
 				{
-					"link": "assets/header-brands/logo-kvp.png",
+					"link": "assets/header-brands/logo-kvp.webp",
 					"alt": "KVP"
 				},
 				{
-					"link": "assets/header-brands/logo-onio.png",
+					"link": "assets/header-brands/logo-onio.webp",
 					"alt": "Onio"
 				},
 				{
-					"link": "assets/header-brands/logo-master.png",
+					"link": "assets/header-brands/logo-master.webp",
 					"alt": "Master sports equipment"
 				}
 			]
@@ -225,7 +225,7 @@
 					}
 				},
 				{
-					"image": "LudekSuchomel.png",
+					"image": "LudekSuchomel.webp",
 					"comment": "„Po zavedení virtuálneho agenta je komunikácia s našimi zákazníkmi intenzívnejšia a náš customer support efektívnejší.“ ",
 					"person": {
 						"name": "Luděk Suchomel",
@@ -233,7 +233,7 @@
 					}
 				},
 				{
-					"image": "MiroslavJanda.png",
+					"image": "MiroslavJanda.webp",
 					"comment": "„Virtuálny agent od Xolution šetrí čas našich ľudí a zvyšuje kvalitu komunikácie s našimi zákazníkmi. Zvyšuje tak konkurencieschopnosť celej spoločnosti.“",
 					"person": {
 						"name": "Miroslav Janda",
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"image": "JanPodbrecky.png",
+					"image": "JanPodbrecky.webp",
 					"comment": "„Sme radi, že sme si zvolili virtuálneho agenta od Xolution a že spoločne pracujeme s prelomovou technológiou. Veríme, že sa nám tak podarí ísť s trendmi v digitalizácii a dlhodobo zvyšovať konkurencieschopnosť našej firmy v tomto rýchlom svete.“",
 					"person": {
 						"name": "Jan Podbřecký",
@@ -249,7 +249,7 @@
 					}
 				},
 				{
-					"image": "FrantisekPoupe.png",
+					"image": "FrantisekPoupe.webp",
 					"comment": "„Projekt InteliBot, ako sa X-Bot volá u nás, priniesol úžasný nástroj a službu pre našich zákazníkov, ktorá posúva užívateľský komfort zase o kus dopredu. Súčasne sme našli perfektného partnera, s ktorým sa výborne spolupracuje a vďaka ktorému rozširujeme spoločnú spoluprácu o ďalšie veľmi zaujímavé a užitočné projekty. Sme prekvapení entuziazmom, úsilím, výkonom a profesionalitou všetkých členov Xolution tímu. Spolupráca na našom projekte X-Bota posúva výkonnosť a angažovanosť celého nášho tímu na vyššiu úroveň. Robí to radosť nám aj našim zákazníkom.“",
 					"person": {
 						"name": "František Poupě",
@@ -257,7 +257,7 @@
 					}
 				},
 				{
-					"image": "TomasMatusovic.jpg",
+					"image": "TomasMatusovic.webp",
 					"comment": "„Naším cieľom je vytvárať životný priestor pre budúce generácie a X-Bot sa v tomto snažení stal plnohodnotným členom našej Viessmann rodiny na Slovensku. Dokáže nám uľaviť od množstva práce. Jeho úspechy nás presviedčajú, že X-Bot je pre nás tá správna cesta.“",
 					"person": {
 						"name": "Tomáš Matušovič",
@@ -265,7 +265,7 @@
 					}
 				},
 				{
-					"image": "SimonaPlevova.jpg",
+					"image": "SimonaPlevova.webp",
 					"comment": "„Ich vášeň pre poskytovanie špičkových riešení je skutočne nákazlivá! U nás v ComAp sa všetci zhodneme na tom, že Xolution je veľmi flexibilný a dynamický partner, s ktorým pracujeme naozaj radi. Vážim si priateľský prístup a zároveň neuveriteľné technické schopnosti ich zamestnancov, ktoré nám pomáhajú prekračovať hranice medzi IT, obchodnou stratégiou a marketingom a vždy sa teším na ďalšie neznáme výzvy, pretože som presvedčená, že vo všetkom, čo robíme s Xolution, bude pridaná hodnota.“",
 					"person": {
 						"name": "Simona Plevová",
@@ -371,25 +371,25 @@
 		"items": [
 			{
 				"link": "onio",
-				"image": "case-onio.jpg",
+				"image": "case-onio.webp",
 				"title": "Virtuálny agent",
 				"client": "Onio"
 			},
 			{
 				"link": "xella",
-				"image": "case-xella.jpg",
+				"image": "case-xella.webp",
 				"title": "Virtuálny agent",
 				"client": "Xella"
 			},
 			{
 				"link": "viessmann",
-				"image": "case-viessmann.jpg",
+				"image": "case-viessmann.webp",
 				"title": "Virtuálny agent",
 				"client": "Viessmann"
 			},
 			{
 				"link": "comap",
-				"image": "case-comap.jpg",
+				"image": "case-comap.webp",
 				"title": "Virtuálny agent",
 				"client": "ComAp"
 			}
@@ -464,6 +464,59 @@
 					"Každý klient totiž naučí nášho core virtuálneho agenta niečo nové a ten túto skúsenosť automaticky používa pri tom ďalšom.",
 					"Tak je postavený od prvého dňa, sám seba automaticky vylepšuje."
 				]
+			}
+		]
+	},
+	"articles": {
+		"title": "Zistite viac o konverzačnej inteligencii",
+		"pages": [
+			{
+				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
+				"headline": "Potenciál umelej inteligencie pre podniky",
+				"button": "Čítať viac ❯",
+				"link": "potencial-umelej-inteligencie-pre-podniky"
+			},
+			{
+				"cover": "co-nam-hovoria-aktualne-trendy-o-robotizacii/cover-square.webp",
+				"headline": "Čo nám hovoria aktuálne trendy o robotizácii?",
+				"button": "Čítať viac ❯",
+				"link": "co-nam-hovoria-aktualne-trendy-o-robotizacii"
+			},
+			{
+				"cover": "xolution-academy-pripravuje-studenty-it/cover-square.webp",
+				"headline": "V Xolution Academy připravujeme studenty IT na nástup nových technológií RPA",
+				"button": "Čítať viac ❯",
+				"link": "xolution-academy-pripravuje-studenty-it"
+			},
+			{
+				"cover": "prve-miesto-v-microsoft-awards-2019/cover-square.webp",
+				"headline": "X-Bot získava prvé miesto v Microsoft Awards 2019 v kategórii AI.",
+				"button": "Čítať viac ❯",
+				"link": "prve-miesto-v-microsoft-awards-2019"
+			},
+			{
+				"cover": "nova-era-chatbotov/cover-square.webp",
+				"headline": "Nová éra chatbotov",
+				"button": "Čítať viac ❯",
+				"link": "nova-era-chatbotov"
+			},
+			{
+				"cover": "trh-prace-v-roku-2025/cover-square.webp",
+				"headline": "Ako bude vyzerať trh práce v roku 2025?",
+				"button": "Čítať viac ❯",
+				"link": "trh-prace-v-roku-2025"
+			},
+			{
+				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"headline": "Virtualny agent vs. chatbot",
+				"button": "Čítať viac ❯",
+				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+			},
+			{
+				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"headline": "Benefity IVA",
+				"button": "Čítať viac ❯",
+				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
 			}
 		]
 	},

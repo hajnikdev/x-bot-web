@@ -13,9 +13,6 @@ var languages = {
 	SK: 'slovak.json',
 };
 
-var languagesKeys = Object.keys(languages);
-console.log(languagesKeys);
-
 var devMode = process.env.NODE_ENV !== 'production';
 
 function htmlConfig(local, localCode, isDefault) {
@@ -33,8 +30,6 @@ function htmlConfig(local, localCode, isDefault) {
 }
 
 function clientConfig(clientCode, localCode, navigation, isDefault) {
-	var sortedLangs = Object.keys(languages).sort((a, b) => (a === localCode ? -1 : 1));
-	console.log(localCode + ' - ' + sortedLangs.join(';'));
 	return new HtmlWebpackPlugin({
 		inject: false,
 		template: './src/views/portfolio.pug',
@@ -51,6 +46,22 @@ function clientConfig(clientCode, localCode, navigation, isDefault) {
 	});
 }
 
+const articleConfig = (articleCode, localCode, isDefault) => {
+	return new HtmlWebpackPlugin({
+		inject: false,
+		template: './src/views/article.pug',
+		filename: (isDefault ? '' : localCode + '/') + 'article/' + articleCode + '.html',
+		minify: false,
+		options: {
+			local: require('./src/localization/' + languages[localCode]),
+			article: require('./src/articles/' + articleCode + '/' + localCode + '.json'),
+			articleCode: articleCode,
+			isDefault: isDefault,
+			languages: Object.keys(languages).filter(a => a !== 'EN').sort((a, b) => (a === localCode ? -1 : 1)),
+		},
+	});
+};
+
 var pugLoader = {
 	test: /\.pug$/,
 	include: path.join(__dirname, 'src/views'),
@@ -63,7 +74,7 @@ var pugLoader = {
 var config = [
 	{
 		// context: path.resolve(__dirname, './'),
-		entry: ['./src/index.js', './src/styles/chatbots.scss'],
+		entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss'],
 		optimization: {
 			minimizer: [
 				new UglifyJsPlugin({
@@ -97,14 +108,44 @@ var config = [
 					from: 'src/assets',
 					to: 'assets',
 				},
+				{
+					from: 'public',
+					to: path.resolve(__dirname, 'dist')
+				},
+				{
+					from: 'public/CS',
+					to: path.resolve(__dirname, 'dist/CS')
+				},
+				{
+					from: 'public/php',
+					to: path.resolve(__dirname, 'dist/SK/php')
+				},
+				{
+					from: 'public/php',
+					to: path.resolve(__dirname, 'dist/CS/php')
+				},
+				{
+					from: 'public/php',
+					to: path.resolve(__dirname, 'dist/EN/php')
+				}
 			]),
+
 			new webpack.optimize.ModuleConcatenationPlugin(),
 
 			new HtmlWebpackPlugin(htmlConfig(languages['SK'], 'SK', true)),
 			clientConfig('comap', 'SK', ['onio', 'viessmann'], true),
-			clientConfig('viessmann', 'SK', ['comap', 'xella'], false),
-			clientConfig('xella', 'SK', ['viessmann', 'onio'], false),
-			clientConfig('onio', 'SK', ['xella', 'comap'], false),
+			clientConfig('viessmann', 'SK', ['comap', 'xella'], true),
+			clientConfig('xella', 'SK', ['viessmann', 'onio'], true),
+			clientConfig('onio', 'SK', ['xella', 'comap'], true),
+
+			articleConfig('potencial-umelej-inteligencie-pre-podniky', 'SK', true),
+			articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', 'SK', true),
+			articleConfig('xolution-academy-pripravuje-studenty-it', 'SK', true),
+			articleConfig('prve-miesto-v-microsoft-awards-2019', 'SK', true),
+			articleConfig('nova-era-chatbotov', 'SK', true),
+			articleConfig('trh-prace-v-roku-2025', 'SK', true),
+			articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'SK', true),
+			articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'SK', true),
 		],
 	},
 ].concat(
@@ -123,6 +164,15 @@ var config = [
 				clientConfig('viessmann', l, ['comap', 'xella'], false),
 				clientConfig('xella', l, ['viessmann', 'onio'], false),
 				clientConfig('onio', l, ['xella', 'comap'], false),
+
+				articleConfig('potencial-umelej-inteligencie-pre-podniky',  l, false),
+				articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', l, false),
+				articleConfig('xolution-academy-pripravuje-studenty-it', l, false),
+				articleConfig('prve-miesto-v-microsoft-awards-2019', l, false),
+				articleConfig('nova-era-chatbotov', l, false),
+				articleConfig('trh-prace-v-roku-2025', l, false),
+				articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', l, false),
+				articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', l, false),
 			],
 		};
 	})

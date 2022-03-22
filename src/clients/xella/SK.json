@@ -1,6 +1,6 @@
 {
 	"header": {
-		"background": "header-panel.jpg",
+		"background": "header-panel.webp",
 		"title": "Virtuálny agent\npre spoločnosť Xella",
 		"boxes": [
 			"Virtuálny agent pomáha zákazníkom 24/7 a nahrádza fyzického operátora na chate.",
@@ -11,7 +11,7 @@
 		]
 	},
 	"challenge": {
-		"background": "challenge.png",
+		"background": "challenge.webp",
 		"title": "VÝZVA",
 		"paragraphs": [
 			"Spoločnosť Xella chcela poskytnúť svojim zákazníkom nadštandardný zákaznícky servis 24/7, čo by v prípade fyzických operátorov znamenalo náročnú 3-smennú prevádzku. Zákazník prémiovej značky nemôže čakať na preplnenej linke a zaslúži si nájsť odpoveď na svoju otázku hneď a kedykoľvek.",
@@ -49,7 +49,7 @@
 		]
 	},
 	"resultsBig": {
-		"background": "lightness.png",
+		"background": "lightness.webp",
 		"title": "VÝSLEDKY",
 		"items": [
 			{

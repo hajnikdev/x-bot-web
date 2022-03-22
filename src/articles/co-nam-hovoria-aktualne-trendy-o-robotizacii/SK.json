@@ -1,0 +1,60 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/SK/article/co-nam-hovoria-aktualne-trendy-o-robotizacii.html",
+		"ogLocale": "sk_SK",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Je dnes relevantné hovoriť o robotizácii a nástupe umelej inteligencie ako o stále vzdialenej budúcnosti? Výhod, ktoré z automatizácie plynú je mnoho...",
+		"title": "Xolution – Čo nám hovoria aktuálne trendy o robotizácii?"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "Čo nám hovoria aktuálne trendy o robotizácii?"
+	},
+	"content": [
+		{
+			"type": "paragraph",
+			"text": "Je dnes relevantné hovoriť o robotizácii a nástupe umelej inteligencie ako o stále vzdialenej budúcnosti? Výhod, ktoré z automatizácie plynú je mnoho."
+		},
+		{
+			"type": "paragraph",
+			"text": "O robotizácii množstvo bežných ľudí počúva najmä v súvislosti (nielen) s obavou o strate zamestnania v priemyselnej výrobe. Predpokladá sa, že už o pár rokov budeme svedkami masívnej štrukturálnej zmeny pracovného trhu. V záujme zvyšovania produktivity bude množstvo štandardizovaných pracovných pozícii vystavených procesu automatizácie."
+		},
+		{
+			"type": "paragraph",
+			"text": "Podľa štúdie vykonanej Svetovým ekonomickým fórom nadchádzajúca éra umelej inteligencie a automatizácie <b>vytvorí podstatne viac pracovných miest</b>, ako ich v jej dôsledku zanikne. V globále sa v nasledujúcich desiatich rokov predpokladá zánik 75 miliónov pracovných pozícií. Na druhú stranu technologické odvetvie vytvorí až 133 miliónov nových."
+		},
+		{
+			"type": "paragraph",
+			"text": "Je však ale nutné podotknúť, že robotizácia sa nespája len s touto kontroverznou otázkou. V podnikateľskej sfére je téma digitalizácie a robotizácie vo veci zlepšovania služieb a zefektívňovania interných procesov v poslednej dobe veľmi aktuálna."
+		},
+		{
+			"type": "paragraph",
+			"text": "Využitie technologických možností, ktoré firmám ponúka dnešná doba by nemalo byť len nutnosťou v časoch Priemyslu 4.0, ale aj uvedomenie si, že sa jedná o najvhodnejší prostriedok ako <b>bojovať s nepriaznivou situáciou na trhu práce a zvyšovať produktivitu</b>. Podľa tohtoročného prieskumu mienky medzi riaditeľmi významných firiem v ČR, až 42% z opýtaných považuje robotizáciu za <b>najvýznamnejšiu technologickú zmenu v časovom horizonte troch až piatich rokov</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "V podobnom duchu sa nesú aj vyjadrenia českej pobočky spoločnosti PwC. <b>Cloudové riešenia a umelá inteligencia vedú</b> v rebríčku technologických produktov, ktoré majú potenciál firmám najvýraznejšie zlepšiť interné procesy a ušetriť náklady."
+		},
+		{
+			"type": "paragraph",
+			"text": "Rozmach technológií založených na cloude ako napríklad AI chatbot, je jedným z mnohých príkladov, ktoré ilustrujú súbežný proces zefektívňovania a šetrenia."
+		},
+		{
+			"type": "paragraph",
+			"text": "Aj napriek tomu že nástup umelej inteligencie je stále na svojom začiatku, <b>miera adopcie týchto technológií podnikmi je pozitívne prekvapujúca</b>. Asociácia združujúca európskych a severoamerických IT profesionálov Spiceworks, prednedávnom zostavila štatistiku s cieľom zistiť práve túto informáciu. V prípade subjektov pracujúcich v technologickom sektore až 29% opýtaných implementovalo do svojej pracovnej rutiny <b>chatbota, alebo inteligentného asistenta</b> pre zefektívnenie činnosti."
+		},
+		{
+			"type": "paragraph",
+			"text": "Veľké korporácie sú na tom veľmi podobne – 24% už v súčasnosti <b>aktívne využíva chatbotov</b> a 16% sa k implementácii chystá ešte tento rok."
+		},
+		{
+			"type": "paragraph",
+			"text": "Pozitívne vyhliadky voči adaptácii umelej inteligencie v komunikácii so zákazníkom má aj americký portál CIOReview. Okrem znateľného <b>zlepšenia služieb</b> v rámci starostlivosti o zákazníkov, došlo vďaka umelej inteligencii v mnohých prípadoch k <b>zníženiu nákladov</b> na zamestnancov až o 29%."
+		},
+		{
+			"type": "paragraph",
+			"text": "Plná automatizácia, neustála prevádzka, schopnosť vybavovania objednávok a faktúr, real-time komunikácia so zákazníkom je len zopár z množstvá pokročilých funkcií, ktoré Vám dokáže poskytnúť a výrazne zjednodušiť náš <b>X-Bot</b>."
+		}
+	]
+}

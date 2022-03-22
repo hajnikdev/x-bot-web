@@ -1,0 +1,49 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/SK/article/potencial-umelej-inteligencie-pre-podniky.html",
+		"ogLocale": "sk_SK",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Súbor možností, ktoré sa podnikom po celom svete s príchodom umelej inteligencie otvoril, je enormný...",
+		"title": "Xolution – Potenciál umelej inteligencie pre podniky"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "Potenciál umelej inteligencie pre podniky",
+		"alignItems": "center"
+	},
+	"content": [
+		{
+			"type": "paragraph",
+			"text": "Osobitným odvetvím je umelá inteligencia. Ešte donedávna poznatky zo sveta AI neboli natoľko pokročilé, aby pre firmy, (ale aj jednotlivcov) prinášali reálny úžitok. To sa však stále mení s tým, ako sú <b>technologické riešenia, ktoré AI ponúka, stále viac a viac prepracované</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Okrem prínosu, ktorý dokáže umelá inteligencia a strojové učenie vo forme automatizovaných asistentov a chatbotov priniesť, je dôležité zdôrazniť ich potenciál riešiť množstvo problémov týkajúcich sa <b>bezpečnosti</b>, a s tým súvisiacich výpadkov, ktoré firmy stoja <b>cenný čas</b> a nezanedbateľné <b>množstvo finančných prostriedkov</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Keďže sa už veľa bezpečnostných expertov nechalo počuť, ako vidia <b>potenciál čeliť bezpečnostným výzvam v budúcnosti</b> práve pomocou umelej inteligencie, v tejto súvislosti nedávno The Ponemon Institute vyhotovil nadväzujúcu štúdiu s názvom „Closing the IT Security Gap with Automation & AI in the Era of IoT”. Štúdia pokryla vzorku 3,866 IT špecialistov z celého sveta."
+		},
+		{
+			"type": "paragraph",
+			"text": "Podľa výsledkov tejto štúdie, ktorá anketovala spomínanú vzorku bezpečnostných expertov sa zistilo, že <b>väčšina z respondentov vníma umelú inteligenciu</b> ako subjekt, ktorý pomôže markantne <b>znížiť počet nepotvrdených procesných chýb</b> v prevádzke (falošných poplachov), <b>zvýšiť tímovú efektivitu</b> a <b>zrýchliť proces odhaľovania kyberútokov</b>. Jednou z hlavných predností by mala byť aj <b>detekcia a eliminácia hrozieb</b> ešte pred tým, ako stihnú napáchať škody. Okrem zvýšenia šance na odhalenie a adekvátnu reakciu v krátkom časovom horizonte, potenciál umelej inteligencie tkvie napríklad aj v <b>automatizácii</b> celého tohto procesu."
+		},
+		{
+			"type": "paragraph",
+			"text": "Ďalšou z perspektívnych oblastí, v ktorých môže umelá inteligencia <b>výrazne zjednodušiť</b> procesy a očistiť ich od zbytočných chýb spôsobených ľudským faktorom je podľa CTO spoločnosti Imanis Data, Hariho Mankude, <b>správa a manažment dátových operácií</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Berúc do úvahy rozmer a zložitosť firemných dátových tokov sa nám predostiera ďalší use-case; implementáciou AI riešení v kombinácii s chatbotom, ktorý dokáže na základe jednoduchých požiadaviek vykonávať isté operácie, <b>je možné efektívne triediť</b> a <b>vyhľadávať potrebné dáta</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Priestor práve na zefektívnenie reťaze procesov v rámci <b>dát a dátových analýz</b> vidí aj generálny manažér Salesforce, Ketan Karkhanis. Ten zdôrazňuje najmä užitočnosť AI systémov pri <b>získavaní tzv. „čistých dát“</b> z miliónov riadkov údajov v tzv. “raw forme”, z ktorej konverzia do žiadaného výstupu môže zabrať pracovníkovi zbytočne veľa času. Delegovaním týchto úloh smerom k umelej inteligencii sa tak môže <b>ľudský kapitál premiestniť na iné, dôležitejšie úlohy</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Vyššia bezpečnosť, ušetrený čas, spoľahlivejšia prevádzka a efektívnejšia alokácia zamestnancov sú prednosti, ktoré výdobytky zo sveta AI dokážu ponúknuť biznis sfére."
+		}
+	]
+}

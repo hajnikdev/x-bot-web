@@ -45,19 +45,19 @@
 		{
 			"images": [
 				{
-					"link": "assets/header-brands/logo-comap.png",
+					"link": "assets/header-brands/logo-comap.webp",
 					"alt": "ComAp"
 				},
 				{
-					"link": "assets/header-brands/logo-viessmann.png",
+					"link": "assets/header-brands/logo-viessmann.webp",
 					"alt": "Viessmann"
 				},
 				{
-					"link": "assets/header-brands/logo-elmhurst.png",
+					"link": "assets/header-brands/logo-elmhurst.webp",
 					"alt": "Elmhurst Energy"
 				},
 				{
-					"link": "assets/header-brands/logo-xella.png",
+					"link": "assets/header-brands/logo-xella.webp",
 					"alt": "Xella"
 				}
 			]
@@ -65,19 +65,19 @@
 		{
 			"images": [
 				{
-					"link": "assets/header-brands/logo-zidle.png",
+					"link": "assets/header-brands/logo-zidle.webp",
 					"alt": "Kancelarske zidle"
 				},
 				{
-					"link": "assets/header-brands/logo-kvp.png",
+					"link": "assets/header-brands/logo-kvp.webp",
 					"alt": "KVP"
 				},
 				{
-					"link": "assets/header-brands/logo-onio.png",
+					"link": "assets/header-brands/logo-onio.webp",
 					"alt": "Onio"
 				},
 				{
-					"link": "assets/header-brands/logo-master.png",
+					"link": "assets/header-brands/logo-master.webp",
 					"alt": "Master sports equipment"
 				}
 			]
@@ -215,7 +215,7 @@
 		"carousel": {
 			"items": [
 				{
-					"image": "FrantisekPoupe.png",
+					"image": "FrantisekPoupe.webp",
 					"comment": "IteliBot project delivered a great tool and service to our customers, which has moved user comfort again a bit forward. At the same time, we found a perfect partner we love to cooperate with. Based on that experience, we have been extending our cooperation by very interesting and useful projects. I cannot wait for the next new projects and I am really glad this project didn’t stop with the implementation itself, but it continues with further improvements, which are appreciated by us and our customers.",
 					"person": {
 						"name": "František Poupě",
@@ -223,7 +223,7 @@
 					}
 				},
 				{
-					"image": "TomasMatusovic.jpg",
+					"image": "TomasMatusovic.webp",
 					"comment": "My cooperation with Xolution began with a chance meeting, and I have to say that I really didn’t expect that it would lead to such a pleasant relationship between our companies. Over a relatively short time-span we succeeded in accomplishing quite a bit, and I have to say that not only is the entire Xolution team innovative and professional, but they also have a very good attitude to the customer and are very willing to address their requirements. I am looking forward to our future collaboration.",
 					"person": {
 						"name": "Tomáš Matušovič",
@@ -231,7 +231,7 @@
 					}
 				},
 				{
-					"image": "SimonaPlevova.jpg",
+					"image": "SimonaPlevova.webp",
 					"comment": "We have started our cooperation with Xolution just recently, however since beginning it had been clear that we were tuned to the same wave length. We are amazed by enthusiasm, effort, performance and professionalism of all members of their team. The cooperation on our X-Bot project moves performance and engagement of whole our team to higher level.",
 					"person": {
 						"name": "Simona Plevová",
@@ -318,25 +318,25 @@
 		"items": [
 			{
 				"link": "onio",
-				"image": "case-onio.jpg",
+				"image": "case-onio.webp",
 				"title": "Virtuální agent",
 				"client": "Onio"
 			},
 			{
 				"link": "xella",
-				"image": "case-xella.jpg",
+				"image": "case-xella.webp",
 				"title": "Virtuální agent",
 				"client": "Xella"
 			},
 			{
 				"link": "viessmann",
-				"image": "case-viessmann.jpg",
+				"image": "case-viessmann.webp",
 				"title": "Sales Bot",
 				"client": "Viessmann"
 			},
 			{
 				"link": "comap",
-				"image": "case-comap.jpg",
+				"image": "case-comap.webp",
 				"title": "Customer Care Bot",
 				"client": "ComAp"
 			}
@@ -425,33 +425,86 @@
 			}
 		]
 	},
+	"articles": {
+		"title": "Zjistěte více o konverzační inteligenci",
+		"pages": [
+			{
+				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
+				"headline": "The potential of artificial intelligence for companies",
+				"button": "Read more ❯",
+				"link": "potencial-umelej-inteligencie-pre-podniky"
+			},
+			{
+				"cover": "co-nam-hovoria-aktualne-trendy-o-robotizacii/cover-square.webp",
+				"headline": "What are current trends telling us about robotization?",
+				"button": "Read more ❯",
+				"link": "co-nam-hovoria-aktualne-trendy-o-robotizacii"
+			},
+			{
+				"cover": "xolution-academy-pripravuje-studenty-it/cover-square.webp",
+				"headline": "At Xolution Academy, we are preparing students of IT for the onset of new RPA technologies.",
+				"button": "Read more ❯",
+				"link": "xolution-academy-pripravuje-studenty-it"
+			},
+			{
+				"cover": "prve-miesto-v-microsoft-awards-2019/cover-square.webp",
+				"headline": "X-Bot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
+				"button": "Read more ❯",
+				"link": "prve-miesto-v-microsoft-awards-2019"
+			},
+			{
+				"cover": "nova-era-chatbotov/cover-square.webp",
+				"headline": "A new era of chatbots",
+				"button": "Read more ❯",
+				"link": "nova-era-chatbotov"
+			},
+			{
+				"cover": "trh-prace-v-roku-2025/cover-square.webp",
+				"headline": "What will the labor market look like in 2025?",
+				"button": "Read more ❯",
+				"link": "trh-prace-v-roku-2025"
+			},
+			{
+				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"headline": "Virtualni agent vs. chatbot",
+				"button": "Read more ❯",
+				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+			},
+			{
+				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"headline": "Benefity IVA",
+				"button": "Read more ❯",
+				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
+			}
+		]
+	},
 	"about": {
 		"more": {
 			"title": "Find our more about conversational intelligence",
 			"tab1": {
 				"image": "article-01.jpg",
-				"title": "The potential of artificial intelligence for companies",
+				"headline": "The potential of artificial intelligence for companies",
 				"text": "The set of opportunities that has become available to companies around the world with the arrival of artificial intelligence is huge.",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/339/potencil-umelej-inteligencie-pre-podniky"
 			},
 			"tab2": {
 				"image": "article-02.jpg",
-				"title": "What are current trends telling us about robotization?",
+				"headline": "What are current trends telling us about robotization?",
 				"text": "Is it still relevant to talk about robotization and the onset of artificial intelligence as being in the distant future? Automation offers many benefits.",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/335/o-nm-hovoria-aktulne-trendy-o-robotizcii"
 			},
 			"tab3": {
 				"image": "article-03.jpg",
-				"title": "At Xolution Academy, we are preparing students of IT for the onset of new RPA technologies.",
+				"headline": "At Xolution Academy, we are preparing students of IT for the onset of new RPA technologies.",
 				"text": "In cooperation with the Slovak IT Association, Xolution is sending its experts to Slovak high schools specializing in information technology that teach RPA (robotic process automation). We want to prepare the young generation...",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/333/v-xolution-academy-pipravujeme-studenty-it-na-nstup-novch-technolgi-rpa"
 			},
 			"tab4": {
 				"image": "article-04.png",
-				"title": "X-Bot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
+				"headline": "X-Bot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
 				"text": "In short, X-Bot is one of the proofs that the time and money investment in a smart conversation bot pays off...",
 				"button": "Read more >",
 				"buttonlink": "http://www.cooperativesoftware.eu/highlights/343/intelibot-ziskava-prvni-misto-v-microsoft-awards-2019-v-kategorii-ai"

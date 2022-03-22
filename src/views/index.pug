@@ -1,4 +1,5 @@
 - var local = htmlWebpackPlugin.options.options.local;
+- var isDefault = htmlWebpackPlugin.options.options.isDefault;
 - var rel = !htmlWebpackPlugin.options.options.isDefault ? '../' : '';
 - var clientCode = htmlWebpackPlugin.options.options.clientCode;
 - var languages = htmlWebpackPlugin.options.options.languages;
@@ -104,7 +105,7 @@ html(lang=local.meta.code)
 										a.dropdown-item(href=rel + languages[++l])= languages[l] === 'CS' ? 'CZ' : languages[l]
 				.main-header__introduction
 					img.main-image(
-						src=rel+"assets/header-image.png",
+						src=rel+"assets/header-image.webp",
 						data-aos="fade-in",
 						data-aos-delay="300",
 						data-aos-duration="400",
@@ -195,12 +196,12 @@ html(lang=local.meta.code)
 					h2 !{local.compare.old.title}
 					h3 !{local.compare.old.subtitle}
 					.chat-card.old
-						.send-message
+						.send-message(data-aos="zoom-in-left", data-aos-delay="100", data-aos-duration="300")
 							.content
 								p !{local.compare.old.message.sended}
 							.chat-head
 								img(src=rel+"assets/avatars/Avatar1.png", alt="",style="width:100%").chat-head__sended
-						.receive-message
+						.receive-message(data-aos="zoom-in-right", data-aos-delay="1200", data-aos-duration="500")
 							.content
 								p !{local.compare.old.message.received}
 							.chat-head
@@ -209,13 +210,13 @@ html(lang=local.meta.code)
 					h2 !{local.compare.new.title}
 					h3 !{local.compare.new.subtitle}
 					.chat-card.new
-						.send-message
+						.send-message(data-aos="zoom-in-left", data-aos-delay="100", data-aos-duration="300")
 							.content
 								img(src=rel+"assets/icon-circle-play.svg")
 								p !{local.compare.new.message.sended}
 							.chat-head
 								img(src=rel+"assets/avatars/Avatar1.png", alt="Elmhurst Energy",style="width:100%").chat-head__sended
-						.receive-message
+						.receive-message(data-aos="zoom-in-right", data-aos-delay="700", data-aos-duration="300")
 							.content
 								img(src=rel+"assets/icon-circle-play.svg")
 								p !{local.compare.new.message.received}
@@ -514,7 +515,6 @@ html(lang=local.meta.code)
 
 		section.implementation.padded-section
 			h2 !{local.implementation.title}
-			- //img(src="/assets/oblasti.png", alt="")
 			.implementation__bubbles
 				canvas
 				.implementation__bubble--descriptions
@@ -541,48 +541,58 @@ html(lang=local.meta.code)
 
 		section.xbot-articles(id="articles", data-aos="fade-in", data-aos-once="true")
 			.container
-				h2 !{local.about.more.title}
-				.more
-					.card(
-						data-aos="zoom-in-up",
-						data-aos-once="true"
-					)
-						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab1.image,
-								onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')")
-						.card-body
-							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')") !{local.about.more.tab1.title}
-							.card-text !{local.about.more.tab1.text}
-							a.btn(href=local.about.more.tab1.buttonlink) !{local.about.more.tab1.button}
-					.card(
-						data-aos="zoom-in-up",
-						data-aos-once="true"
-					)
-						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab2.image,
-								onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')")
-						.card-body
-							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')") !{local.about.more.tab2.title}
-							.card-text !{local.about.more.tab2.text}
-							a.btn(href=local.about.more.tab2.buttonlink) !{local.about.more.tab2.button}
-					.card(
-						data-aos="zoom-in-up",
-						data-aos-once="true"
-					)
-						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab3.image,
-								onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')")
-						.card-body
-							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')") !{local.about.more.tab3.title}
-							.card-text !{local.about.more.tab3.text}
-							a.btn(href=local.about.more.tab3.buttonlink) !{local.about.more.tab3.button}
-					.card(
-						data-aos="zoom-in-up",
-						data-aos-once="true"
-					)
-						img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab4.image,
-								onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')")
-						.card-body
-							h5.card-title(onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')") !{local.about.more.tab4.title}
-							.card-text !{local.about.more.tab4.text}
-							a.btn(href=local.about.more.tab4.buttonlink) !{local.about.more.tab4.button}
+				h2 !{local.articles.title}
+				.articles-gallery
+					- for (var article of local.articles.pages)
+						a.article(href=(isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'article/' + article.link + '.html', data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
+							.cover(style='background-image: url(' + rel+"assets/articles/" + article.cover + ')')
+							img(src=rel+"assets/articles/" + article.cover)
+							h3 !{article.headline}
+							.spacer(style="flex: 1")
+							button !{article.button}
+			//- .container
+			//- 	h2 !{local.about.more.title}
+			//- 	.more
+			//- 		.card(
+			//- 			data-aos="zoom-in-up",
+			//- 			data-aos-once="true"
+			//- 		)
+			//- 			img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab1.image,
+			//- 					onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')")
+			//- 			.card-body
+			//- 				h5.card-title(onclick="window.location.href = ('" + local.about.more.tab1.buttonlink + "')") !{local.about.more.tab1.title}
+			//- 				.card-text !{local.about.more.tab1.text}
+			//- 				a.btn(href=local.about.more.tab1.buttonlink) !{local.about.more.tab1.button}
+			//- 		.card(
+			//- 			data-aos="zoom-in-up",
+			//- 			data-aos-once="true"
+			//- 		)
+			//- 			img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab2.image,
+			//- 					onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')")
+			//- 			.card-body
+			//- 				h5.card-title(onclick="window.location.href = ('" + local.about.more.tab2.buttonlink + "')") !{local.about.more.tab2.title}
+			//- 				.card-text !{local.about.more.tab2.text}
+			//- 				a.btn(href=local.about.more.tab2.buttonlink) !{local.about.more.tab2.button}
+			//- 		.card(
+			//- 			data-aos="zoom-in-up",
+			//- 			data-aos-once="true"
+			//- 		)
+			//- 			img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab3.image,
+			//- 					onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')")
+			//- 			.card-body
+			//- 				h5.card-title(onclick="window.location.href = ('" + local.about.more.tab3.buttonlink + "')") !{local.about.more.tab3.title}
+			//- 				.card-text !{local.about.more.tab3.text}
+			//- 				a.btn(href=local.about.more.tab3.buttonlink) !{local.about.more.tab3.button}
+			//- 		.card(
+			//- 			data-aos="zoom-in-up",
+			//- 			data-aos-once="true"
+			//- 		)
+			//- 			img.card-img-top(src=rel+"assets/about/more/" + local.about.more.tab4.image,
+			//- 					onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')")
+			//- 			.card-body
+			//- 				h5.card-title(onclick="window.location.href = ('" + local.about.more.tab4.buttonlink + "')") !{local.about.more.tab4.title}
+			//- 				.card-text !{local.about.more.tab4.text}
+			//- 				a.btn(href=local.about.more.tab4.buttonlink) !{local.about.more.tab4.button}
 
 		footer.xbot-footer
 			.container.purple

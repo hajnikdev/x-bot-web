@@ -1,0 +1,83 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/EN/article/prve-miesto-v-microsoft-awards-2019.html",
+		"ogLocale": "en_EN",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Sčítané a podčiarknuté, X-Bot je jedným z dôkazov, že časová i finančná investícia do inteligentného konverzačného bota sa oplatí...",
+		"title": "Xolution – X-Bot získava prvé miesto v Microsoft Awards 2019 v kategórii AI."
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "X-Bot získava prvé miesto v Microsoft Awards 2019 v kategórii AI",
+		"titleWidth": "620px"
+	},
+	"content": [
+		{
+			"type": "paragraph-italic",
+			"text": "Štrnásť mesiacov vývoja od prvého riadku kódu po spustení. Desaťtisíce konverzácií so zákazníkmi ComApu – klienta, ktorý sa nechcel uspokojiť s krabicovým riešením a vybral si nás ako partnera pre vývoj svojho inteligentného digitálneho kolegu. Deväťdesiatpercentná úspešnosť v hodnotení zákazníkov a ako čerešnička na torte čerstvé ocenenie v kategórii najlepších IT riešení na platforme Microsoft pre rok 2019 v Českej republike a na Slovensku."
+		},
+		{
+			"type": "image",
+			"src": "image1.webp",
+			"alt": "Microsoft Awards 2019"
+		},
+		{
+			"type": "paragraph",
+			"text": "Zrátané a podčiarknuté, InteliBot je jedným z dôkazov, že časová aj finančná investícia do inteligentného konverzačného topánka sa oplatí."
+		},
+		{
+			"type": "h2",
+			"text": "S akým cieľom sme intelibot vyvíjali a pre koho"
+		},
+		{
+			"type": "paragraph",
+			"text": "Zadanie znelo jasne: zrýchliť a zefektívniť prácu zákazníckej podpory ComApu – firmy, ktorá sa špecializuje na vývoj a výrobu riadiacich systémov v energetike a ďalších odvetviach. S ohľadom na šírku produktového portfólia, ktoré číta stovky modelov kontrolérov, bolo jasné, že predpripravený plug-and-play chatbot nebude stačiť."
+		},
+		{
+			"type": "paragraph",
+			"text": "Vznikol tak na mieru vytvorený nástroj konverzačnej inteligencie, ktorý vie porozumieť prirodzenému ľudskému jazyku a reagovať naň."
+		},
+		{
+			"type": "h2",
+			"text": "3 kroky k vzniku inteligentného konverzačného nástroja"
+		},
+		{
+			"type": "paragraph",
+			"text": "Zjednodušiť viac ako rok práce do troch bodov? Skúsme to. Takto sme postupovali pri vývoji InteliBotu:"
+		},
+		{
+			"type": "list",
+			"items": [
+				"Náš tím detailne zanalyzoval činnosti a konverzácie, ktoré zamestnanci technickej podpory ComApu viedli so svojimi zákazníkmi a partnermi. Na základe týchto dát sme vybrali scenáre pre automatizáciu.",
+				"Postupne sme InteliBota učili všetky činnosti, reakcie a konverzácie perfektne zvládať. Čím detailnejšie testovanie pred spustením, tým múdrejší topánok od prvého dňa bude.",
+				"Vdýchli sme InteliBotovi život - dostal “osobnosť”, vďaka ktorej reprezentuje svoju firmu a dokáže reflektovať jej firemnú kultúru a spôsob komunikácie."
+			]
+		},
+		{
+			"type": "h2",
+			"text": "Čo dnes dokáže intelibot"
+		},
+		{
+			"type": "paragraph",
+			"text": "Presne to, čo by ste ako zákazníci čakali od dobre preškoleného človeka na zákazníckej linke. Vyhľadá konkrétne parametre produktov, vyrieši technické problémy, prehľadá obsiahle produktové manuály a nájde vám v nich, čo potrebujete. Ak potrebujete napríklad resetovať heslo do svojho kontroléra, InteliBot sa o to postará, aj keď je kontrolér na ropnej plošine uprostred oceánu."
+		},
+		{
+			"type": "paragraph",
+			"text": "Nielen vďaka týmto funkciám si od ComApu vyslúžil referenciu, na ktorú nemôžeme nebyť pyšní."
+		},
+		{
+			"type": "quotation",
+			"quote": "“Projekt InteliBot priniesol úžasný nástroj a službu pre našich zákazníkov, ktorá posúva užívateľský komfort zase o kus dopredu. Súčasne sme našli perfektného partnera, s ktorým sa výborne spolupracuje a vďaka ktorému rozširujeme spoločnú spoluprácu o ďalšie veľmi zaujímavé a užitočné projekty Už teraz sa na nich teším a som veľmi rád, že tento vzrušujúci projekt neskončil samotnou implementáciou, ale že ďalej pokračuje ďalším vylepšovaním. Robí to radosť nám aj našim zákazníkom.“",
+			"author": "<b>František Poupě</b>, Technical Support & Services Manager v ComAp a.s."
+		},
+		{
+			"type": "h2",
+			"text": "Čo bude ďalej?"
+		},
+		{
+			"type": "paragraph",
+			"text": "Výhodou od základu postaveného topánku je flexibilita a modulárnosť. Počiatočný vývoj trvá dlhšie, ale o to lepšie je topánok pripravený na špecifické rozšírenia, ktoré bude klient v budúcnosti potrebovať. Už dnes preto s ComApom pracujeme na ďalšom vývoji funkcionality InteliBotu."
+		}
+	]
+}

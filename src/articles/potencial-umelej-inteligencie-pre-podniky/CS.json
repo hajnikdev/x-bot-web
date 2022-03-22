@@ -1,0 +1,49 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/CS/article/potencial-umelej-inteligencie-pre-podniky.html",
+		"ogLocale": "cs_CZ",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Soubor možností, které se podnikům po celém světě s příchodem umělé inteligence otevřel, je enormní...",
+		"title": "Xolution – Potenciál umělé inteligence pro podniky"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "Potenciál umělé inteligence pro podniky",
+		"alignItems": "center"
+	},
+	"content": [
+		{
+			"type": "paragraph",
+			"text": "Zvláštním odvětvím je umělá inteligence. Ještě donedávna poznatky ze světa AI nebyly natolik pokročilé, aby pro firmy (ale i jednotlivce) přinášely reálný užitek. To se však stále mění s tím, jak jsou <b>technologická řešení, které AI nabízí, stále více a více přepracované</b>."
+			},
+			{
+			"type": "paragraph",
+			"text": "Kromě přínosu, který dokáže umělá inteligence a strojní učení ve formě automatizovaných asistentů a chatbotů přinést, je důležité zdůraznit jejich potenciál řešit řadu problémů týkajících se <b>bezpečnosti</b>, as tím souvisejících výpadků, které firmy stojí <b>cenný čas</b> a nezanedbatelné <b>množství finančních prostředků</b>."
+			},
+			{
+			"type": "paragraph",
+			"text": "Jelikož se již mnoho bezpečnostních expertů nechalo slyšet, jak vidí <b>potenciál čelit bezpečnostním výzvám v budoucnu</b> právě pomocí umělé inteligence, v této souvislosti nedávno The Ponemon Institute vyhotovil navazující studii s názvem „Closing the IT Security Gap with Automation & AI v Era of IoT”. Studie pokryla vzorek 3,866 IT specialistů z celého světa."
+			},
+			{
+			"type": "paragraph",
+			"text": "Podle výsledků této studie, která anketovala zmíněný vzorek bezpečnostních expertů se zjistilo, že <b>většina z respondentů vnímá umělou inteligenci</b> jako subjekt, který pomůže markantně <b>snížit počet nepotvrzených procesních chyb</b > v provozu (falešných poplachů), <b>zvýšit týmovou efektivitu</b> a <b>zrychlit proces odhalování kyberútoků</b>.. Jednou z hlavních předností by měla být i <b>detekce a eliminace hrozeb</b> ještě před tím, než stihnou napáchat škody.Kromě zvýšení šance na odhalení a adekvátní reakci v krátkém časovém horizontu, potenciál umělé inteligence tkví například iv <b>automatizaci</b> celého tohoto procesu."
+			},
+			{
+			"type": "paragraph",
+			"text": "Další z perspektivních oblastí, ve kterých může umělá inteligence <b>výrazně zjednodušit</b> procesy a očistit je od zbytečných chyb způsobených lidským faktorem je podle CTO společnosti Imanis Data, Hariho Mankude, <b>zpráva a management datových operací</b>."
+			},
+			{
+			"type": "paragraph",
+			"text": "S ohledem na rozměr a složitost firemních datových toků se nám předstírá další use-case; implementací AI řešení v kombinaci s chatbotem, který dokáže na základě jednoduchých požadavků provádět jisté operace, <b>lze efektivně třídit</b > a <b>vyhledávat potřebná data</b>."
+			},
+			{
+			"type": "paragraph",
+			"text": "Prostor právě pro zefektivnění řetězu procesů v rámci <b>dat a datových analýz</b> vidí i generální manažer Salesforce, Ketan Karkhanis. Ten zdůrazňuje zejména užitečnost AI systémů při <b>získávání tzv. „čistých dat” </b> z milionů řádků údajů v tzv. “raw formě”, ze které konverze do žádaného výstupu může zabrat pracovníkovi zbytečně mnoho času, delegováním těchto úkolů směrem k umělé inteligenci se tak může <b>lidský kapitál přemístit na jiné, důležitější úkoly </b>."
+			},
+			{
+			"type": "paragraph",
+			"text": "Vyšší bezpečnost, ušetřený čas, spolehlivější provoz a efektivnější alokace zaměstnanců jsou přednosti, které výdobytky ze světa AI dokážou nabídnout byznys sféře."
+			}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"header": {
-		"background": "header-panel.jpg",
+		"background": "header-panel.webp",
 		"title": "Virtuálny agent\npre Onio",
 		"boxes": [
 			"Xolution virtuálny agent uľahčuje operátorom zákazníckej podpory v e-shope Onio zvládať narastajúci počet kontaktov, a uľavuje im tak od opakujúcich sa činností.",
@@ -17,7 +17,7 @@
 		]
 	},
 	"solution": {
-		"background": "tire-casing.png",
+		"background": "tire-casing.webp",
 		"title": "RIEŠENIE",
 		"content": {
 			"strong": "Sprevádzkovali sme pre Onio virtuálneho agenta, ktorý odpovedá na otázky zákazníkov a ktorého schopnosť porozumieť sa každý mesiac automaticky zdokonaľuje.",
@@ -48,7 +48,7 @@
 		]
 	},
 	"resultsBig": {
-		"background": "tires.png",
+		"background": "tires.webp",
 		"title": "VÝSLEDKY",
 		"items": [
 			{
@@ -67,7 +67,7 @@
 		"paragraph": "Xolution virtuálny agent umožňuje firme Onio ustávať návaly otázok v čase špičiek a zabezpečiť kvalitný zákaznícky servis. Operátori tak nie sú \"bombardovaní\" otázkami a majú čas sa sústrediť na konzultačné otázky zákazníkov."
 	},
 	"award": {
-		"background": "future.png",
+		"background": "future.webp",
 		"title": "A BUDÚCNOSŤ?",
 		"items": [
 			"Chceme naučiť virtuálneho agenta pomáhať pri tvorbe cenovej ponuky, a tak ho vytrénovať aj na zber leadov.",
