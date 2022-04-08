@@ -41,13 +41,11 @@
 			"images": [
 				{
 					"src": "image1.webp",
-					"alt": "",
-					"style": "width: 100%"
+					"alt": ""
 				},
 				{
 					"src": "image2.webp",
-					"alt": "",
-					"style": "width: 100%"
+					"alt": ""
 				}
 			]
 
@@ -90,13 +88,11 @@
 			"images": [
 				{
 					"src": "image4.webp",
-					"alt": "",
-					"style": "width: 100%"
+					"alt": ""
 				},
 				{
 					"src": "image5.webp",
-					"alt": "",
-					"style": "width: 100%"
+					"alt": ""
 				}
 			]
 

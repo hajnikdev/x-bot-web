@@ -461,6 +461,18 @@
 		"title": "Zjistěte více o konverzační inteligenci",
 		"pages": [
 			{
+				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"headline": "Máte otázku? Virtuální agent ji zodpoví lépe než chatbot, a dokonce stejně dobře jako člověk",
+				"button": "Číst více ❯",
+				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+			},
+			{
+				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"headline": "5 důvodů, proč v e-shopu zavést virtuálního agenta",
+				"button": "Číst více ❯",
+				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
+			},
+			{
 				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
 				"headline": "Potenciál umělé inteligence pro podniky",
 				"button": "Číst více ❯",
@@ -495,18 +507,6 @@
 				"headline": "Jak bude vypadat trh práce v roce 2025?",
 				"button": "Číst více ❯",
 				"link": "trh-prace-v-roku-2025"
-			},
-			{
-				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
-				"headline": "Virtualni agent vs. chatbot",
-				"button": "Číst více ❯",
-				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
-			},
-			{
-				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
-				"headline": "Benefity IVA",
-				"button": "Číst více ❯",
-				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
 			}
 		]
 	},

@@ -90,8 +90,8 @@ var config = {
 		articleConfig('prve-miesto-v-microsoft-awards-2019', 'SK', false),
 		articleConfig('nova-era-chatbotov', 'SK', false),
 		articleConfig('trh-prace-v-roku-2025', 'SK', false),
-		articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'CS', false),
-		articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'CS', false),
+		articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'SK', false),
+		articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'SK', false),
 	],
 };
 

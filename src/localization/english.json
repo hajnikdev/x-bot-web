@@ -429,6 +429,18 @@
 		"title": "Zjistěte více o konverzační inteligenci",
 		"pages": [
 			{
+				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"headline": "Do you have a question? A virtual agent answers her better than a chatbot, and even as well as a human",
+				"button": "Read more ❯",
+				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+			},
+			{
+				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"headline": "5 reasons to implement a virtual agent in the e-shop",
+				"button": "Read more ❯",
+				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
+			},
+			{
 				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
 				"headline": "The potential of artificial intelligence for companies",
 				"button": "Read more ❯",
@@ -463,18 +475,6 @@
 				"headline": "What will the labor market look like in 2025?",
 				"button": "Read more ❯",
 				"link": "trh-prace-v-roku-2025"
-			},
-			{
-				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
-				"headline": "Virtualni agent vs. chatbot",
-				"button": "Read more ❯",
-				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
-			},
-			{
-				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
-				"headline": "Benefity IVA",
-				"button": "Read more ❯",
-				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
 			}
 		]
 	},
