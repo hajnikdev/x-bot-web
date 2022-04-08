@@ -38,7 +38,7 @@ const articleConfig = (articleCode, lang, isDefault) => {
 }
 
 var config = {
-	entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss'],
+	entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss', './src/styles/cookieConset.scss'],
 	devServer: {
 		host: '0.0.0.0',
 		inline: true,

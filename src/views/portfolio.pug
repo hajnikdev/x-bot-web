@@ -21,7 +21,7 @@ html(lang=localGlobal.meta.code)
 		link(rel="shortcut icon", href=rel+"assets/favicon.png", type="image/x-icon")
 		link(rel="apple-touch-icon", href=rel+"assets/favicon.png")
 
-		link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+		link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet" type="text/plain" cookie-consent="strictly-necessary")
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		link(rel="stylesheet", href=rel+"main.css")
 
@@ -31,14 +31,14 @@ html(lang=localGlobal.meta.code)
 
 		script(async,src="https://www.googletagmanager.com/gtag/js?id=UA-68042186-1")
 
-		script.
+		script(type="text/plain" cookie-consent="tracking").
 			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 			})(window,document,'script','dataLayer','GTM-WPDQZS6');
 
-		script.
+		script(type="text/plain" cookie-consent="tracking").
 			(function(h,o,t,j,a,r){
 				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 				h._hjSettings={hjid:1119387,hjsv:6};
@@ -48,7 +48,7 @@ html(lang=localGlobal.meta.code)
 				a.appendChild(r);
 			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
-		script.
+		script(type="text/plain" cookie-consent="tracking").
 			window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());
 			gtag('config', 'AW-785172836');
 			function contactFormOnSubmit() {
@@ -330,5 +330,12 @@ html(lang=localGlobal.meta.code)
 			a(href='#').contact-form__close
 				img(src=rel+"assets/close-button.svg")
 
-		script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+		script(src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/plain" cookie-consent="strictly-necessary")
 		script(src=rel+"chatbots.js")
+
+		//- Cookie Consent by TermsFeed (https://www.TermsFeed.com)
+		script(type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8")
+		script(type="text/javascript" charset="UTF-8").
+			document.addEventListener('DOMContentLoaded', function () {
+				cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":document.documentElement.lang ?? 'en',"page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Xolution","open_preferences_center_selector":"#open_preferences_center"});
+			});

@@ -74,7 +74,7 @@ var pugLoader = {
 var config = [
 	{
 		// context: path.resolve(__dirname, './'),
-		entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss'],
+		entry: ['./src/index.js', './src/styles/chatbots.scss', './src/styles/article.scss', './src/styles/cookieConset.scss'],
 		optimization: {
 			minimizer: [
 				new UglifyJsPlugin({
