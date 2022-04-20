@@ -543,7 +543,7 @@ html(lang=local.meta.code)
 			.container
 				h2 !{local.articles.title}
 				.articles-gallery
-					- for(var i = 0; i < 3; i++) {
+					- for(var i = 0; i < 4  ; i++) {
 						- var article = local.articles.pages[i];
 						a.article(href=(isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'blog/' + article.link + '.html', data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
 							.cover(style='background-image: url(' + rel+"assets/articles/" + article.cover + ')')
@@ -552,10 +552,8 @@ html(lang=local.meta.code)
 							.spacer(style="flex: 1")
 							button !{article.button}
 					- }
-					a.article.more-articles(href=(isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'blog.html', data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
-						.cover(style='background-image: url(' + rel+"assets/articles/" + local.articles.more.cover + ')')
-						img(src=rel+"assets/articles/" + local.articles.more.cover)
-						h3 !{local.articles.more.headline}
+				a.article.more-articles(href=(isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'blog.html', data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
+					h3 !{local.articles.more.headline}
 
 
 
