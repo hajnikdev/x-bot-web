@@ -154,7 +154,8 @@ var config = [
 			clientConfig('comap', 'SK', ['onio', 'viessmann'], true),
 			clientConfig('viessmann', 'SK', ['comap', 'xella'], true),
 			clientConfig('xella', 'SK', ['viessmann', 'onio'], true),
-			clientConfig('onio', 'SK', ['xella', 'comap'], true),
+			clientConfig('onio', 'SK', ['xella', 'mastersport'], true),
+			clientConfig('mastersport', 'SK', ['onio', 'comap'], true),
 
 			articlesConfig('SK', true),
 			blogConfig('article-1', 'SK', true),
@@ -182,7 +183,8 @@ var config = [
 				clientConfig('comap', l, ['onio', 'viessmann'], false),
 				clientConfig('viessmann', l, ['comap', 'xella'], false),
 				clientConfig('xella', l, ['viessmann', 'onio'], false),
-				clientConfig('onio', l, ['xella', 'comap'], false),
+				clientConfig('onio', l, ['xella', 'mastersport'], false),
+				clientConfig('mastersport', l, ['onio', 'comap'], false),
 
 				articlesConfig(l, false),
 				blogConfig('article-1', l, false),

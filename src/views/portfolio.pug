@@ -157,8 +157,12 @@ html(lang=localGlobal.meta.code)
 						.dashed-arrow__line
 						.dashed-arrow__triangle
 					.solution__content
-						strong !{client.solution.content.strong}
-						p !{client.solution.content.paragraph}
+						if client.solution.content && client.solution.content.length > 1
+							each paragraph in client.solution.content
+								p !{paragraph}
+						else
+							strong !{client.solution.content.strong}
+							p !{client.solution.content.paragraph}
 				.solution-info-container
 					.row
 						each item in client.solution.items
@@ -197,10 +201,14 @@ html(lang=localGlobal.meta.code)
 			)
 				.container
 					h1 !{client.resultsBig.title}
+					if client.resultsBig.introduction
+						.result__content
+							p !{client.resultsBig.introduction}
 					.result-info-container
 						.row
 							each item in client.resultsBig.items
 								.result-info__info.col-md-4
+									p !{item.highlight}
 									h1 !{item.title}
 									h4 !{item.text}
 					.result__content

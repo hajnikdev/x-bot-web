@@ -79,10 +79,11 @@ var config = {
 				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'SK' ? -1 : 1)),
 			},
 		}),
-		clientConfig('comap', 'SK', ['xella', 'viessmann'], false),
-		clientConfig('viessmann', 'SK', ['comap', 'xella'], false),
-		clientConfig('xella', 'SK', ['viessmann', 'onio'], false),
-		clientConfig('onio', 'SK', ['xella', 'comap'], false),
+		clientConfig('comap', 'CS', ['xella', 'viessmann'], false),
+		clientConfig('viessmann', 'CS', ['comap', 'xella'], false),
+		clientConfig('xella', 'CS', ['viessmann', 'onio'], false),
+		clientConfig('onio', 'CS', ['xella', 'mastersport'], false),
+		clientConfig('mastersport', 'CS', ['onio', 'comap'], false),
 
 		new HtmlWebpackPlugin({
 			inject: false,

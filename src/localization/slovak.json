@@ -218,6 +218,13 @@
 		"carousel": {
 			"items": [
 				{
+					"comment": "“Náš customer support vďaka X-botovi dostáva k vybaveniu citeľne menej konverzácií, a to aj napriek tomu, že sa naopak zvýšil počet interakcií s návštevníkmi webu. Vďaka virtuálnemu agentovi sme bližšie našim zákazníkom a ponúkame im kvalitnejší servis. Po predchádzajúcich skúsenostiach s konkurenčnými riešeniami nás príjemne prekvapila profesionalita technického riešenia virtuálneho agenta aj celého Xolution tímu. Veľkou výhodou je, že sa X-Bot neustále učí a reaguje tak na našich zákazníkov aj rozvoj našej firmy.“",
+					"person": {
+						"name": "Vítězslav Rak",
+						"company": "Konateľ, MASTER SPORT s.r.o."
+					}
+				},
+				{
 					"comment": "„Už si neviem predstaviť, ako by sme fungovali bez X-bota! Virtuálny agent nám vyrieši 80% otázok na chate. Po jeho zavedení sme našim zákazníkom nepretržite k dispozícii aj v čase špičiek.“",
 					"person": {
 						"name": "Tereza Přibylová",
@@ -369,6 +376,12 @@
 	"portfolio": {
 		"title": "Kde už X-bot pomáha",
 		"items": [
+			{
+				"link": "mastersport",
+				"image": "case-mastersport.webp",
+				"title": "Virtuálny agent",
+				"client": "Master Sport"
+			},
 			{
 				"link": "onio",
 				"image": "case-onio.webp",

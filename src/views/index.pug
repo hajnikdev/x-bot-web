@@ -384,7 +384,7 @@ html(lang=local.meta.code)
 				h1= local.portfolio.title
 				.container.xbot-portfolio__container
 					.xbot-portfolio__items.row
-						- for(var i = 0; i < 4; i++)
+						- for(var i = 0; i < 5; i++)
 							- var item = local.portfolio.items[i]
 							a(href=(item.link === '#' ? '#' : (htmlWebpackPlugin.options.options.isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'clients/' + item.link + '.html')).xbot-portfolio__item.col-md-6(data-aos="zoom-in-up",data-aos-delay=0,data-aos-duration=300,data-aos-once="true", data-aos-easing="ease-in-out")
 								.xbot-portfolio__item__bg(style='background-image: url(' + rel + 'assets/portfolio/' + item.image + ')')

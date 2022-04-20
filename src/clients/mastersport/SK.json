@@ -1,0 +1,94 @@
+{
+	"header": {
+		"background": "header-panel.webp",
+		"title": "Virtuálny agent\npre MasterSport",
+		"boxes": [
+			"Virtuálny agent zautomatizoval 75% otázok zákazníkov e-shopu",
+			"Vďaka X-Botovi sa znížil počet otázok na customer support, aj keď sa celkové množstvo otázok strojnásobilo. Náš virtuálny agent v Mastersporte ponúkne pomoc priemerne 110 tisícom zákazníkov mesačne."
+		]
+	},
+	"challenge": {
+		"title": "Výzva",
+		"paragraphs": [
+			"Spoločnosť Mastersport je skúseným hráčom na poli e-commerce, ktorá hľadala technológie na skvalitnenie a automatizáciu zákazníckej starostlivosti už dlhšiu dobu. Bohužiaľ sa žiadny z topánok neosvedčil, a e-shop sa bál odlivu zákazníkov kvôli nekvalitným odpovediam. Mali sme tak pred sebou úlohu maximalizovať počet konverzácií, ktoré zodpovie virtuálny agent, nepretržitú prevádzku, a navyše zaistiť kvalitnejšiu komunikáciu ako chatbot alebo iné riešenia."
+		]
+	},
+	"solution": {
+		"title": "Riešenie",
+		"content": [
+			"X-Bota sme vytrénovali špeciálne pre e-shop v dvoch režimoch. Zákazníkom odpovedá na otázky <b>rovnako ako ľudský kolega customer supportu</b>, dokáže však tiež aktívne ponúknuť a odporučiť tovar ako obchodník.",
+			"Okrem odpovedí na otázky X-Bot ponúka zákazníkom obsah z blogu a videa, ku ktorým by sa inak najskôr nedostali. <b>Tým buduje s nakupujúcimi vzťah</b> a udržuje ich na webe angažované dlhšiu dobu.",
+			"Ako sa virtuálny agent učí reagovať na otázky zákazníkov? V Masteršporte ho môžu trénovať sami v intuitívnom editore. Ak je treba, vezmeme X-Bota do laty my. Sám totiž zbiera dáta o konverzáciách, ktoré nevedel zodpovedať. V takom prípade všetky rozhovory zanalyzujeme , pripravíme odpovede a X-Bota natrénujeme, aby bol zase o chlp lepší."
+		],
+		"items": [
+			{
+				"icon": {
+					"src": "icon-faq.webp",
+					"alt": "Reaguje na otázky"
+				},
+				"text": "Reaguje na otázky"
+			},
+			{
+				"icon": {
+					"src": "icon-shop.webp",
+					"alt": "Aktívne ponúka ďalší tovar"
+				},
+				"text": "Aktívne ponúka ďalší tovar"
+			},
+			{
+				"icon": {
+					"src": "icon-direction.webp",
+					"alt": "Zvyšuje angažovanosť"
+				},
+				"text": "Zvyšuje angažovanosť"
+			}
+		]
+	},
+	"resultsBig": {
+		"background": "hiking.webp",
+		"title": "VÝSLEDOK",
+		"introduction": "<b>Po nasadení virtuálneho agenta sa zvýšil počet otázok 3x, počet konverzácií, ktoré musí riešiť customer support, sa však znížil. Vďaka domu sa môže tím venovať personalizovanému poradenstvu. Vďaka našej analytike taktiež klient získal detailný prehľad o tom, čo zákazníkov trápi. Na najpálčivejšie témy potom môže reagovať vo svojej marketingovej komunikácii.</b>",
+		"items": [
+			{
+				"highlight": "Pomôže",
+				"title": "110 000",
+				"text": "zákazníkom každý mesiac"
+			},
+			{
+				"highlight": "Automatizuje",
+				"title": "75 %",
+				"text": "otázok na webe"
+			},
+			{
+				"highlight": "Vyrieši",
+				"title": "780",
+				"text": "chatov mesačne"
+			}
+		]
+	},
+	"award": {
+		"background": "future.webp",
+		"title": "A BUDÚCNOSŤ?",
+		"items": [
+			"Našou spoločnou úlohou je agenta ďalej trénovať podľa reálnych konverzácií so zákazníkmi, rovnako ako sa rozvíja skutočný zamestnanec. Po dvoch mesiacoch trénovania vytvoríme slovenské dvojča českého X-Bota."
+		]
+	},
+	"client_opinion": {
+		"paragraphs": [
+			{
+				"type": "strong",
+				"text": "X-Bot ponúka viac, než sme čakali."
+			},
+			{
+				"text": "“Náš customer support vďaka X-botovi dostáva k vybaveniu citeľne menej konverzácií, a to aj napriek tomu, že sa naopak zvýšil počet interakcií s návštevníkmi webu. Vďaka virtuálnemu agentovi sme bližšie našim zákazníkom a ponúkame im kvalitnejší servis. Po predchádzajúcich skúsenostiach s konkurenčnými riešeniami nás príjemne prekvapila profesionalita technického riešenia virtuálneho agenta aj celého Xolution tímu. Veľkou výhodou je, že sa X-Bot neustále učí a reaguje tak na našich zákazníkov aj rozvoj našej firmy.“"
+			},
+			{
+				"text": "<b>Vítězslav Rak</b>, Konateľ, <b>MASTER SPORT s.r.o.</b>",
+				"isAuthor": true
+			},
+			{
+				"text": "Česká firma MASTER SPORT predáva športové vybavenie pre rodiny s deťmi aj single ľudí už od roku 2004. Majitelia a zakladatelia firmy sú sami vášniví športovci. E-shop mastersport.cz (predtým najlacnejsisport.sk) si zakladá na vynikajúcej zákazníckej starostlivosti a širokom sortimente. Spoločnosť tiež zaviedla svoju vlastnú značku športového vybavenia. S ich produktmi sa stretnete v Česku a na Slovensku, ktoré majú každý svoj e-shop, ale aj v Poľsku alebo Maďarsku."
+			}
+		]
+	}
+}

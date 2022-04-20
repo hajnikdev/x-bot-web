@@ -1,0 +1,94 @@
+{
+	"header": {
+		"background": "header-panel.webp",
+		"title": "Virtual Agent\nfor MasterSport",
+		"boxes": [
+			"Virtual agent automates 75% of e-shop customer queries",
+			"Thanks to X-Bot, the number of customer support inquiries has decreased, even though the total number of inquiries has tripled. Our virtual agent at Mastersport will offer assistance to an average of 110,000 customers per month."
+		]
+	},
+	"challenge": {
+		"title": "Challenge",
+		"paragraphs": [
+			"Mastersport is an experienced player in the field of e-commerce, which has been looking for technologies to improve and automate customer care for a long time. Unfortunately, none of the shoes worked, and the e-shop was afraid of an outflow of customers due to poor responses. maximize the number of conversations that the virtual agent responds to, continuous operation, and ensure better communication than chatbot or other solutions. "
+		]
+	},
+	"solution": {
+		"title": "Solution",
+		"content": [
+			"We have trained X-Bota specifically for the e-shop in two modes. It answers customer questions <b> just like a human customer support colleague </b>, but it can also actively offer and recommend goods as a merchant.",
+			"In addition to answering questions, X-Bot offers customers content from blogs and videos that they would not otherwise be able to reach. <b> This builds a relationship with shoppers </b> and keeps them engaged on the site for a long time.",
+			"How does a virtual agent learn to respond to customer inquiries? In Mastersport, they can train them themselves in an intuitive editor. If necessary, we'll take X-Bot into a lath. , we'll prepare answers and train X-Bots to make him a hair better. "
+		],
+		"items": [
+			{
+				"icon": {
+					"src": "icon-faq.webp",
+					"alt": "Responds to queries"
+				},
+				"text": "Responds to queries"
+			},
+			{
+				"icon": {
+					"src": "icon-shop.webp",
+					"alt": "Actively offers other goods"
+				},
+				"text": "Actively offers other goods"
+			},
+			{
+				"icon": {
+					"src": "icon-direction.webp",
+					"alt": "Increases engagement"
+				},
+				"text": "Increases engagement"
+			}
+		]
+	},
+	"resultsBig": {
+		"background": "hiking.webp",
+		"title": "RESULT",
+		"introduction": "<b> After deploying a virtual agent, the number of queries increased 3x, but the number of conversations that customer support had to resolve decreased. Thanks to the house, the team can provide personalized advice. Thanks to our analytics, the client also gained a detailed overview of what is bothering customers. He can then respond to the most pressing topics in his marketing communication. </b>",
+		"items": [
+			{
+				"highlight": "It will help",
+				"title": "110 000",
+				"text": "customers every month"
+			},
+			{
+				"highlight": "Automates",
+				"title": "75 %",
+				"text": "queries on the web"
+			},
+			{
+				"highlight": "Solve",
+				"title": "780",
+				"text": "chats per month"
+			}
+		]
+	},
+	"award": {
+		"background": "future.webp",
+		"title": "AND THE FUTURE?",
+		"items": [
+			"Our common task is to further train the agent according to real conversations with customers, just as a real employee is developing. After two months of training, we will create the Slovak twin of the Czech X-Boot."
+		]
+	},
+	"client_opinion": {
+		"paragraphs": [
+			{
+				"type": "strong",
+				"text": "X-Bot offers more than we expected."
+			},
+			{
+				"text": "“Thanks to the X-bot, our customer support gets significantly fewer conversations, even though the number of interactions with website visitors has increased. Thanks to the virtual agent, we are closer to our customers and offer them better service. With the experience of competing solutions, we were pleasantly surprised by the professional solution of the virtual agent and the entire Xolution team. The big advantage is that X-Bot is constantly learning and thus responds to our customers and the development of our company.“"
+			},
+			{
+				"text": "<b>Vítězslav Rak</b>, Managing Director, <b>MASTER SPORT s.r.o.</b>",
+				"isAuthor": true
+			},
+			{
+				"text": "The Czech company MASTER SPORT has been selling sports equipment for families with children and singles since 2004. The owners and founders of the company are themselves passionate athletes. The company has also introduced its own brand of sports equipment. You will find their products in the Czech Republic and Slovakia, which each have their own e-shop, but also in Poland and Hungary."
+			}
+		]
+	}
+}

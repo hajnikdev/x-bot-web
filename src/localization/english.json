@@ -215,6 +215,13 @@
 		"carousel": {
 			"items": [
 				{
+					"comment": "“Thanks to the X-bot, our customer support gets significantly fewer conversations, even though the number of interactions with website visitors has increased. Thanks to the virtual agent, we are closer to our customers and offer them better service. With the experience of competing solutions, we were pleasantly surprised by the professional solution of the virtual agent and the entire Xolution team. The big advantage is that X-Bot is constantly learning and thus responds to our customers and the development of our company.“",
+					"person": {
+						"name": "Vítězslav Rak",
+						"company": "Managing Director, MASTER SPORT s.r.o."
+					}
+				},
+				{
 					"image": "FrantisekPoupe.webp",
 					"comment": "IteliBot project delivered a great tool and service to our customers, which has moved user comfort again a bit forward. At the same time, we found a perfect partner we love to cooperate with. Based on that experience, we have been extending our cooperation by very interesting and useful projects. I cannot wait for the next new projects and I am really glad this project didn’t stop with the implementation itself, but it continues with further improvements, which are appreciated by us and our customers.",
 					"person": {
@@ -316,6 +323,12 @@
 	"portfolio": {
 		"title": "Where X-Bot is already helping",
 		"items": [
+			{
+				"link": "mastersport",
+				"image": "case-mastersport.webp",
+				"title": "Virtuální agent",
+				"client": "Master Sport"
+			},
 			{
 				"link": "onio",
 				"image": "case-onio.webp",

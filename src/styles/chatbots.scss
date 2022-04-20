@@ -1750,6 +1750,11 @@ h2 {
 		text-align: center;
 		padding: 0 0 2.1rem;
 	}
+
+	&__items {
+		justify-content: center;
+	}
+
 	&__item {
 		position: relative;
 		text-decoration: none;
@@ -4080,7 +4085,8 @@ $gray: #535e65;
 	}
 	&.client-viessmann,
 	&.client-xella,
-	&.client-onio {
+	&.client-onio,
+	&.client-mastersport {
 		.client-header__introduction {
 			padding-top: 30px;
 			width: 100%;
@@ -4281,6 +4287,131 @@ $gray: #535e65;
 			background-color: #fecc00;
 			.portfolio-cta__content a:hover {
 				color: #fecc00;
+			}
+		}
+	}
+
+	&.client-mastersport {
+		.client-header__introduction__squares {
+			.introduction__square {
+				&:first-of-type {
+					width: 75%;
+				}
+
+				&:last-of-type {
+					width: 55%;
+				}
+			}
+		}
+
+		.client-challenge {
+			background-color: #a3c41b;
+			background-image: url(./~/assets/clients/client-opinion.png);
+			background-size: 120%;
+			background-position: center;
+		}
+
+		.client-solution {
+			background-color: #283078;
+
+			h1 {
+				color: #a3c41b;
+			}
+
+			.solution__content {
+				font-weight: 400;
+				color: #ffffffb3;
+
+				b {
+					color: white;
+				}
+			}
+
+			.solution-info__info {
+				h4 {
+					color: #a3c41b;
+				}
+			}
+		}
+
+		.client-result-big {
+			padding: 40px 0 320px !important;
+			background-position: 100% 90%;
+
+			.result__content {
+				p {
+					color: white;
+					font-weight: 500;
+				}
+			}
+
+			.result-info__info {
+				position: relative;
+
+				p,
+				h1,
+				h4 {
+					color: #283078;
+					font-weight: 1000;
+				}
+
+
+				p {
+					margin-bottom: 0.1rem;
+				}
+
+				h1 {
+					margin-bottom: 0.4rem;
+					font-weight: bold;
+				}
+				h4 {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 1.6rem;
+
+					&::after {
+						position: absolute;
+						content: '';
+						bottom: -2rem;
+						width: 60%;
+						height: 0.35rem;
+						background-color: #a3c41b;
+					}
+				}
+			}
+		}
+
+		.client-award {
+			padding: 95px 0;
+			background-size: 78%;
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-color: #2e3774;
+
+			.container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h1 {
+					color: #f2b84d;
+					margin-bottom: 0.6em;
+				}
+			}
+		}
+
+		.client-opinion {
+			h1 {
+				background-color: #a3c41b;
+			}
+		}
+
+		.portfolio-cta {
+			background-color: #a3c41b;
+			.portfolio-cta__content a:hover {
+				color: #a3c41b;
 			}
 		}
 	}
