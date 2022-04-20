@@ -1,0 +1,106 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/EN/blog/article-1.html",
+		"ogLocale": "en_EN",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Customer support must answer tons of questions per day about the correct product size, technical parameters, order status, complaint or delivery date. But imagine what operators could do if 60-96% of these questions were answered for them.",
+		"title": "Xolution – 5 reasons to implement a virtual agent in the e-shop"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "5 reasons to implement a virtual agent in the e-shop"
+	},
+	"content": [
+		{
+			"type": "paragraph",
+			"text": "Zákaznická podpora musí denně zodpovědět tuny dotazů na správnou velikost produktu, technické parametry, stav objednávky, reklamaci nebo termín dodání. Představte si ale, čemu by se mohli operátoři věnovat, pokud by <b>60–96 % těchto dotazů zodpověděl někdo za ně</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "Virtuální agent (nebo také inteligentní virtuální agent, IVA) rozumí lidské řeči v psané i mluvené formě a hlavně dokáže zachytit kontext. Ve firmách nahrazuje chatboty a automatizuje péči o zákazníky s mnohem většími úspěchy. Nepotřebuje totiž rozhodovací stromy. <b>Po úvodním zácviku si informace dohledává sám</b>. Jaké výhody s sebou virtuální agent přináší?"
+		},
+		{
+			"type": "quotation",
+			"quote": "„Umělá inteligence a machine learning algoritmy budou pomáhat tomu, aby nahradily léty ověřené metody z offlinu nebo toho perfektního obchodníka z krámku na rohu, který vás zná a ví, co si kupujete,“ ",
+			"author": "řekl <b>David Špinar</b>, CEO Mitonu, pro magazín EXEC"
+		},
+		{
+			"type": "h2",
+			"text": "1. Zkvalitnění služeb zákaznické podpory (customer support)"
+		},
+		{
+			"type": "paragraph",
+			"text": "Virtuální agent dokáže zákazníky obsloužit stejně dobře, jako by byli na prodejně. I v online světě platí, že pokud nakupující narazí na něco, s čím si neví rady, chce se poradit. A chce se poradit hned."
+		},
+		{
+			"type": "paragraph",
+			"text": "Například <a href='https://www.comm100.com/resources/infographic/millennials-prefer-live-chat-speed-convenience/'>průzkum společnosti Comm100</a> odhalil, že <b>7 z 10 mileniálů očekává okamžitou odpověď obchodu</b> a polovina lidí této generace chce komunikovat se značkou kdykoli a písemně. Nechtějí tedy najít automatickou odpověď ani čekat na telefonát druhý den."
+		},
+		{
+			"type": "h2",
+			"text": "2. Větší konkurenceschopnost a udržení personálních nákladů v rozumné míře"
+		},
+		{
+			"type": "paragraph",
+			"text": "Jak váš e-shop roste, budete potřebovat zodpovědět víc dotazů od zákazníků. Znamená to víc operátorů supportu? Ne nutně. Virtuální agent zastane práci 25 operátorů, kteří by vašim zákazníkům přinášeli špičkový servis. A to <b>za zlomek nákladů</b> na lidskou obsluhu, která se tak může opět soustředit na rozvoj e-shopu a podpořit váš další rozvoj."
+		},
+		{
+			"type": "quotation",
+			"quote": "„Být schopný podnikat v prostředí velkých e-commerce hráčů a při neustálém zvyšování nákladů na lidskou pracovní sílu je čím dál těžší. Kdo zaspí dobu a nezačne optimalizovat a automatizovat procesy, toho velcí hráči (typu Alza) vytěsní z trhu. Malé e-shopy jim nebudou moct konkurovat výší nákladů, a tedy ani cenami,“",
+			"author": "domnívá se <b>Libor Bešenyi</b>, Co-CEO & Technical Director, Xolution"
+		},
+		{
+			"type": "h2",
+			"text": "3. Budování vztahu se zákazníky"
+		},
+		{
+			"type": "paragraph",
+			"text": "Zákaznický servis rozhoduje nejen o tom, jestli zákazník nakoupí, ale taky jestli u vás nakoupí znovu nebo vás doporučí svým přátelům. Stejně jako se zeptáte prodavače v elektru, kterou žárovku vybrat, se lidé ptají i na e-shopech. Virtuální agent dokáže pomoct s výběrem správného produktu či s konfigurací nebo doporučit vhodné doplňky a alternativy. A je jedno, jestli prodáváte oblečení, nebo stavebniny."
+		},
+		{
+			"type": "quotation",
+			"quote": "„Personalizace se bude zdokonalovat nejen v oblasti nabídek, ale i v komunikaci, ať už jde o podobu obsahu, nebo poskytnutí podpory, rad či inspirace, a to výrazně nad rámec samotného prodeje. Personalizace tak pomůže dále upevnit a posilovat vztah mezi zákazníkem a společností a též rozvine například věrnostní programy. Ty umožní přesnější zaměření na potřeby a preference zákazníka,“",
+			"author": "komentuje <b>Pavel Jirát</b>, Country Digital Manager IKEA, pro magazín EXEC"
+		},
+
+		{
+			"type": "h2",
+			"text": "4. Ulehčení práce zákaznické podpory"
+		},
+		{
+			"type": "paragraph",
+			"text": "Pokud virtuální agent dokáže sám zodpovědět 50 % dotazů, znamená to, že pracovníci supportu mají o 50 % méně otázek k vyřízení. Tím pádem získávají více času na kreativnější práci a mohou se posunout do role konzultantů a obchodníků. Virtuální agent tak dává možnost zvýšit motivaci a spokojenost vašich kolegů ze supportu."
+		},
+		{
+			"type": "anchor-image",
+			"href": "../../#contactform",
+			"src": "image1-sk.webp",
+			"alt": "",
+			"style": "width: 100%"
+		},
+		{
+			"type": "h2",
+			"text": "5. Měřitelný pozitivní vliv na výsledovku"
+		},
+		{
+			"type": "paragraph",
+			"text": "Zavedení virtuálního agenta ovlivňuje výsledky společnosti ve dvou oblastech. Zaprvé snižuje náklady na zákaznickou podporu, protože zastane práci až 25 operátorů, a to za zlomek jejich mzdy. Zadruhé přináší virtuální agent větší výnosy díky vyšší konverzi objednávek z webu, a to díky vyšší kvalitě zákaznické péče."
+		},
+		{
+			"type": "paragraph",
+			"text": "<b>Návratnost investice (ROI)</b> do zavedení virtuálního agenta v e-shopech je podle našich zkušeností <b>v průměru 4 měsíce</b>. Následně IVA přináší úspory řádově ve stovkách tisíc ročně."
+		},
+		{
+			"type": "paragraph-italic",
+			"text": "Zajímá vás, jak byste mohli využít virtuálního agenta u vás? <a href='https://www.xolution.sk/#contactform'>Zavolejte nám</a>. Podíváme se společně na to, jak umělá inteligence dokáže zkvalitnit vaši zákaznickou podporu."
+		},
+		{
+			"type": "anchor-image",
+			"href": "../../#contactform",
+			"src": "image2-sk.webp",
+			"alt": "",
+			"style": "width: 100%"
+		}
+	]
+}

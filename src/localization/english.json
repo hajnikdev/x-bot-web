@@ -425,58 +425,74 @@
 			}
 		]
 	},
+	"articlesPage": {
+		"meta": {
+			"keywords": "",
+			"description": "Zákaznická podpora musí denně zodpovědět tuny dotazů na správnou velikost produktu, technické parametry, stav objednávky, reklamaci nebo termín dodání. Představte si ale, čemu by se mohli operátoři věnovat, pokud by 60–96 % těchto dotazů zodpověděl někdo za ně.",
+			"image": "",
+			"ogURL": "https://www.xolution.sk/CS/blog/article-1.html",
+			"ogLocale": "cs_CZ",
+			"code": "sk",
+			"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+			"title": "Xolution – 5 důvodů, proč v e-shopu zavést virtuálního agenta"
+		}
+	},
 	"articles": {
 		"title": "Zjistěte více o konverzační inteligenci",
 		"pages": [
 			{
-				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"cover": "article-7/cover-square.webp",
 				"headline": "Do you have a question? A virtual agent answers her better than a chatbot, and even as well as a human",
 				"button": "Read more ❯",
-				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+				"link": "article-7"
 			},
 			{
-				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"cover": "article-1/cover-square.webp",
 				"headline": "5 reasons to implement a virtual agent in the e-shop",
 				"button": "Read more ❯",
-				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
+				"link": "article-1"
 			},
 			{
-				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
+				"cover": "article-4/cover-square.webp",
 				"headline": "The potential of artificial intelligence for companies",
 				"button": "Read more ❯",
-				"link": "potencial-umelej-inteligencie-pre-podniky"
+				"link": "article-4"
 			},
 			{
-				"cover": "co-nam-hovoria-aktualne-trendy-o-robotizacii/cover-square.webp",
+				"cover": "article-2/cover-square.webp",
 				"headline": "What are current trends telling us about robotization?",
 				"button": "Read more ❯",
-				"link": "co-nam-hovoria-aktualne-trendy-o-robotizacii"
+				"link": "article-2"
 			},
 			{
-				"cover": "xolution-academy-pripravuje-studenty-it/cover-square.webp",
+				"cover": "article-8/cover-square.webp",
 				"headline": "At Xolution Academy, we are preparing students of IT for the onset of new RPA technologies.",
 				"button": "Read more ❯",
-				"link": "xolution-academy-pripravuje-studenty-it"
+				"link": "article-8"
 			},
 			{
-				"cover": "prve-miesto-v-microsoft-awards-2019/cover-square.webp",
+				"cover": "article-5/cover-square.webp",
 				"headline": "X-Bot wins first place in the Microsoft Awards 2019 in the AI ​​category.",
 				"button": "Read more ❯",
-				"link": "prve-miesto-v-microsoft-awards-2019"
+				"link": "article-5"
 			},
 			{
-				"cover": "nova-era-chatbotov/cover-square.webp",
+				"cover": "article-3/cover-square.webp",
 				"headline": "A new era of chatbots",
 				"button": "Read more ❯",
-				"link": "nova-era-chatbotov"
+				"link": "article-3"
 			},
 			{
-				"cover": "trh-prace-v-roku-2025/cover-square.webp",
+				"cover": "article-6/cover-square.webp",
 				"headline": "What will the labor market look like in 2025?",
 				"button": "Read more ❯",
-				"link": "trh-prace-v-roku-2025"
+				"link": "article-6"
 			}
-		]
+		],
+		"more": {
+			"cover": "more.png",
+			"headline": "Show more articles"
+		}
 	},
 	"about": {
 		"more": {
@@ -705,7 +721,7 @@
 			},
 			{
 				"label": "BLOG",
-				"link": "../#articles"
+				"link": "../blog.html"
 			},
 			{
 				"label": "Contakt",
@@ -760,6 +776,10 @@
 				"prev": "&lt; Previous reference",
 				"next": "Next reference &gt;"
 			}
+		},
+		"returnLink": {
+			"link": "../blog.html",
+			"text": "Back to articles"
 		}
 	},
 	"footer": {

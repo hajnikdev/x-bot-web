@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/EN/blog/article-6.html",
+		"ogLocale": "en_EN",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Veľa tradičných profesií zanikne, veľa nových sa ale vytvorí...",
+		"title": "Xolution – Ako bude vyzerať trh práce v roku 2025?"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "Ako bude vyzerať trh práce v roku 2025?"
+	},
+	"content": [
+		{
+			"type": "h2",
+			"text": "Pripravte sa na veľké zmeny"
+		},
+		{
+			"type": "paragraph-italic",
+			"text": "Rad tradičných profesií zanikne, veľa nových sa ale vytvorí. Ľudia si vďaka veľmi rýchlemu rozvoju technológií budú musieť zvyknúť na to, že nezůstanou v jednej pracovnej pozícii celý život, a priebežné vzdelávanie sa stane nevyhnutnosťou. Vize 2025 asociácia ABSL (Association of Business Service Leaders), ktorá združuje poskytovateľov podnikových služieb na českom trhu, prináša zaujímavé prognózy o tom, ako sa bude vyskytovať situácia na pracovnom trhu do roku 2025."
+		},
+		{
+			"type": "h2",
+			"text": "Robotická automatizácia procesov"
+		},
+		{
+			"type": "paragraph",
+			"text": "Predpokladá sa, že roboti postupne nahradia človeka pri riešení jednoduchých úloh, hlavne takých, ktoré majú povahu transakcií, napr. účtovné operácie. Zároveň ale vzniknú nové pracovné miesta spojené s vývojom, riadením a údržbou týchto „botov“."
+		},
+		{
+			"type": "h2",
+			"text": "Umelá inteligencia"
+		},
+		{
+			"type": "paragraph",
+			"text": "V roku 2025 budú Internetom prepojené všetky zariadenia napájané elektrinou, ktoré budú on-line generovať dáta o svojom využívaní ao správaní spotrebiteľov. Tieto zariadenia budú vytvárať obrovské objemy dát, čo povedie k vzniku pracovných miest spojených s architektúrou dát, ich dolovaním a analýzou."
+		},
+		{
+			"type": "h2",
+			"text": "Internet vecí a big dáta"
+		},
+		{
+			"type": "paragraph",
+			"text": "V roku 2025 budú internetom prepojené všetky zariadenia napájané elektrinou, ktoré budú on-line generovať dáta o svojom využívaní ao správaní spotrebiteľov. Tieto zariadenia budú vytvárať obrovské objemy dát, čo povedie k vzniku pracovných miest spojených s architektúrou dát, ich dolovaním a analýzou."
+		},
+		{
+			"type": "h2",
+			"text": "Mobilita a cloud"
+		},
+		{
+			"type": "paragraph",
+			"text": "Mobily se stanou hlavním prostředkem pro B2B komunikaci, nakupování i zábavu. Veškerá data budou uložena v cloudu, kde se budou i zpracovávat. I díky tomu se zvýší počet lidí, kteří budou mít možnost pracovat z domova."
+		},
+		{
+			"type": "h2",
+			"text": "Blockchain (decentralizované databáze)"
+		},
+		{
+			"type": "paragraph",
+			"text": "Tieto databázy sa stanú hlavnou technológiou pre prácu s rozsiahlymi sadami dát aj na globálnej úrovni (dnes sa využívajú hlavne v súvislosti s kryptomenami) a umožnia vznik nových pracovných pozícií pre analýzu dát v reálnom čase a programovanie týchto decentralizovaných databáz."
+		},
+
+		{
+			"type": "h2",
+			"text": "Bezpečnosť"
+		},
+		{
+			"type": "paragraph",
+			"text": "Stále viac citlivých dát bude prístupných on-line, čo zvýši požiadavky na ich ochranu, a navyše budú vznikať nové pracovné pozície, ktoré s bezpečnosťou dát súvisia. Implementované budú aj nové technológie proti podvodom, napr. krádežiam identity."
+		},
+
+		{
+			"type": "h2",
+			"text": "Sociálne médiá"
+		},
+		{
+			"type": "paragraph",
+			"text": "Do roku 2025 sa sociálne médiá stanú výhradnou platformou na predaj a marketing a objavia sa profesie ako tvorca obsahu, špecialisti na riadenie komunít a analýzu dát zo sociálnych médií."
+		},
+
+		{
+			"type": "h2",
+			"text": "Virtuálna a rozšírená realita"
+		},
+		{
+			"type": "paragraph",
+			"text": "Tieto technológie sa v blízkej budúcnosti rozšíria zo súkromnej sféry do firemnej a budú sa využívať v predajných aplikáciách. V súvislosti s tým sa vytvorí napr. pozícia riadenia virtuálnych obchodov."
+		},
+		{
+			"type": "paragraph-italic",
+			"text": "Vidíte potenciál pro inteligentní automatizaci ve vaší firmě? <a href='https://www.xolution.sk/'>www.xolution.sk</a>"
+		}
+	]
+}

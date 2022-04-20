@@ -46,18 +46,36 @@ function clientConfig(clientCode, localCode, navigation, isDefault) {
 	});
 }
 
-const articleConfig = (articleCode, localCode, isDefault) => {
+function articlesConfig(localCode, isDefault) {
+	return new HtmlWebpackPlugin({
+		inject: false,
+		template: './src/views/articles.pug',
+		filename: (isDefault ? '' : localCode + '/') + 'blog.html',
+		minify: false,
+		options: {
+			local: require('./src/localization/' + languages[localCode]),
+			isDefault: isDefault,
+			languages: Object.keys(languages)
+				.filter((a) => a !== 'EN')
+				.sort((a, b) => (a === localCode ? -1 : 1)),
+		},
+	});
+}
+
+const blogConfig = (articleCode, localCode, isDefault) => {
 	return new HtmlWebpackPlugin({
 		inject: false,
 		template: './src/views/article.pug',
-		filename: (isDefault ? '' : localCode + '/') + 'article/' + articleCode + '.html',
+		filename: (isDefault ? '' : localCode + '/') + 'blog/' + articleCode + '.html',
 		minify: false,
 		options: {
 			local: require('./src/localization/' + languages[localCode]),
 			article: require('./src/articles/' + articleCode + '/' + localCode + '.json'),
 			articleCode: articleCode,
 			isDefault: isDefault,
-			languages: Object.keys(languages).filter(a => a !== 'EN').sort((a, b) => (a === localCode ? -1 : 1)),
+			languages: Object.keys(languages)
+				.filter((a) => a !== 'EN')
+				.sort((a, b) => (a === localCode ? -1 : 1)),
 		},
 	});
 };
@@ -110,24 +128,24 @@ var config = [
 				},
 				{
 					from: 'public',
-					to: path.resolve(__dirname, 'dist')
+					to: path.resolve(__dirname, 'dist'),
 				},
 				{
 					from: 'public/CS',
-					to: path.resolve(__dirname, 'dist/CS')
+					to: path.resolve(__dirname, 'dist/CS'),
 				},
 				{
 					from: 'public/php',
-					to: path.resolve(__dirname, 'dist/SK/php')
+					to: path.resolve(__dirname, 'dist/SK/php'),
 				},
 				{
 					from: 'public/php',
-					to: path.resolve(__dirname, 'dist/CS/php')
+					to: path.resolve(__dirname, 'dist/CS/php'),
 				},
 				{
 					from: 'public/php',
-					to: path.resolve(__dirname, 'dist/EN/php')
-				}
+					to: path.resolve(__dirname, 'dist/EN/php'),
+				},
 			]),
 
 			new webpack.optimize.ModuleConcatenationPlugin(),
@@ -138,14 +156,15 @@ var config = [
 			clientConfig('xella', 'SK', ['viessmann', 'onio'], true),
 			clientConfig('onio', 'SK', ['xella', 'comap'], true),
 
-			articleConfig('potencial-umelej-inteligencie-pre-podniky', 'SK', true),
-			articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', 'SK', true),
-			articleConfig('xolution-academy-pripravuje-studenty-it', 'SK', true),
-			articleConfig('prve-miesto-v-microsoft-awards-2019', 'SK', true),
-			articleConfig('nova-era-chatbotov', 'SK', true),
-			articleConfig('trh-prace-v-roku-2025', 'SK', true),
-			articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'SK', true),
-			articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'SK', true),
+			articlesConfig('SK', true),
+			blogConfig('article-1', 'SK', true),
+			blogConfig('article-2', 'SK', true),
+			blogConfig('article-3', 'SK', true),
+			blogConfig('article-4', 'SK', true),
+			blogConfig('article-5', 'SK', true),
+			blogConfig('article-6', 'SK', true),
+			blogConfig('article-7', 'SK', true),
+			blogConfig('article-8', 'SK', true),
 		],
 	},
 ].concat(
@@ -165,14 +184,16 @@ var config = [
 				clientConfig('xella', l, ['viessmann', 'onio'], false),
 				clientConfig('onio', l, ['xella', 'comap'], false),
 
-				articleConfig('potencial-umelej-inteligencie-pre-podniky',  l, false),
-				articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', l, false),
-				articleConfig('xolution-academy-pripravuje-studenty-it', l, false),
-				articleConfig('prve-miesto-v-microsoft-awards-2019', l, false),
-				articleConfig('nova-era-chatbotov', l, false),
-				articleConfig('trh-prace-v-roku-2025', l, false),
-				articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', l, false),
-				articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', l, false),
+				articlesConfig(l, false),
+				blogConfig('article-1', l, false),
+				blogConfig('article-2', l, false),
+				blogConfig('article-3', l, false),
+				blogConfig('article-4', l, false),
+				blogConfig('article-5', l, false),
+				blogConfig('article-6', l, false),
+				blogConfig('article-7', l, false),
+				blogConfig('article-8', l, false),
+
 			],
 		};
 	})

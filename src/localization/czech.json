@@ -457,58 +457,74 @@
 			}
 		]
 	},
+	"articlesPage": {
+		"meta": {
+			"keywords": "",
+			"description": "Zákaznická podpora musí denně zodpovědět tuny dotazů na správnou velikost produktu, technické parametry, stav objednávky, reklamaci nebo termín dodání. Představte si ale, čemu by se mohli operátoři věnovat, pokud by 60–96 % těchto dotazů zodpověděl někdo za ně.",
+			"image": "",
+			"ogURL": "https://www.xolution.sk/CS/blog/article-1.html",
+			"ogLocale": "cs_CZ",
+			"code": "sk",
+			"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+			"title": "Xolution – 5 důvodů, proč v e-shopu zavést virtuálního agenta"
+		}
+	},
 	"articles": {
 		"title": "Zjistěte více o konverzační inteligenci",
 		"pages": [
 			{
-				"cover": "virtualny-agent-odpovie-na-otazku-lepsie/cover-square.webp",
+				"cover": "article-7/cover-square.webp",
 				"headline": "Máte otázku? Virtuální agent ji zodpoví lépe než chatbot, a dokonce stejně dobře jako člověk",
 				"button": "Číst více ❯",
-				"link": "virtualny-agent-odpovie-na-otazku-lepsie"
+				"link": "article-7"
 			},
 			{
-				"cover": "5-dovodov-preco-zaviest-virtualneho-agenta/cover-square.webp",
+				"cover": "article-1/cover-square.webp",
 				"headline": "5 důvodů, proč v e-shopu zavést virtuálního agenta",
 				"button": "Číst více ❯",
-				"link": "5-dovodov-preco-zaviest-virtualneho-agenta"
+				"link": "article-1"
 			},
 			{
-				"cover": "potencial-umelej-inteligencie-pre-podniky/cover-square.webp",
+				"cover": "article-4/cover-square.webp",
 				"headline": "Potenciál umělé inteligence pro podniky",
 				"button": "Číst více ❯",
-				"link": "potencial-umelej-inteligencie-pre-podniky"
+				"link": "article-4"
 			},
 			{
-				"cover": "co-nam-hovoria-aktualne-trendy-o-robotizacii/cover-square.webp",
+				"cover": "article-2/cover-square.webp",
 				"headline": "Co nám říkají aktuální trendy o robotizaci?",
 				"button": "Číst více ❯",
-				"link": "co-nam-hovoria-aktualne-trendy-o-robotizacii"
+				"link": "article-2"
 			},
 			{
-				"cover": "xolution-academy-pripravuje-studenty-it/cover-square.webp",
+				"cover": "article-8/cover-square.webp",
 				"headline": "V Xolution Academy připravujeme studenty IT na nástup nových technologií RPA",
 				"button": "Číst více ❯",
-				"link": "xolution-academy-pripravuje-studenty-it"
+				"link": "article-8"
 			},
 			{
-				"cover": "prve-miesto-v-microsoft-awards-2019/cover-square.webp",
+				"cover": "article-5/cover-square.webp",
 				"headline": "X-Bot získává první místo v Microsoft Awards 2019 v kategorii AI.",
 				"button": "Číst více ❯",
-				"link": "prve-miesto-v-microsoft-awards-2019"
+				"link": "article-5"
 			},
 			{
-				"cover": "nova-era-chatbotov/cover-square.webp",
+				"cover": "article-3/cover-square.webp",
 				"headline": "Nová éra chatbotů",
 				"button": "Číst více ❯",
-				"link": "nova-era-chatbotov"
+				"link": "article-3"
 			},
 			{
-				"cover": "trh-prace-v-roku-2025/cover-square.webp",
+				"cover": "article-6/cover-square.webp",
 				"headline": "Jak bude vypadat trh práce v roce 2025?",
 				"button": "Číst více ❯",
-				"link": "trh-prace-v-roku-2025"
+				"link": "article-6"
 			}
-		]
+		],
+		"more": {
+			"cover": "more.png",
+			"headline": "Zobrazit více článku"
+		}
 	},
 	"about": {
 		"more": {
@@ -737,7 +753,7 @@
 			},
 			{
 				"label": "BLOG",
-				"link": "../#articles"
+				"link": "../blog.html"
 			},
 			{
 				"label": "Kontakt",
@@ -792,6 +808,10 @@
 				"prev": "&lt; Předchozí reference",
 				"next": "Další reference &gt;"
 			}
+		},
+		"returnLink": {
+			"link": "../blog.html",
+			"text": "Zpátky na články"
 		}
 	},
 	"footer": {

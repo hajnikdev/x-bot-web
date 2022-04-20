@@ -1,10 +1,13 @@
+.subpage-articles,
 .subpage-article {
 	header.main-header {
 		padding: 0;
 		min-height: 0;
 		overflow: unset;
 	}
+}
 
+.subpage-article {
 	section {
 		container {
 		}
@@ -102,7 +105,8 @@
 			text-align: justify;
 		}
 
-		em, p {
+		em,
+		p {
 			a {
 				display: inline;
 			}
@@ -170,6 +174,28 @@
 			img {
 				width: calc(50% - 8px);
 				min-width: 420px;
+			}
+		}
+
+		a.return-link {
+			width: 100%;
+			max-width: 300px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 5rem;
+			padding: 0.25rem 1rem;
+			background-color: #f8b132;
+			color: white;
+			font-weight: 600;
+			border-radius: 1rem;
+			letter-spacing: 0.05em;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				background-color: darken($color: #f8b132, $amount: 10%);
+				text-decoration: none;
+				text-transform: none;
 			}
 		}
 	}

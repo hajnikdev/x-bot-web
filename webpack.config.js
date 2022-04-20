@@ -25,7 +25,7 @@ const articleConfig = (articleCode, lang, isDefault) => {
 	return new HtmlWebpackPlugin({
 		inject: false,
 		template: './src/views/article.pug',
-		filename: 'article/' + articleCode + '.html',
+		filename: 'blog/' + articleCode + '.html',
 		minify: false,
 		options: {
 			local: require('./src/localization/slovak.json'),
@@ -84,14 +84,26 @@ var config = {
 		clientConfig('xella', 'SK', ['viessmann', 'onio'], false),
 		clientConfig('onio', 'SK', ['xella', 'comap'], false),
 
-		articleConfig('potencial-umelej-inteligencie-pre-podniky', 'SK', false),
-		articleConfig('co-nam-hovoria-aktualne-trendy-o-robotizacii', 'SK', false),
-		articleConfig('xolution-academy-pripravuje-studenty-it', 'SK', false),
-		articleConfig('prve-miesto-v-microsoft-awards-2019', 'SK', false),
-		articleConfig('nova-era-chatbotov', 'SK', false),
-		articleConfig('trh-prace-v-roku-2025', 'SK', false),
-		articleConfig('virtualny-agent-odpovie-na-otazku-lepsie', 'SK', false),
-		articleConfig('5-dovodov-preco-zaviest-virtualneho-agenta', 'SK', false),
+		new HtmlWebpackPlugin({
+			inject: false,
+			template: './src/views/articles.pug',
+			filename: 'blog.html',
+			minify: false,
+			options: {
+				local: require('./src/localization/slovak.json'),
+				isDefault: false,
+				languages: ['SK', 'CS', /*'EN'*/].sort((a, b) => (a === 'SK' ? -1 : 1)),
+			},
+		}),
+
+		articleConfig('article-1', 'SK', false),
+		articleConfig('article-2', 'SK', false),
+		articleConfig('article-3', 'SK', false),
+		articleConfig('article-4', 'SK', false),
+		articleConfig('article-5', 'SK', false),
+		articleConfig('article-6', 'SK', false),
+		articleConfig('article-7', 'SK', false),
+		articleConfig('article-8', 'SK', false),
 	],
 };
 

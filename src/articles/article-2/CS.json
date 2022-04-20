@@ -1,0 +1,60 @@
+{
+	"meta": {
+		"ogURL": "https://www.xolution.sk/CS/blog/article-2.html",
+		"ogLocale": "cs_CZ",
+		"code": "sk",
+		"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+		"description": "Je dnes relevantní mluvit o robotizaci a nástupu umělé inteligence jako o stále vzdálené budoucnosti? Výhod, které z automatizace plynou je mnoho...",
+		"title": "Xolution – Co nám říkají aktuální trendy o robotizaci?"
+	},
+	"header": {
+		"cover": "cover.webp",
+		"title": "Co nám říkají aktuální trendy o robotizaci?"
+	},
+	"content": [
+		{
+			"type": "paragraph",
+			"text": "Je dnes relevantní mluvit o robotizaci a nástupu umělé inteligence jako o stále vzdálené budoucnosti? Výhod, které z automatizace plynou je mnoho."
+		},
+		{
+			"type": "paragraph",
+			"text": "O robotizaci množství běžných lidí naslouchá zejména v souvislosti (nejen) s obavou o ztrátě zaměstnání v průmyslové výrobě. Předpokládá se, že už za pár let budeme svědky masivní strukturální změny pracovního trhu. V zájmu zvyšování produktivity bude množství standardizovaných pracovních pozici vystavených procesu automatizace."
+		},
+		{
+			"type": "paragraph",
+			"text": "Podle studie provedené Světovým ekonomickým fórem nadcházející éra umělé inteligence a automatizace <b>vytvoří podstatně více pracovních míst</b>, než je v jejím důsledku zanikne. V globálu se v následujících deseti letech předpokládá zánik 75 milionů pracovních pozic . Na druhou stranu technologické odvětví vytvoří až 133 milionů nových."
+		},
+		{
+			"type": "paragraph",
+			"text": "Je však nutno podotknout, že robotizace se nespojuje jen s touto kontroverzní otázkou. V podnikatelské sféře je téma digitalizace a robotizace ve věci zlepšování služeb a zefektivňování interních procesů v poslední době velmi aktuální."
+		},
+		{
+			"type": "paragraph",
+			"text": "Využití technologických možností, které firmám nabízí dnešní doba by nemělo být jen nutností v dobách Průmyslu 4.0, ale také uvědomění si, že se jedná o nejvhodnější prostředek jako <b>bojovat s nepříznivou situací na trhu práce a zvyšovat produktivitu< /b>. Podle letošního průzkumu mínění mezi řediteli významných firem v ČR, až 42% z dotázaných považuje robotizaci za <b>nejvýznamnější technologickou změnu v časovém horizontu tří až pěti let</b>."
+		},
+		{
+			"type": "paragraph",
+			"text": "V podobném duchu se nesou i vyjádření české pobočky společnosti PwC. <b>Cloudová řešení a umělá inteligence vedou</b> v žebříčku technologických produktů, které mají potenciál firmám nejvýrazněji zlepšit interní procesy a ušetřit náklady."
+		},
+		{
+			"type": "paragraph",
+			"text": "Rozmach technologií založených na cloudu jako například AI chatbot, je jedním z mnoha příkladů, které ilustrují souběžný proces zefektivňování a šetření."
+		},
+		{
+			"type": "paragraph",
+			"text": "Přestože nástup umělé inteligence je stále na svém začátku, <b>míra adopce těchto technologií podniky je pozitivně překvapující</b>. Asociace sdružující evropské a severoamerické IT profesionály Spiceworks, nedávno sestavila statistiku s cílem zjistit právě tuto informaci.V případě subjektů pracujících v technologickém sektoru až 29% dotázaných implementovalo do své pracovní rutiny <b>chatbota, nebo inteligentního asistenta</b> pro zefektivnění činnosti."
+		},
+		{
+			"type": "paragraph",
+			"text": "Velké korporace jsou na tom velmi podobně – 24% již v současnosti <b>aktivně využívá chatbotů</b> a 16% se k implementaci chystá ještě letos."
+		},
+		{
+			"type": "paragraph",
+			"text": "Pozitivní vyhlídky vůči adaptaci umělé inteligence v komunikaci se zákazníkem má také americký portál CIOReview. Kromě znatelného <b>zlepšení služeb</b> v rámci péče o zákazníky, došlo díky umělé inteligenci v mnoha případech k <b>snížení nákladů</b> na zaměstnance až o 29%."
+		},
+		{
+			"type": "paragraph",
+			"text": "Plná automatizace, neustálý provoz, schopnost vyřizování objednávek a faktur, real-time komunikace se zákazníkem je jen pár z množství pokročilých funkcí, které Vám dokáže poskytnout a výrazně zjednodušit náš <b>X-Bot</b>. "
+		}
+	]
+}
