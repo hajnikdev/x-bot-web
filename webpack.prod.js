@@ -29,6 +29,36 @@ function htmlConfig(local, localCode, isDefault) {
 	};
 }
 
+function gdprConfig(localCode, isDefault) {
+	return new HtmlWebpackPlugin({
+		inject: false,
+		template: './src/views/gdpr.pug',
+		filename: (isDefault ? '' : localCode + '/') + 'gdpr.html',
+		minify: false,
+		options: {
+			local: require('./src/localization/' + languages[localCode]),
+			isDefault: isDefault,
+			languages: Object.keys(languages)
+				.sort((a, b) => (a === localCode ? -1 : 1)),
+		},
+	});
+}
+
+function requestsentConfig(localCode, isDefault) {
+	return new HtmlWebpackPlugin({
+		inject: false,
+		template: './src/views/requestsent.pug',
+		filename: (isDefault ? '' : localCode + '/') + 'requestsent.html',
+		minify: false,
+		options: {
+			local: require('./src/localization/' + languages[localCode]),
+			isDefault: isDefault,
+			languages: Object.keys(languages)
+				.sort((a, b) => (a === localCode ? -1 : 1)),
+		},
+	});
+}
+
 function clientConfig(clientCode, localCode, navigation, isDefault) {
 	return new HtmlWebpackPlugin({
 		inject: false,
@@ -151,6 +181,10 @@ var config = [
 			new webpack.optimize.ModuleConcatenationPlugin(),
 
 			new HtmlWebpackPlugin(htmlConfig(languages['SK'], 'SK', true)),
+
+			gdprConfig('SK', true),
+			requestsentConfig('SK', true),
+
 			clientConfig('comap', 'SK', ['onio', 'viessmann'], true),
 			clientConfig('viessmann', 'SK', ['comap', 'xella'], true),
 			clientConfig('xella', 'SK', ['viessmann', 'onio'], true),
@@ -180,6 +214,10 @@ var config = [
 			},
 			plugins: [
 				new HtmlWebpackPlugin(htmlConfig(languages[l], l, false)),
+
+				gdprConfig(l, false),
+				requestsentConfig(l, false),
+
 				clientConfig('comap', l, ['onio', 'viessmann'], false),
 				clientConfig('viessmann', l, ['comap', 'xella'], false),
 				clientConfig('xella', l, ['viessmann', 'onio'], false),

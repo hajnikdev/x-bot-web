@@ -28,8 +28,8 @@
 			"link": "#contactform"
 		},
 		{
-			"label": "Dohovoriť telefonát",
-			"link": "#contactform",
+			"label": "Získať ebook",
+			"link": "#ebook",
 			"class": "square-purple-filled"
 		}
 	],
@@ -430,6 +430,7 @@
 			"Phone": "Telefónne číslo *",
 			"PhoneFeedback": "Prosím zadajte vaše telefónne číslo",
 			"Message": "Pridať odkaz (nepovinné)",
+			"Agreement": "Súhlasím so spracovaním osobných údajov *",
 			"button": "Dohodnúť telefonát",
 			"thanks": "<b>Ďakujeme!</b>  Ozveme sa v čo najkratšom čase s návrhom termínov rozhovoru."
 		}
@@ -839,5 +840,117 @@
 	},
 	"footer": {
 		"contact": "Kontakt:"
+	},
+	"gdprPage": {
+		"meta": {
+			"keywords": "",
+			"description": "Xolution - GDPR",
+			"image": "",
+			"ogURL": "https://www.xolution.sk/sk/gdpr.html",
+			"ogLocale": "sk_SK",
+			"code": "sk",
+			"tags": "chatbot, umela inteligencia, virtualni asistent, automatizace procesu, automatizace, inteligentni automatizace, machine learning, datova analytika, neuronove site, konverzacni umela inteligence, xolution, prirozene rozpoznavani jazyka, firemni procesy, online webchat, zakaznicka podpora, hr, technicka podpora, hr procesy, robotizace, zakaznicke centrum, kontaktni centrum, helpdesk, webchat",
+			"title": "Xolution – GDPR"
+		},
+		"content": [
+			{
+				"type": "paragraph",
+				"text": "Osobní údaje shromažďujeme a zpracováváme v souladu s platnými právními předpisy, zejména s obecným Nařízením Evropského parlamentu a Rady (EU) č. 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů (dále jen „GDPR“). Veškeré získané osobní údaje jsou zpracovávány na základě zákonných titulů, pro legitimní a jasně určené účely, a to pouze v nezbytném rozsahu a po dobu potřebnou k dosažení stanoveného účelu. Podrobnější informace, včetně kontaktních údajů, naleznete níže v textu."
+			},
+			{
+				"type": "h2",
+				"text": "Totožnost a kontaktní údaje správce:"
+			},
+			{
+				"type": "paragraph",
+				"text": "anji s.r.o.<br> Sídlo: Na Poříčí 1071/17, Nové Město, 110 00 Praha 1<br> IČO: 02030357<br> Tel.: 222&nbsp;866 866<br> E-mail: info@24safe.cz"
+			},
+			{
+				"type": "h2",
+				"text": "Kontaktní údaje pověřence pro ochranu osobních údajů:"
+			},
+			{
+				"type": "paragraph",
+				"text": "Ve všech záležitostech ohledně ochrany osobních údajů můžete kontaktovat pověřence pro ochranu osobních údajů:<br>e-mailem: dpo@24safe.cz<br>Písemně na adrese: Na Poříčí 1071/17, Nové Město, 110 00 Praha 1"
+			},
+			{
+				"type": "h2",
+				"text": "Jaké osobní údaje shromažďujeme a zpracováváme?"
+			},
+			{
+				"type": "list",
+				"items": [
+					"Osobní údaje, které nám sami poskytnete: <ul> <li>za účelem pronájmu bezpečnostní schránky</li> <li>zřízení uživatelského účtu pro zjednodušení obchodování,</li> <li>za účelem zprostředkování nabízených pojištění</li> <li>za účelem zprostředkování prodeje investičních produktů</li> <li>odesláním dotazu nebo kontaktního formuláře</li> </ul>",
+					"Osobní údaje, které zpracováváme automaticky <ul> <li>Při návštěvě webové stránky o Vás mohou být shromažďovány údaje – viz info o cookies na webu 24safe.cz</li> </ul>",
+					"Kamerový systém v naší provozovně: <ul> <li>V&nbsp;naší provozovně jsou automaticky i záznamy ze zde umístěných kamer. Monitorované prostory jsou viditelně označeny: „Tento prostor je monitorován“. Provozovna je vybavena kamerovým systémem s&nbsp;online přenosem a záznamem. Účelem provozování kamerového systému je ochrana majetku a zajištění bezpečnosti a zdraví osob nacházejících se v&nbsp;provozovně. Provozovatelem kamerového systému jsme my, tj. anji s.r.o.</li> </ul>"
+				]
+			},
+			{
+				"type": "h2",
+				"text": "Na základě jakého oprávnění a k jakým účelům zpracováváme osobní údaje?"
+			},
+			{
+				"type": "list",
+				"items": [
+					"Zákonným důvodem pro zpracování osobních údajů je: <ul> <li>Plnění smlouvy mezi Vámi a správcem osobních údajů, tj. námi.</li> <li>Váš souhlas se zpracováním osobních údajů v&nbsp;případě využití kontaktního formuláře</li> </ul>",
+					"Účelem zpracování osobních údajů je: <ul> <li>Řádné vyřízení Vašeho požadavku a výkon práv a povinností plynoucích ze smluvního vztahu mezi Vámi a správcem.</li> <li>Zasílání obchodních sdělení či uskutečňování jiných marketingových aktivit</li> </ul>"
+				]
+			},
+			{
+				"type": "h2",
+				"text": "Jak dlouho budeme Vaše osobní údaje zpracovávat?"
+			},
+			{
+				"type": "paragraph",
+				"text": "Osobní údaje budeme zpracovávat pouze po dobu nezbytně nutnou k naplnění výše uvedených účelů. V prvé řadě tedy po dobu trvání smluvního vztahu, dále osobní údaje zpracováváme jen v nezbytně nutném rozsahu pro naplnění zákonných povinností."
+			},
+			{
+				"type": "h2",
+				"text": "Komu osobní údaje předáváme?"
+			},
+			{
+				"type": "paragraph",
+				"text": "Osobní údaje předáváme pouze zpracovatelům, kteří garantují vhodné záruky, náležité zajištění ochrany osobních údajů a při zpracování dodržují veškeré platné právní předpisy."
+			},
+			{
+				"type": "h2",
+				"text": "Jakým způsobem jsou Vaše osobní údaje zabezpečeny?"
+			},
+			{
+				"type": "paragraph",
+				"text": "S Vašimi osobními údaji nakládáme vždy odpovědně a v souladu s platnými právními předpisy. Přijali jsme a udržujeme taková technická a organizační opatření, která zajišťují zamezení neoprávněného nebo nahodilého přístupu k osobním údajům, jejich změny, zničení či ztráty, neoprávněných přenosů, jejich jinému neoprávněnému zpracování, jakož i jiného zneužití osobních údajů."
+			},
+			{
+				"type": "h2",
+				"text": "Jaká jsou Vaše práva v souvislosti s ochranou osobních údajů?"
+			},
+			{
+				"type": "paragraph",
+				"text": "Ve vztahu k ochraně osobních údajů máte následující práva:"
+			},
+			{
+				"type": "list",
+				"items": [
+					"Právo na přístup k osobním údajům <ul> <li>Máte právo vědět, jaké údaje o Vás zpracováváme, pro jaké účely, po jakou dobu, komu tyto údaje předáváme a jaká máte další práva související se zpracováním Vašich osobních údajů. Veškeré tyto informace byste měli nalézt v&nbsp;tomto dokumentu. Nebudete-li si jistí, můžete nás požádat o informaci, zda osobní údaje, které se Vás týkají, námi jsou či nejsou zpracovávány, a případně požádat o přístup k&nbsp;těmto osobním údajům.</li> </ul>",
+					"Právo opravu osobních údajů <ul> <li>Pokud zjistíte, že osobní údaje, které o Vás zpracováváme, jsou nepřesné nebo neúplné, máte právo na to, abychom údaje bez zbytečného odkladu opravili nebo doplnili.</li> </ul>",
+					"Právo na výmaz osobních údajů <ul> <li>V&nbsp;některých případech máte právo na to, abychom Vaše osobní údaje vymazali. Jde o situace, kdy: <ul> <li>Vaše osobní údaje již nepotřebujeme pro účely, pro které jsme je zpracovávali;</li> <li>odvoláte souhlas se zpracováním osobních údajů, k jejichž zpracování je Váš souhlas nezbytný a zároveň neexistuje jiný právní důvod, proč tyto údaje nadále zpracovávat;</li> <li>využijete svého práva vznést námitku proti zpracování (viz níže Právo vznést námitku proti zpracování) a v&nbsp;rámci tohoto práva vyjde najevo, že v&nbsp;dané situaci převažuje Váš zájem nad naším oprávněným zájmem pro zpracování osobních údajů;</li> <li>domníváte se, že osobní údaje jsou námi zpracovány protiprávně.</li> </ul> </li> <li>Vezměte, prosím, na vědomí, že toto právo se neuplatní, je-li zpracování dotčených osobních údajů nezbytné pro splnění naší právní povinnosti či určení, výkon nebo obhajobu našich právních nároků.</li> </ul>",
+					"Právo na omezení zpracování <ul> <li>V&nbsp;některých případech máte možnost požadovat omezení zpracování, a to popíráte-li přesnost Vašich osobních údajů; domníváte se, že Vaše osobní údaje jsou zpracovávány protiprávně; Vaše osobní údaje již nejsou potřebné pro stanovené účely zpracování, ale Vy je potřebujete pro určení, výkon nebo obhajobu vašich právních nároků; nebo pokud jste vznesli námitku proti zpracování (viz níže Právo vznést námitku proti zpracování). Dojde-li k&nbsp;omezení zpracování Vašich osobních údajů, budou tyto moct být zpracovávány pouze s&nbsp;Vaším souhlasem (s výjimkou jejich uložení či zálohy).</li> </ul>",
+					"Právo na přenositelnost údajů <ul> <li>Máte právo požádat nás o přenos svých osobních údajů, které jste nám sami poskytli. Toto právo se uplatní pouze vůči těm osobním údajům, které zpracováváme automatizovaně. Vaše osobní údaje vám poskytneme ve strukturovaném, běžně používaném a strojově čitelném formátu.</li> </ul>",
+					"Právo vznést námitku proti zpracování <ul> <li>Některé osobní údaje zpracováváme na základě našeho oprávněného zájmu (viz výše „Na základě jakého oprávnění a k jakým účelům zpracováváme osobní údaje?“), proti takovému zpracování osobních údajů máte právo vznést námitku. Jde-li o marketingové aktivity, přestaneme Vaše osobní údaje zpracovávat bez dalšího. V ostatních případech tak učiníme, pokud nebudeme mít závažné oprávněné důvody pro to, abychom v takovém zpracování pokračovali.</li> </ul>",
+					"Právo odvolat udělený souhlas se zpracováním osobních údajů"
+				]
+			},
+			{
+				"type": "paragraph",
+				"text": "S žádostmi o uplatnění Vašeho práva se můžete kdykoli obracet na pověřence pro ochranu osobních údajů prostřednictvím kontaktních údajů uvedených v záhlaví tohoto dokumentu."
+			},
+			{
+				"type": "paragraph",
+				"text": "Tyto podmínky nabývají účinnosti dnem 25. května 2018."
+			}
+		]
+	},
+	"requestsentPage": {
+		"title": "Ďakujeme. Budeme vás kontaktovať."
 	}
 }

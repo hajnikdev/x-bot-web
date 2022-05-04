@@ -3,23 +3,6 @@ import WebFontLoader from 'webfontloader';
 require('whatwg-fetch');
 
 /**
- * AOS Initialization for animation on scroll
- */
-AOS.init({
-	disable: false,
-	delay: 0,
-	duration: 400,
-	easing: 'ease-in-out',
-	once: false,
-});
-
-document.onreadystatechange = function() {
-	if (document.readyState == 'complete') {
-		AOS.refresh();
-	}
-};
-
-/**
  * RequestAnimationFrame
  */
 if (!window.requestAnimationFrame) {
@@ -437,7 +420,7 @@ var contactForm = {
 	},
 };
 
-contactForm.el.querySelector('.contact-form__close').addEventListener('click', function(e) {
+contactForm && contactForm.el && contactForm.el.querySelector('.contact-form__close').addEventListener('click', function(e) {
 	e.preventDefault();
 	contactForm.hide();
 });
@@ -450,7 +433,7 @@ for (var i = 0; i < linksContact.length; i++) {
 	});
 }
 
-contactForm.el.querySelector('form').addEventListener('submit', function(e) {
+contactForm && contactForm.el && contactForm.el.querySelector('form').addEventListener('submit', function(e) {
 	e.preventDefault();
 	var fields = [emailField, messageField].map(function(el) {
 		return el.value.trim() || null;
@@ -587,11 +570,13 @@ $(document).ready(function(e) {
 	});
 	$('#formsection').submit(function(e) {
 		e.preventDefault();
+
 		var name = $('#Name').val();
 		var companyOrWeb = $('#CompanyOrWeb').val();
 		var email = $('#Email').val();
 		var phone = $('#Phone').val();
 		var message = $('#Message').val();
+		var agreement = $('#Agreement').val();
 
 		$.ajax({
 			url: './php/send_script.php',
@@ -611,8 +596,7 @@ $(document).ready(function(e) {
 					'dL.eventAction': 'Submit',
 					'dL.eventLabel': 'x-bot-contact',
 				});
-				$('.form-row').fadeOut('slow');
-				$('.formThanks').fadeIn();
+				window.location.href = `${location.origin}/${document.documentElement.lang.toUpperCase()}/requestsent.html` ;
 			},
 		});
 	});
@@ -622,12 +606,17 @@ window.addEventListener('load', function() {
 	/**
 	 * Element references
 	 */
+	const currentLanguage = document.documentElement.lang; // posible options 'cs' | 'sk' | 'en'
+
 	const mainHeader = document.querySelector('.main-header');
 	const brands = document.querySelector('.xbot-brands');
 	const floatingHeader = document.querySelector('.floating-header');
 	const scrollTopButton = document.querySelector('.scrolltop-float');
 
-	const staticHamburgerMenu = document.querySelector('.main-header .nav-hamburger');
+	const staticHamburgerMenuButtons = document.querySelectorAll('.nav-hamburger');
+
+	const cookieConsetTitle = document.querySelector('#cc-nb-title')
+	const cookieConsetText = document.querySelector('#cc-nb-text');
 
 	/**
 	 * Global variables
@@ -655,6 +644,71 @@ window.addEventListener('load', function() {
 	) {
 		floatingHeader.classList.add('show');
 		scrollTopButton.classList.add('show');
+	}
+
+	if(cookieConsetText && currentLanguage) {
+		switch (currentLanguage) {
+			case 'sk':
+				cookieConsetTitle.innerHTML = 'Na tejto webovej stránke používame súbory cookies pre základné funkcie webovej stránky'
+				cookieConsetText.innerHTML = `
+					<p>Radi by sme Vás touto cestou požiadali o súhlas s ich spracovaním. Na nasledujúci účel:</p>
+					<p>Základné funkcie webu</p>
+					<ul>
+						<li>Ukladanie a/alebo prístup k informáciám v rôznych zariadeniach</li>
+						<li>Online komunikačný chatovací nástroj pre otázky návštevníka</li>
+					</ul>
+					<p>Analytické a meracie nástroje</p>
+					<ul>
+						<li>Slúžiaci na zlepšenie našich webových stránok, optimalizáciu obsahu a správne fungovanie webových stránok a online komunikácie.</li>
+					</ul>
+					<p>Marketingové účely</p>
+					<ul>
+						<li>Potrebné na tvorbu personalizovanej a akčnej ponuky v rámci reklamných kampaní, na publikáciu noviniek či našich úspechov. Ktoré v rámci online prostredia využívame.</li>
+					</ul>
+					<p>Informácie z vášho zariadenia (súbory cookie, unikátne identifikátory a ďalšie dáta zo zariadenia) môžu byť ukladané a používané externými dodávateľmi alebo s nimi zdieľané a synchronizované, prípadne ich môže používať výhradne tento web alebo aplikácie. Svoj súhlas môžete odvolať pomocou odkazu v dolnej časti tejto stránky alebo v zásadách spracovania cookies.</p>
+				`
+				break;
+			case 'cs':
+				cookieConsetTitle.innerHTML = 'Na této webové stránce používáme soubory cookies pro základní funkce webové stránky'
+				cookieConsetText.innerHTML = `
+					<p>Rádi bychom Vás touto cestou požádali o souhlas s jejich zpracováním. Pro následující účel:</p>
+					<p>Základní funkce webu</p>
+					<ul>
+						<li>Ukládání a/nebo přístup k informacím v různých zařízeních</li>
+						<li>Online komunikační chatovací nástroj pro dotazy návštěvníka</li>
+					</ul>
+					<p>Analytické a měřící nástroje</p>
+					<ul>
+						<li>Sloužící pro zlepšení našich webových stránek, optimalizaci obsahu a správné fungování webových stránek a online komunikace.</li>
+					</ul>
+					<p>Marketingové účely</p>
+					<ul>
+						<li>Potřebné pro tvorbu personalizované a akční nabídky v rámci reklamních kampaní, pro publikaci novinek či našich úspěchů. Které v rámci online prostředí využíváme.</li>
+					</ul>
+					<p>Informace z vašeho zařízení (soubory cookie, unikátní identifikátory a další data ze zařízení) mohou být ukládány a používány externími dodavateli nebo s nimi sdíleny a synchronizovány, případně je může používat výhradně tento web nebo aplikace. Svůj souhlas můžete odvolat pomocí odkazu v dolní části této stránky nebo v zásadách zpracování cookies.</p>
+				`
+				break;
+			default:
+				cookieConsetTitle.innerHTML = 'On this website we use cookies for the basic functions of the website'
+				cookieConsetText.innerHTML = `
+					<p>We would like to ask you for your consent to their processing. For the following purpose:</p>
+					<p>Basic web functions</p>
+					<ul>
+						<li>Storing and / or accessing information on various devices</li>
+						<li>Online communication chat tool for visitor inquiries</li>
+					</ul>
+					<p>Analytical and measuring instruments</p>
+					<ul>
+						<li>Serving to improve our website, optimize the content and proper functioning of the website and online communication.</li>
+					</ul>
+					<p>Marketing purposes</p>
+					<ul>
+						<li>Needed for creating personalized and special offers within advertising campaigns, for publishing news or our successes. Which we use in the online environment.</li>
+					</ul>
+					<p>Information from your device (cookies, unique identifiers and other data from the device) may be stored and used by external suppliers or shared and synchronized with them, or may be used exclusively by this website or application. You can revoke your consent via the link at the bottom of this page or in the cookie policy.</p>
+				`
+				break;
+		}
 	}
 
 	/**
@@ -697,9 +751,7 @@ window.addEventListener('load', function() {
 			window.scrollY > floatingHeaderShowTrigger
 		) {
 			scrollTopButton.classList.add('show');
-			if (currentScroll > lastScroll && floatingHeader.classList.contains('show')) {
-				floatingHeader.classList.remove('show');
-			} else if (currentScroll < lastScroll && !floatingHeader.classList.contains('show')) {
+			if (!floatingHeader.classList.contains('show')) {
 				floatingHeader.classList.add('show');
 			}
 		} else {
@@ -719,6 +771,7 @@ window.addEventListener('load', function() {
 	};
 
 	const staticHambugerMenuClick = (e) => {
+		e.preventDefault();
 		if (window.innerWidth > 768) {
 			document.querySelector('#nav_main').setAttribute('style', 'right: 0');
 		} else {
@@ -731,19 +784,40 @@ window.addEventListener('load', function() {
 	window.onresize = resizeHandler;
 	window.onscroll = scrollHandler;
 
-	if(staticHamburgerMenu && staticHamburgerMenu.onclick) {
-		staticHamburgerMenu.onclick = staticHambugerMenuClick;
+	if(staticHamburgerMenuButtons && staticHamburgerMenuButtons.length > 0) {
+		for (let button of staticHamburgerMenuButtons) {
+			button.onclick = staticHambugerMenuClick;
+		}
 	}
 
 	if (scrollTopButton) {
 		scrollTopButton.onclick = scrollTopButtonClickHandler;
 	}
+
+	/**
+	 * AOS Initialization for animation on scroll
+	 */
+	if(AOS) {
+		AOS.init({
+			disable: false,
+			delay: 0,
+			duration: 400,
+			easing: 'ease-in-out',
+			once: false,
+		});
+	}
 });
 
-window.addEventListener(
-	'popstate',
-	function(event) {
-		history.pushState(null, null, '#usecases');
-	},
-	false
-);
+document.onreadystatechange = function() {
+	if (document.readyState == 'complete' && AOS) {
+		AOS.refresh();
+	}
+};
+
+// window.addEventListener(
+// 	'popstate',
+// 	function(event) {
+// 		history.pushState(null, null, '#usecases');
+// 	},
+// 	false
+// );

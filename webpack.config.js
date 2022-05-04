@@ -79,6 +79,31 @@ var config = {
 				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'SK' ? -1 : 1)),
 			},
 		}),
+
+		new HtmlWebpackPlugin({
+			inject: false,
+			template: './src/views/gdpr.pug',
+			filename: 'gdpr.html',
+			minify: false,
+			options: {
+				local: require('./src/localization/slovak.json'),
+				isDefault: false,
+				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'SK' ? -1 : 1)),
+			},
+		}),
+
+		new HtmlWebpackPlugin({
+			inject: false,
+			template: './src/views/requestsent.pug',
+			filename: 'requestsent.html',
+			minify: false,
+			options: {
+				local: require('./src/localization/slovak.json'),
+				isDefault: false,
+				languages: ['SK', 'CS', 'EN'].sort((a, b) => (a === 'SK' ? -1 : 1)),
+			},
+		}),
+
 		clientConfig('comap', 'CS', ['xella', 'viessmann'], false),
 		clientConfig('viessmann', 'CS', ['comap', 'xella'], false),
 		clientConfig('xella', 'CS', ['viessmann', 'onio'], false),

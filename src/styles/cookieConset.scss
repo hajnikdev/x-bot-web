@@ -1,13 +1,14 @@
 #termsfeed-com---nb {
 	width: 100%;
+	max-width: 100%;
 	left: 0px;
 	right: 0;
-	max-width: 560px;
 	background: rgba(43, 5, 73, 0.85);
 	color: white;
 	animation: left 1.5s ease-out, leftIn 1s ease-out 1.5s;
 	transition: left 0.4s ease-in;
     box-shadow: 0 9px 10px 7px #00000033;
+	user-select: none;
 
 	.cc-nb-main-container {
 		padding: 2rem 3rem;
@@ -16,6 +17,10 @@
 		.cc-nb-text {
 			color: white;
 			text-align: justify;
+		}
+
+		.cc-nb-text {
+			font-size: 12px;
 		}
 
 		.cc-nb-okagree {
@@ -31,24 +36,24 @@
 
 .termsfeed-com---is-hidden {
 	display: block !important;
-	left: -560px !important;
+	bottom: 100% !important;
 }
 
 @keyframes left {
 	0% {
-		transform: translateX(-560px);
+		transform: translateY(100%);
 	}
 	100% {
-		transform: translateX(-560px);
+		transform: translateY(100%);
 	}
 }
 @keyframes leftIn {
 	0% {
 		opacity: 0;
-		transform: translateX(-560px);
+		transform: translateY(100%);
 	}
 	100% {
 		opacity: 1;
-		transform: translateX(0px);
+		transform: translateY(0px);
 	}
 }

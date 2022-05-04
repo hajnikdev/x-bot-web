@@ -107,7 +107,7 @@ html(lang=local.meta.code)
 					img.main-image(
 						src=rel+"assets/header-image.webp",
 						data-aos="fade-in",
-						data-aos-delay="300",
+						data-aos-delay="0",
 						data-aos-duration="400",
 						data-aos-easing="ease-in-out",
 						data-aos-once="true"
@@ -280,6 +280,7 @@ html(lang=local.meta.code)
 							p.card-text.light !{local.xbotfor.customers.tabs.item3.description}
 
 		section.xbot-ebook(
+			id="ebook"
 			data-aos="fade-in"
 		)
 			img.xlogo(src=rel+"assets/ebook/xbot-logo.svg")
@@ -451,6 +452,10 @@ html(lang=local.meta.code)
 								.item
 									label(for="Message") !{local.formsection.form.Message}
 									input.form-control.form-control-lg(type="text",id="Message",name="Message")
+								.item
+									label(for="Agreement", style="display: flex; flex-direction: row-reverse; justify-content: center; align-items: center; gap: 1.2rem;")
+										a(href='./gdpr.html') !{local.formsection.form.Agreement}
+										input(type="checkbox",id="Agreement",name="Agreement",required)
 								.item
 									button.btn.formbutton(type="submit") !{local.formsection.form.button}
 							.form-row.formThanks !{local.formsection.form.thanks}
