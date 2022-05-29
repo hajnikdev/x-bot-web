@@ -711,6 +711,20 @@ window.addEventListener('load', function() {
 		}
 	}
 
+	if(currentLanguage && currentLanguage === 'cs') {
+		var newScript = document.createElement("script");
+		var inlineScript = document.createTextNode(`
+			var leady_track_key="rkzU7m2u6OF2gip7";
+			(function(){
+				var l=document.createElement("script");l.type="text/javascript";l.async=true;
+				l.src='https://ct.leady.com/'+leady_track_key+"/L.js";
+				var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(l,s);
+			})();
+		`);
+		newScript.appendChild(inlineScript);
+		document.body.appendChild(newScript);
+	}
+
 	/**
 	 * Handlers
 	 */
