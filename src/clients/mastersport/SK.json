@@ -51,18 +51,18 @@
 		"items": [
 			{
 				"highlight": "Pomôže",
-				"title": "110 000 zákazníkom",
-				"text": "každý mesiac"
+				"title": "110 000",
+				"text": "zákazníkom každý mesiac"
 			},
 			{
 				"highlight": "Automatizuje",
-				"title": "75 % otázok",
-				"text": "na webe"
+				"title": "75 %",
+				"text": "otázok na webe"
 			},
 			{
 				"highlight": "Vyrieši",
-				"title": "780 chatov",
-				"text": "mesačne"
+				"title": "780",
+				"text": "chatov mesačne"
 			}
 		]
 	},
