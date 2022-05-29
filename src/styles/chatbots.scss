@@ -124,6 +124,11 @@ h2 {
 		transform: translateY(0%);
 	}
 }
+
+.yellow-color {
+	color: $yellow !important
+}
+
 .navigation {
 	width: 100%;
 	display: flex;
@@ -518,6 +523,12 @@ h2 {
 				&:hover {
 					border-bottom: 0.125em solid #ffffffcc;
 					transition: border-bottom 0.3s cubic-bezier(0.47, 0.43, 0.97, 0.54);
+				}
+
+				&.yellow-color {
+					&:hover {
+						border-bottom: 0.125em solid $yellow;
+					}
 				}
 			}
 			&.navigation__nav-link.dropdown.square-purple-filled {

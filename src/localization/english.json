@@ -28,9 +28,9 @@
 			"link": "#contactform"
 		},
 		{
-			"label": "Get an ebook",
+			"label": "Get a Free Trial",
 			"link": "#ebook",
-			"class": "square-purple-filled"
+			"class": "square-purple-filled yellow-color"
 		}
 	],
 	"header": {
@@ -102,11 +102,11 @@
 		}
 	},
 	"ebook": {
-		"title": "Download an e-book for digital  transformation leaders.",
-		"subtitle": "Order a quick course on how to implement a digital assistant that will earn a living.",
+		"title": "Get the X-Bot for a free trial.",
+		"subtitle": "We will call you, get a free consultation, calculate the ROI of the project and arrange a Free Trial.",
 		"input": {
 			"placeholder": "Work email address",
-			"buttontext": "Get free e-book"
+			"buttontext": "Order Free Trial"
 		},
 		"thanks": "Excellent! The X-Bot e-book is on its way to you!",
 		"invalidfeedback": "Please provide a valid email"
@@ -821,7 +821,7 @@
 			},
 			{
 				"type": "paragraph",
-				"text": "anji s.r.o.<br> Sídlo: Na Poříčí 1071/17, Nové Město, 110 00 Praha 1<br> IČO: 02030357<br> Tel.: 222&nbsp;866 866<br> E-mail: info@24safe.cz"
+				"text": "Xolution s.r.o.<br>Sídlo: Tomášikova 37, 040 01 Košice<br>IČO: 36 205 338<br> Tel.:<br> E-mail: xolution@xolution.sk"
 			},
 			{
 				"type": "h2",
@@ -829,7 +829,7 @@
 			},
 			{
 				"type": "paragraph",
-				"text": "Ve všech záležitostech ohledně ochrany osobních údajů můžete kontaktovat pověřence pro ochranu osobních údajů:<br>e-mailem: dpo@24safe.cz<br>Písemně na adrese: Na Poříčí 1071/17, Nové Město, 110 00 Praha 1"
+				"text": "Ve všech záležitostech ohledně ochrany osobních údajů můžete kontaktovat pověřence pro ochranu osobních údajů:<br>e-mailem: jan.bulik@xolution.sk<br>Písemně na adrese: Tomášikova 37, 040 01 Košice"
 			},
 			{
 				"type": "h2",
