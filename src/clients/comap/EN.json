@@ -5,7 +5,11 @@
 		"boxes": [
 			"ComAp, the market leader in the global control systems market, with a presence in 8 countries around the world, wanted to better utilize its employees' time, and we helped them.",
 			"We gave them X-Bot, which helps and advises ComAp's customers so that employees can focus on doing work where they cannot be replaced."
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT live <span>&#10095;</span>",
+			"href": "https://www.comap-control.com/"
+		}
 	},
 	"client": {
 		"requirements": "Using conversational artificial intelligence, X-Bot's task was to automate the most frequently repeated activities in the company’s customer care department, so that tech support staff would have as much time as possible for creative work.",

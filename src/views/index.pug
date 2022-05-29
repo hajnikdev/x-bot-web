@@ -178,7 +178,11 @@ html(lang=local.meta.code)
 						each page in local.brands
 							.carousel__item
 								each item in page.images
-									img(src=rel+item.link, alt=item.alt)
+									if item.href
+										a(href=item.href, target='_blank')
+											img(src=rel+item.link, alt=item.alt)
+									if !item.href
+										img(src=rel+item.link, alt=item.alt)
 					ul.carousel__bullets
 				.carousel.single-brand(data-siemainterval=3000)
 					.carousel__container

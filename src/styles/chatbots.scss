@@ -126,7 +126,7 @@ h2 {
 }
 
 .yellow-color {
-	color: $yellow !important
+	color: $yellow !important;
 }
 
 .navigation {
@@ -738,9 +738,19 @@ h2 {
 				align-items: center;
 				width: 100%;
 				max-width: 100%;
-				img {
+
+				> img {
 					width: 25%;
 					height: 100%;
+				}
+
+				a {
+					width: 25%;
+					height: 100%;
+
+					img {
+						width: 100%;
+					}
 				}
 			}
 			&__bullets {
@@ -3124,6 +3134,7 @@ $gray: #535e65;
 	}
 }
 .introduction__square {
+	position: relative;
 	background-color: #fff;
 	font-weight: 700;
 	display: inline-block;
@@ -3133,6 +3144,33 @@ $gray: #535e65;
 	font-size: 15px;
 	width: 80%;
 	padding: 20px 30px;
+
+	> a {
+		position: absolute;
+		left: 0;
+		top: calc(100% + 3rem);
+		background: transparent;
+		border: 2px solid white;
+		color: white;
+		padding: 0.5rem 3rem;
+		text-decoration: none;
+		font-size: 1.6rem;
+
+		transition: background-color 0.4s ease-in-out;
+		span {
+			display: inline-flex;
+			transition: all 0.4s ease-in-out;
+			transform: translateX(0rem);
+		}
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.3);
+			span {
+				transform: translateX(0.75rem);
+			}
+		}
+	}
+
 	.client-prbot &:first-child {
 		background-color: #5351e3;
 		color: #fff;
@@ -3909,6 +3947,32 @@ $gray: #535e65;
 				padding-top: 30px;
 			}
 		}
+
+		a {
+			display: inline-block;
+			background: transparent;
+			border: 2px solid black;
+			color: black;
+			padding: 0.5rem 3rem;
+			text-decoration: none;
+			font-size: 1.6rem;
+			font-weight: bold;
+			margin-top: 2.4rem;
+
+			transition: background-color 0.4s ease-in-out;
+			span {
+				display: inline-flex;
+				transition: all 0.4s ease-in-out;
+				transform: translateX(0rem);
+			}
+
+			&:hover {
+				background: rgba(255, 255, 255, 0.3);
+				span {
+					transform: translateX(0.75rem);
+				}
+			}
+		}
 	}
 }
 .client-info {
@@ -4166,6 +4230,18 @@ $gray: #535e65;
 			}
 		}
 	}
+
+	&.client-comap {
+		.client-opinion {
+			&__content {
+				a {
+					border-color: #e63d29;
+					color: #e63d29;
+				}
+			}
+		}
+	}
+
 	&.client-viessmann {
 		$viessmannPrimary: #e63d29;
 		$viessmannSecondary: #545f65;
@@ -4222,6 +4298,14 @@ $gray: #535e65;
 				}
 			}
 		}
+		.client-opinion {
+			&__content {
+				a {
+					border-color: #e63d29;
+					color: #e63d29;
+				}
+			}
+		}
 	}
 	&.client-xella {
 		.client-solution {
@@ -4234,6 +4318,14 @@ $gray: #535e65;
 			background-color: #fecc00;
 			.portfolio-cta__content a:hover {
 				color: #fecc00;
+			}
+		}
+		.client-opinion {
+			&__content {
+				a {
+					border-color: #fecc00;
+					color: #fecc00;
+				}
 			}
 		}
 	}
@@ -4287,9 +4379,18 @@ $gray: #535e65;
 				}
 			}
 		}
-		.client-opinion h1 {
-			background-color: #fecc00;
+		.client-opinion {
+			h1 {
+				background-color: #fecc00;
+			}
+			&__content {
+				a {
+					border-color: #fecc00;
+					color: #fecc00;
+				}
+			}
 		}
+
 		.portfolio-cta {
 			background-color: #fecc00;
 			.portfolio-cta__content a:hover {
@@ -4370,7 +4471,7 @@ $gray: #535e65;
 					margin-bottom: 0.4rem;
 					font-weight: bold;
 					font-size: 3rem;
-					margin: 0.3rem auto
+					margin: 0.3rem auto;
 				}
 				h4 {
 					display: flex;
@@ -4413,6 +4514,12 @@ $gray: #535e65;
 		.client-opinion {
 			h1 {
 				background-color: #a3c41b;
+			}
+			&__content {
+				a {
+					border-color: #a3c41b;
+					color: #a3c41b;
+				}
 			}
 		}
 

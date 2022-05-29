@@ -5,7 +5,11 @@
 		"boxes": [
 			"Mastersport: Virtuálny agent zautomatizoval 75% otázok zákazníkov e-shopu",
 			"Vďaka X-Botovi sa znížil počet otázok na customer support, aj keď sa celkové množstvo otázok strojnásobilo. Priemerne ponúkne náš virtuálny agent v Mastersporte pomoc 110 tisícom zákazníkov mesačne."
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT naživo <span>&#10095;</span>",
+			"href": "https://www.mastersport.cz/"
+		}
 	},
 	"challenge": {
 		"title": "Výzva",

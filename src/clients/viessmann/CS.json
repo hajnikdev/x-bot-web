@@ -8,7 +8,11 @@
 				"text": "„Virtuální agent od Xolution šetří čas našich lidí a zvyšuje kvalitu komunikace s našimi zákazníky. Zvyšuje tak konkurenceschopnost celé společnosti.“",
 				"author": "Miroslav Janda, Generální ředitel Viessmann Slovensko"
 			}
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT živě <span>&#10095;</span>",
+			"href": "https://www.viessmann.sk/"
+		}
 	},
 	"challenge": {
 		"title": "VÝZVA",

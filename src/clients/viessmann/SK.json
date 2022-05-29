@@ -8,7 +8,11 @@
 				"text": "„V- Bot bol pripravený na mieru pre spoločnosť Viessmann Group, ktorá patrí k popredným medzinárodným výrobcom vykurovacích, priemyselných a chladiacich systémov.“",
 				"author": "Miroslav Janda, Generálny riaditeľ Viessmann Slovensko"
 			}
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT naživo <span>&#10095;</span>",
+			"href": "https://www.viessmann.sk/"
+		}
 	},
 	"challenge": {
 		"title": "VÝZVA",

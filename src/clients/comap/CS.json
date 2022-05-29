@@ -5,7 +5,11 @@
 		"boxes": [
 			"Společnost ComAp působí v 8 zemích po celém světě a je jedničkou na světovém trhu s řídicími systémy.\nŠlo jí o to lépe využít čas svých zaměstnanců a my jsme jí s tím pomohli.",
 			"Dodali jsme X-Bota, který pomáhá a radí zákazníkům. Zaměstnanci ComApu se tak můžou soustředit na jinou práci, u níž je jejich hodnota nenahraditelná."
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT živě <span>&#10095;</span>",
+			"href": "https://www.comap-control.com/"
+		}
 	},
 	"client": {
 		"requirements": "Pomocí konverzační umělé inteligence měl X-Bot za úkol zautomatizovat nejčastěji se opakující úkony ve firmě, aby zaměstnancům technické podpory společnosti co nejvíce uvolnil ruce na kreativní práci.",

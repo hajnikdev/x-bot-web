@@ -8,7 +8,11 @@
 				"text": "„Po zavedení virtuálního agenta je komunikace s našimi zákazníky intenzivnější a náš customer support efektivnější.“",
 				"author": "Luděk Suchomel, Marketing Manager CEE, Xella CZ"
 			}
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT live <span>&#10095;</span>",
+			"href": "https://www.xella.cz/cs_CZ/"
+		}
 	},
 	"challenge": {
 		"background": "challenge.webp",

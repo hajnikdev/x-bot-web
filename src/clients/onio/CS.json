@@ -8,7 +8,11 @@
 				"text": "„Virtuální agent nám vyřeší 80% chatů. Po jeho zavedení jsme našim zákazníkům nepřetržitě k dispozici i v čase špiček.“",
 				"author": "Tereza Přibylová, Manažér zákaznické péče ONIO"
 			}
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT živě <span>&#10095;</span>",
+			"href": "https://www.pneumatiky.cz/"
+		}
 	},
 	"challenge": {
 		"title": "VÝZVA",

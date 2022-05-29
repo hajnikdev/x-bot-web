@@ -5,7 +5,11 @@
 		"boxes": [
 			"Virtual agent automates 75% of e-shop customer queries",
 			"Thanks to X-Bot, the number of customer support inquiries has decreased, even though the total number of inquiries has tripled. Our virtual agent at Mastersport will offer assistance to an average of 110,000 customers per month."
-		]
+		],
+		"buttonLiveBot": {
+			"label": "BOT live <span>&#10095;</span>",
+			"href": "https://www.mastersport.cz/"
+		}
 	},
 	"challenge": {
 		"title": "Challenge",
