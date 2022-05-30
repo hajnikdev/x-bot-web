@@ -45,46 +45,45 @@
 		{
 			"images": [
 				{
-					"href": "https://www.comap-control.com/",
-					"link": "assets/header-brands/logo-comap.webp",
-					"alt": "ComAp"
+					"href": "onio",
+					"link": "assets/header-brands/logo-onio.webp",
+					"alt": "Onio"
 				},
 				{
-					"href": "https://www.viessmann.sk/",
-					"link": "assets/header-brands/logo-viessmann.webp",
-					"alt": "Viessmann"
+					"href": "mastersport",
+					"link": "assets/header-brands/logo-master.webp",
+					"alt": "Master sports equipment"
 				},
 				{
-					"link": "assets/header-brands/logo-elmhurst.webp",
-					"alt": "Elmhurst Energy"
-				},
-				{
-					"href": "https://www.xella.cz/cs_CZ/",
-					"link": "assets/header-brands/logo-xella.webp",
-					"alt": "Xella"
-				}
-			]
-		},
-		{
-			"images": [
-				{
-					"href": "https://www.kancelarskezidle.com/",
 					"link": "assets/header-brands/logo-zidle.webp",
 					"alt": "Kancelarske zidle"
 				},
 				{
 					"link": "assets/header-brands/logo-kvp.webp",
 					"alt": "KVP"
+				}
+			]
+		},
+		{
+			"images": [
+				{
+					"href": "xella",
+					"link": "assets/header-brands/logo-xella.webp",
+					"alt": "Xella"
 				},
 				{
-					"href": "https://www.pneumatiky.cz/",
-					"link": "assets/header-brands/logo-onio.webp",
-					"alt": "Onio"
+					"href": "viessmann",
+					"link": "assets/header-brands/logo-viessmann.webp",
+					"alt": "Viessmann"
 				},
 				{
-					"href": "https://www.mastersport.cz/",
-					"link": "assets/header-brands/logo-master.webp",
-					"alt": "Master sports equipment"
+					"href": "comap",
+					"link": "assets/header-brands/logo-comap.webp",
+					"alt": "ComAp"
+				},
+				{
+					"link": "assets/header-brands/logo-elmhurst.webp",
+					"alt": "Elmhurst Energy"
 				}
 			]
 		}

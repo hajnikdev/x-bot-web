@@ -179,7 +179,7 @@ html(lang=local.meta.code)
 							.carousel__item
 								each item in page.images
 									if item.href
-										a(href=item.href, target='_blank')
+										a(href=(item.link === '#' ? '#' : (htmlWebpackPlugin.options.options.isDefault ? local.meta.code.toUpperCase() + '/' : '') + 'clients/' + item.href + '.html'))
 											img(src=rel+item.link, alt=item.alt)
 									if !item.href
 										img(src=rel+item.link, alt=item.alt)
