@@ -12,8 +12,8 @@
 	},
 	"navigation": [
 		{
-			"label": "Čo X-BOT dokáže",
-			"link": "#casestudies"
+			"label": "Blog",
+			"link": "./blog.html"
 		},
 		{
 			"label": "Referencie",
@@ -35,9 +35,8 @@
 	],
 	"header": {
 		"tagline": "Procesná automatizácia. Creativity for people.",
-		"intro_bold": "Virtuálny agent pre automatizáciu zákazníckej podpory, ",
-		"intro": "ktorý rozumie ľudskej reči",
-		"subintro": "X-Bot zvládne prácu za 25 operátorov zákazníckej podpory. Vašim zákazníkom poskytne kvalitný servis za zlomok nákladov.",
+		"intro_bold": "Virtuálny agent pre zákaznícky servis a podporu predaja v<br>e-commerce",
+		"subintro": "Odlíšte sa od konkurencie progresívnou zákazníckou starostlivosťou a pomôžte návštevníkom webu s nákupom.",
 		"more_info": "Case studies",
 		"call": "Chcem demo zdarma"
 	},
@@ -415,8 +414,8 @@
 	},
 	"formsection": {
 		"caption": "Zvýšte počet objednávok a stálych zákazníkov",
-		"title": "Dohovorte si demo, ktoré zmení váš pohľad na customer support vo vašom e-shope",
-		"infoitem1": "Vyhodnotíme potenciál virtuálneho agenta vo vašom e-shope.",
+		"title": "Dohovorte si demo, ktoré zmení váš pohľad na customer support",
+		"infoitem1": "Vyhodnotíme potenciál virtuálneho agenta.",
 		"infoitem2": "Ukážeme prínosy zavedenia X-Bota.",
 		"infoitem3": "Zodpovieme vaše otázky.",
 		"person": {

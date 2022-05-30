@@ -12,8 +12,8 @@
 	},
 	"navigation": [
 		{
-			"label": "What X-Bot can do",
-			"link": "#usecases"
+			"label": "Blog",
+			"link": "./blog.html"
 		},
 		{
 			"label": "References",
@@ -363,8 +363,8 @@
 	},
 	"formsection": {
 		"caption": "DON'T MISS OUT ON THE ONSET OF DIGITAL TRANSFORMATION",
-		"title": "Thirty minutes that will change your perspective  on AI in your company",
-		"infoitem1": "we will evaluate the potential for AI in your company",
+		"title": "Thirty minutes that will change your perspective  on AI",
+		"infoitem1": "we will evaluate the potential for AI",
 		"infoitem2": "we will identify opportunities for use",
 		"infoitem3": "we will answer your questions",
 		"person": {
