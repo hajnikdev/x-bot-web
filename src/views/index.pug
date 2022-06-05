@@ -137,22 +137,20 @@ html(lang=local.meta.code)
 						data-aos-once="true"
 					) !{local.header.subintro}
 					.main-header__introduction__actions
-						a.btn.blue(
-							href="#contactform",
-							data-aos="fade-right",
-							data-aos-delay="600",
-							data-aos-duration="300",
-							data-aos-easing="ease-in-out",
-							data-aos-once="true"
-						)= local.header.call
-						a.btn.purple(
-							href="#casestudies",
-							data-aos="fade-right",
-							data-aos-delay="450",
-							data-aos-duration="300",
-							data-aos-easing="ease-in-out",
-							data-aos-once="true"
-						)= local.header.more_info
+						if (local.header.actionButtons && local.header.actionButtons.length > 0)
+							- for(var i = 0; i < local.header.actionButtons.length; i++)
+								- var anchor = local.header.actionButtons[i]
+								- var length = local.header.actionButtons.length
+								a.btn(
+									href=anchor.href,
+									target=anchor.target,
+									class=anchor.class
+									data-aos="fade-right",
+									data-aos-delay=450 + ((length - 1 - i) * 200),
+									data-aos-duration="300",
+									data-aos-easing="ease-in-out",
+									data-aos-once="true"
+								) !{anchor.label}
 					.main-header__introduction__images
 						img(src=rel+"assets/ms-awards-2021.svg", alt="xbot", data-aos="fade-right",
 							data-aos-delay="750",

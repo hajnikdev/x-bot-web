@@ -38,8 +38,20 @@
 		"intro_bold": "A conversational intelligence platform ",
 		"intro": "with natural-language understanding",
 		"subintro": "X-Bot will take over inefficient repetitive activities so that you can take the time to focus on things that add true values for your customer.",
-		"more_info": "Case studies",
-		"call": "Let's arrange a call"
+		"actionButtons": [
+			{
+				"label": "Sample conversations",
+				"href": "https://www.xolution.cz/EN/blog/article-7.html",
+				"target": "",
+				"class": "blue"
+			},
+			{
+				"label": "X-Bot live results",
+				"href": "#casestudies",
+				"target": "",
+				"class": "purple"
+			}
+		]
 	},
 	"brands": [
 		{

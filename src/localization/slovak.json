@@ -37,8 +37,20 @@
 		"tagline": "Procesná automatizácia. Creativity for people.",
 		"intro_bold": "Virtuálny agent pre zákaznícky servis a podporu predaja v<br>e-commerce",
 		"subintro": "Odlíšte sa od konkurencie progresívnou zákazníckou starostlivosťou a pomôžte návštevníkom webu s nákupom.",
-		"more_info": "Case studies",
-		"call": "Chcem demo zdarma"
+		"actionButtons": [
+			{
+				"label": "Ukážky konverzácií",
+				"href": "https://www.xolution.cz/SK/blog/article-7.html",
+				"target": "",
+				"class": "blue"
+			},
+			{
+				"label": "Výsledky X-Bota v praxi",
+				"href": "#casestudies",
+				"target": "",
+				"class": "purple"
+			}
+		]
 	},
 	"brands": [
 		{
